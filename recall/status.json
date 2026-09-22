@@ -1,7 +1,7 @@
 {
   "last_queue_generated": "2026-09-22",
-  "last_sync": "2026-09-22T03:01:33.601070+00:00",
-  "pending_acknowledgements": 0,
+  "last_sync": "2026-09-22T03:01:50.509078+00:00",
+  "pending_acknowledgements": 1,
   "queue_issue": 2,
   "queue_problem": "anagram-groups",
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
