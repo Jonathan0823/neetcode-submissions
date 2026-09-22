@@ -52,6 +52,10 @@
     "6": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T04:14:50Z"
+    },
+    "7": {
+      "actor": "Jonathan0823",
+      "updated_at": "2026-09-22T04:32:58Z"
     }
   },
   "pending_acknowledgements": [
@@ -59,7 +63,8 @@
     3,
     4,
     5,
-    6
+    6,
+    7
   ],
   "problems": {
     "add-two-numbers": {
@@ -154,12 +159,12 @@
     },
     "is-palindrome": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-09-08",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 2,
+      "last_rating": "hint",
+      "last_reviewed_at": "2026-09-22T04:32:58Z",
+      "next_due": "2026-09-24",
+      "review_count": 1,
+      "updated_at": "2026-09-22T04:32:58Z"
     },
     "last-stone-weight": {
       "active": true,
