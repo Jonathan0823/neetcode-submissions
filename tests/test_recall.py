@@ -18,9 +18,11 @@ class FakeGitHub:
         self.editor = editor
         self.created = []
         self.closed = []
+        self.next_issue = 43
 
     def create_issue(self, title, body, label):
-        issue = {"number": 42, "title": title, "body": body, "created_at": "2026-09-22T00:00:00Z"}
+        issue = {"number": self.next_issue, "title": title, "body": body, "created_at": "2026-09-22T00:00:00Z"}
+        self.next_issue += 1
         self.created.append(issue)
         return issue
 
@@ -173,6 +175,42 @@ class RecallTests(unittest.TestCase):
         self.assertEqual("binary-search", problem_id)
         self.assertEqual(42, entry["issue_number"])
         self.assertEqual([], github.created)
+
+    def test_closed_completed_issue_allows_next_due_problem(self):
+        github = FakeGitHub()
+        completed = {"id": "anagram-groups", "slug": "anagram-groups"}
+        next_problem = {"id": "binary-search", "slug": "binary-search"}
+        state = {
+            "daily": {
+                "2026-09-22": {
+                    "problem_id": "anagram-groups",
+                    "issue_number": 42,
+                }
+            },
+            "problems": {
+                "anagram-groups": {"last_reviewed_at": "2026-09-22T03:00:00Z", "next_due": "2026-09-25"},
+                "binary-search": {"next_due": "2026-09-08"},
+            },
+        }
+        closed_issue = {
+            "number": 42,
+            "state": "closed",
+            "user": {"login": "github-actions[bot]"},
+            "body": render_body(completed, "2026-09-22", {}),
+        }
+        entry, problem_id, created = ensure_daily_issue(
+            state,
+            [completed, next_problem],
+            [closed_issue],
+            github,
+            {"timezone": "Asia/Jakarta"},
+            datetime(2026, 9, 22, tzinfo=timezone.utc),
+            {},
+        )
+        self.assertEqual("binary-search", problem_id)
+        self.assertEqual(43, entry["issue_number"])
+        self.assertTrue(created)
+        self.assertEqual({"42", "43"}, set(state["daily_issues"]))
 
     def test_no_due_problem_creates_no_issue(self):
         github = FakeGitHub()
