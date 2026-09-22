@@ -1,0 +1,305 @@
+{
+  "daily": {},
+  "pending_acknowledgements": [],
+  "problems": {
+    "add-two-numbers": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-23",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "anagram-groups": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-08",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "binary-search": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-08",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "buy-and-sell-crypto": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-08",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "car-fleet": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-19",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "climbing-stairs": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-11",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "daily-temperatures": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-17",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "duplicate-integer": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-08",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "evaluate-reverse-polish-notation": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-16",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "is-anagram": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-08",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "is-palindrome": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-08",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "last-stone-weight": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-12",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "linked-list-cycle-detection": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-20",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "longest-consecutive-sequence": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-08",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "longest-repeating-substring-with-replacement": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-11",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "longest-substring-without-duplicates": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-08",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "max-water-container": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-08",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "meeting-schedule": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-09",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "merge-two-sorted-linked-lists": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-18",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "minimum-stack": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-14",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "missing-number": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-09",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "non-cyclical-number": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-08",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "permutation-string": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-21",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "plus-one": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-08",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "reorder-linked-list": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-22",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "reverse-a-linked-list": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-15",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "single-number": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-08",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "string-encode-and-decode": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-18",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "three-integer-sum": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-10",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "top-k-elements-in-list": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-08",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "two-integer-sum": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-08",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "two-integer-sum-ii": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-12",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "validate-parentheses": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-08",
+      "review_count": 0,
+      "updated_at": null
+    }
+  },
+  "scheduler_version": 1,
+  "version": 1
+}
