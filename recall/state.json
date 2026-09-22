@@ -45,6 +45,10 @@
     }
   },
   "editor_provenance": {
+    "10": {
+      "actor": "Jonathan0823",
+      "updated_at": "2026-09-22T07:34:21Z"
+    },
     "2": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T03:01:41Z"
@@ -86,7 +90,8 @@
     6,
     7,
     8,
-    9
+    9,
+    10
   ],
   "problems": {
     "add-two-numbers": {
@@ -235,12 +240,12 @@
     },
     "max-water-container": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-09-08",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 3,
+      "last_rating": "remembered",
+      "last_reviewed_at": "2026-09-22T07:34:23Z",
+      "next_due": "2026-09-25",
+      "review_count": 1,
+      "updated_at": "2026-09-22T07:34:23Z"
     },
     "meeting-schedule": {
       "active": true,
