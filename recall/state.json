@@ -1,11 +1,13 @@
 {
   "daily": {
     "2026-09-22": {
-      "created_at": "2026-09-22T08:12:56Z",
-      "issue_number": 13,
-      "problem_id": "single-number",
+      "created_at": "2026-09-22T14:38:39.038994+00:00",
+      "issue_number": 15,
+      "problem_id": "top-k-elements-in-list",
       "problem_ids": [
-        "single-number"
+        "top-k-elements-in-list",
+        "two-integer-sum",
+        "validate-parentheses"
       ]
     }
   },
@@ -36,6 +38,15 @@
       "problem_id": "single-number",
       "problem_ids": [
         "single-number"
+      ]
+    },
+    "15": {
+      "day": "2026-09-22",
+      "problem_id": "top-k-elements-in-list",
+      "problem_ids": [
+        "top-k-elements-in-list",
+        "two-integer-sum",
+        "validate-parentheses"
       ]
     },
     "2": {
