@@ -1,0 +1,23 @@
+timezone: Asia/Jakarta
+learner_login: Jonathan0823
+submission_root: Data Structures & Algorithms
+submission_extensions:
+  - .go
+  - .js
+  - .ts
+  - .py
+  - .java
+  - .cpp
+  - .cs
+  - .rs
+  - .kt
+  - .swift
+  - .sql
+scheduler:
+  version: 1
+  remembered_initial_days: 3
+  remembered_max_days: 60
+  hint_days: 2
+  forgot_days: 1
+github:
+  issue_label: recall
