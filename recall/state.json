@@ -1,9 +1,9 @@
 {
   "daily": {
     "2026-09-22": {
-      "created_at": "2026-09-22T04:16:37.237150+00:00",
-      "issue_number": 7,
-      "problem_id": "is-palindrome"
+      "created_at": "2026-09-22T04:33:50.078270+00:00",
+      "issue_number": 8,
+      "problem_id": "longest-consecutive-sequence"
     }
   },
   "daily_issues": {
@@ -30,6 +30,10 @@
     "7": {
       "day": "2026-09-22",
       "problem_id": "is-palindrome"
+    },
+    "8": {
+      "day": "2026-09-22",
+      "problem_id": "longest-consecutive-sequence"
     }
   },
   "editor_provenance": {
