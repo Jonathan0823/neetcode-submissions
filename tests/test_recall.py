@@ -19,9 +19,6 @@ class FakeGitHub:
         self.created = []
         self.closed = []
 
-    def last_editor(self, issue_number):
-        return self.editor
-
     def create_issue(self, title, body, label):
         issue = {"number": 42, "title": title, "body": body, "created_at": "2026-09-22T00:00:00Z"}
         self.created.append(issue)
@@ -110,7 +107,12 @@ class RecallTests(unittest.TestCase):
         body = issue["body"].replace("- [ ] Ingat", "- [x] Ingat")
         issue["body"] = body
         self.assertEqual(("2026-09-22", "binary-search", ["remembered"]), parse_issue(issue))
-        state = {"daily": {"2026-09-22": {"problem_id": "binary-search", "issue_number": 7}}}
+        state = {
+            "daily": {"2026-09-22": {"problem_id": "binary-search", "issue_number": 7}},
+            "editor_provenance": {
+                "7": {"actor": "Jonathan0823", "updated_at": "2026-09-22T01:00:00Z"}
+            },
+        }
         github = FakeGitHub()
         config = {"learner_login": "Jonathan0823"}
         records, acknowledge, errors = reconcile_issues(
@@ -130,6 +132,14 @@ class RecallTests(unittest.TestCase):
             [invalid], state, records, github, config, datetime(2026, 9, 22, tzinfo=timezone.utc)
         )
         self.assertIn("select exactly one outcome", errors[0])
+
+        stale = dict(issue)
+        stale["updated_at"] = "2026-09-22T02:00:00Z"
+        stale_records, _, stale_errors = reconcile_issues(
+            [stale], state, [], github, config, datetime(2026, 9, 22, tzinfo=timezone.utc)
+        )
+        self.assertEqual([], stale_records)
+        self.assertIn("attribution is unavailable", stale_errors[0])
 
     def test_no_due_problem_creates_no_issue(self):
         github = FakeGitHub()
