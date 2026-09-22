@@ -85,10 +85,14 @@ def reconcile_issues(
         latest_by_issue[str(record["issue_number"])] = record
 
     daily_by_issue = {
-        str(entry.get("issue_number")): (day, entry.get("problem_id"))
-        for day, entry in state.get("daily", {}).items()
-        if entry.get("issue_number")
+        str(issue_number): (entry.get("day"), entry.get("problem_id"))
+        for issue_number, entry in state.get("daily_issues", {}).items()
     }
+    for day, entry in state.get("daily", {}).items():
+        if entry.get("issue_number"):
+            daily_by_issue.setdefault(
+                str(entry["issue_number"]), (day, entry.get("problem_id"))
+            )
     new_records: list[dict[str, Any]] = []
     acknowledge: list[int] = []
     errors: list[str] = []
@@ -107,26 +111,28 @@ def reconcile_issues(
         if len(selected) > 1:
             errors.append(f"Issue #{issue_number}: select exactly one outcome")
             continue
+        rating = selected[0]
+        previous = latest_by_issue.get(str(issue_number))
+        if previous is not None and previous["rating"] == rating:
+            acknowledge.append(issue_number)
+            continue
         actor = _issue_actor(issue, state, live_issue, live_actor)
         if actor != learner:
             errors.append(f"Issue #{issue_number}: edit attribution is unavailable or unauthorized")
             continue
-        rating = selected[0]
-        previous = latest_by_issue.get(str(issue_number))
-        if previous is None or previous["rating"] != rating:
-            updated_at = issue.get("updated_at") or iso_datetime(now)
-            record = {
-                "version": 1,
-                "event_id": f"issue:{issue_number}:{rating}:{updated_at}",
-                "issue_number": issue_number,
-                "problem_id": problem_id,
-                "rating": rating,
-                "reviewed_at": updated_at,
-                "actor": actor,
-                "source_updated_at": updated_at,
-            }
-            new_records.append(record)
-            latest_by_issue[str(issue_number)] = record
+        updated_at = issue.get("updated_at") or iso_datetime(now)
+        record = {
+            "version": 1,
+            "event_id": f"issue:{issue_number}:{rating}:{updated_at}",
+            "issue_number": issue_number,
+            "problem_id": problem_id,
+            "rating": rating,
+            "reviewed_at": updated_at,
+            "actor": actor,
+            "source_updated_at": updated_at,
+        }
+        new_records.append(record)
+        latest_by_issue[str(issue_number)] = record
         acknowledge.append(issue_number)
 
     pending = set(int(item) for item in state.get("pending_acknowledgements", []))

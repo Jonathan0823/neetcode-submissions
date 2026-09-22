@@ -132,11 +132,21 @@ def replay_state(
             }
         )
 
+    daily = dict(existing_state.get("daily", {}))
+    daily_issues = dict(existing_state.get("daily_issues", {}))
+    for day, entry in daily.items():
+        if entry.get("issue_number"):
+            daily_issues.setdefault(
+                str(entry["issue_number"]),
+                {"day": day, "problem_id": entry.get("problem_id")},
+            )
+
     return {
         "version": 1,
         "scheduler_version": int(_config_value(config, "version", 1)),
         "problems": states,
-        "daily": dict(existing_state.get("daily", {})),
+        "daily": daily,
+        "daily_issues": daily_issues,
         "editor_provenance": dict(existing_state.get("editor_provenance", {})),
         "pending_acknowledgements": list(existing_state.get("pending_acknowledgements", [])),
     }

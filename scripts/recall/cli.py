@@ -33,22 +33,28 @@ def event_context() -> tuple[int | None, str | None, str | None]:
     return (int(issue_number) if issue_number else None, actor, issue.get("updated_at"))
 
 
-def hydrate_daily_state(state: dict[str, Any], issues: list[dict[str, Any]]) -> None:
+def hydrate_daily_state(
+    state: dict[str, Any], issues: list[dict[str, Any]], known_problem_ids: set[str]
+) -> None:
     """Recover associations after Issue creation committed later than the API call."""
     daily = state.setdefault("daily", {})
+    daily_issues = state.setdefault("daily_issues", {})
     for issue in issues:
-        creator = issue.get("user", {}).get("login")
-        if creator and creator != "github-actions[bot]":
+        if issue.get("user", {}).get("login") != "github-actions[bot]":
             continue
         parsed = parse_issue(issue)
         if parsed is None:
             continue
         day, problem_id, _ = parsed
+        if problem_id not in known_problem_ids:
+            continue
+        issue_number = int(issue["number"])
+        daily_issues[str(issue_number)] = {"day": day, "problem_id": problem_id}
         daily.setdefault(
             day,
             {
                 "problem_id": problem_id,
-                "issue_number": int(issue["number"]),
+                "issue_number": issue_number,
                 "created_at": issue.get("created_at"),
             },
         )
@@ -76,7 +82,7 @@ def run(mode: str, repo_root: Path) -> int:
     github = GitHub()
     label = config.get("github", {}).get("issue_label", "recall")
     issues = github.list_recall_issues(label)
-    hydrate_daily_state(state, issues)
+    hydrate_daily_state(state, issues, {problem["id"] for problem in problems})
 
     live_issue, live_actor, event_updated_at = (
         event_context() if mode == "issue" else (None, None, None)
