@@ -1,9 +1,9 @@
 {
   "last_queue_generated": "2026-09-22",
-  "last_sync": "2026-09-22T04:15:02.736888+00:00",
+  "last_sync": "2026-09-22T04:16:37.237150+00:00",
   "pending_acknowledgements": 5,
-  "queue_issue": 6,
-  "queue_problem": "is-anagram",
+  "queue_issue": 7,
+  "queue_problem": "is-palindrome",
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
   "scheduler_version": 1,
