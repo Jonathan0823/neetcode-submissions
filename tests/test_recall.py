@@ -104,7 +104,9 @@ class RecallTests(unittest.TestCase):
             "body": render_body(problem, "2026-09-22", {}),
             "updated_at": "2026-09-22T01:00:00Z",
         }
-        body = issue["body"].replace("- [ ] Ingat", "- [x] Ingat")
+        body = issue["body"].replace(
+            "- [ ] I remember", "- [x] I remember"
+        )
         issue["body"] = body
         self.assertEqual(("2026-09-22", "binary-search", ["remembered"]), parse_issue(issue))
         state = {
@@ -127,7 +129,9 @@ class RecallTests(unittest.TestCase):
         self.assertEqual([], records2)
 
         invalid = dict(issue)
-        invalid["body"] = invalid["body"].replace("- [ ] Perlu", "- [x] Perlu")
+        invalid["body"] = invalid["body"].replace(
+            "- [ ] I need to see", "- [x] I need to see"
+        )
         _, _, errors = reconcile_issues(
             [invalid], state, records, github, config, datetime(2026, 9, 22, tzinfo=timezone.utc)
         )

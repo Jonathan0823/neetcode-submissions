@@ -12,9 +12,9 @@ from .github import GitHub
 MARKER = re.compile(r"<!--\s*recall:version=1;date=(\d{4}-\d{2}-\d{2});problem=([^\s]+?)\s*-->")
 CHECKBOX = re.compile(r"^-\s*\[([ xX])\]\s+.*?outcome:(remembered|hint|forgot)\b", re.MULTILINE)
 RATING_LABELS = {
-    "remembered": "Ingat dan bisa menjelaskan tanpa bantuan",
-    "hint": "Perlu melihat petunjuk/solusi",
-    "forgot": "Belum ingat pendekatannya",
+    "remembered": "I remember it and can explain it without help",
+    "hint": "I need to see a hint or the solution",
+    "forgot": "I cannot recall the approach yet",
 }
 
 
