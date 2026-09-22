@@ -1,5 +1,11 @@
 {
-  "daily": {},
+  "daily": {
+    "2026-09-22": {
+      "created_at": "2026-09-22T02:53:01.430029+00:00",
+      "issue_number": 2,
+      "problem_id": "anagram-groups"
+    }
+  },
   "editor_provenance": {},
   "pending_acknowledgements": [],
   "problems": {
