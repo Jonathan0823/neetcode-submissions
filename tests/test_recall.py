@@ -8,7 +8,13 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from scripts.recall.queue import ensure_daily_issue
-from scripts.recall.review import parse_issue, reconcile_issues, render_body
+from scripts.recall.review import (
+    parse_issue,
+    parse_issue_sections,
+    reconcile_issues,
+    render_body,
+    render_daily_body,
+)
 from scripts.recall.scheduler import replay_state
 from scripts.recall.sync import sync_repository
 
@@ -172,11 +178,11 @@ class RecallTests(unittest.TestCase):
             datetime(2026, 9, 22, tzinfo=timezone.utc),
             {},
         )
-        self.assertEqual("binary-search", problem_id)
+        self.assertEqual(["binary-search"], problem_id)
         self.assertEqual(42, entry["issue_number"])
         self.assertEqual([], github.created)
 
-    def test_closed_completed_issue_allows_next_due_problem(self):
+    def test_closed_completed_issue_stays_the_only_issue_for_the_day(self):
         github = FakeGitHub()
         completed = {"id": "anagram-groups", "slug": "anagram-groups"}
         next_problem = {"id": "binary-search", "slug": "binary-search"}
@@ -207,10 +213,10 @@ class RecallTests(unittest.TestCase):
             datetime(2026, 9, 22, tzinfo=timezone.utc),
             {},
         )
-        self.assertEqual("binary-search", problem_id)
-        self.assertEqual(43, entry["issue_number"])
-        self.assertTrue(created)
-        self.assertEqual({"42", "43"}, set(state["daily_issues"]))
+        self.assertEqual(["anagram-groups"], problem_id)
+        self.assertEqual(42, entry["issue_number"])
+        self.assertFalse(created)
+        self.assertEqual({"42"}, set(state["daily_issues"]))
 
     def test_no_due_problem_creates_no_issue(self):
         github = FakeGitHub()
@@ -224,10 +230,117 @@ class RecallTests(unittest.TestCase):
             datetime(2026, 9, 22, tzinfo=timezone.utc),
             {},
         )
-        self.assertIsNone(problem_id)
+        self.assertEqual([], problem_id)
         self.assertTrue(created)
         self.assertEqual([], github.created)
         self.assertIsNone(entry["issue_number"])
+
+    def test_daily_queue_caps_at_three_and_preserves_sections(self):
+        github = FakeGitHub()
+        problems = [
+            {"id": f"problem-{index}", "slug": f"problem-{index}"}
+            for index in range(4)
+        ]
+        state = {
+            "daily": {},
+            "daily_issues": {},
+            "problems": {
+                problem["id"]: {"active": True, "next_due": "2026-09-22"}
+                for problem in problems
+            },
+        }
+        entry, problem_ids, created = ensure_daily_issue(
+            state,
+            problems,
+            [],
+            github,
+            {"timezone": "Asia/Jakarta", "recall": {"daily_limit": 3}},
+            datetime(2026, 9, 22, tzinfo=timezone.utc),
+            {},
+        )
+        self.assertTrue(created)
+        self.assertEqual(["problem-0", "problem-1", "problem-2"], problem_ids)
+        self.assertEqual(43, entry["issue_number"])
+        self.assertEqual(3, len(parse_issue_sections(github.created[0])[1]))
+
+        rerun, rerun_ids, rerun_created = ensure_daily_issue(
+            state,
+            problems,
+            github.created,
+            github,
+            {"timezone": "Asia/Jakarta", "recall": {"daily_limit": 3}},
+            datetime(2026, 9, 22, tzinfo=timezone.utc),
+            {},
+        )
+        self.assertEqual(entry, rerun)
+        self.assertEqual(problem_ids, rerun_ids)
+        self.assertFalse(rerun_created)
+        self.assertEqual(1, len(github.created))
+
+    def test_partial_multi_problem_review_is_independent_and_stays_open(self):
+        problems = [
+            {"id": "binary-search", "slug": "binary-search"},
+            {"id": "two-integer-sum", "slug": "two-integer-sum"},
+        ]
+        body = render_daily_body(problems, "2026-09-22", {})
+        first_label = "I remember it and can explain it without help"
+        body = body.replace(f"- [ ] {first_label}", f"- [x] {first_label}", 1)
+        issue = {
+            "number": 42,
+            "body": body,
+            "updated_at": "2026-09-22T01:00:00Z",
+        }
+        state = {
+            "daily": {
+                "2026-09-22": {
+                    "problem_ids": ["binary-search", "two-integer-sum"],
+                    "issue_number": 42,
+                }
+            },
+            "daily_issues": {
+                "42": {
+                    "day": "2026-09-22",
+                    "problem_ids": ["binary-search", "two-integer-sum"],
+                }
+            },
+            "editor_provenance": {
+                "42": {"actor": "Jonathan0823", "updated_at": issue["updated_at"]}
+            },
+        }
+        config = {"learner_login": "Jonathan0823"}
+        records, acknowledge, errors = reconcile_issues(
+            [issue], state, [], FakeGitHub(), config,
+            datetime(2026, 9, 22, tzinfo=timezone.utc),
+        )
+        self.assertEqual(["binary-search"], [record["problem_id"] for record in records])
+        self.assertEqual([], acknowledge)
+        self.assertFalse(errors)
+
+        second_label = "I need to see a hint or the solution"
+        old_checkbox = f"- [ ] {second_label}"
+        new_checkbox = f"- [x] {second_label}"
+        before, after = issue["body"].rsplit(old_checkbox, 1)
+        issue["body"] = before + new_checkbox + after
+        issue["updated_at"] = "2026-09-22T02:00:00Z"
+        state["editor_provenance"]["42"] = {
+            "actor": "Jonathan0823", "updated_at": issue["updated_at"]
+        }
+        records, acknowledge, errors = reconcile_issues(
+            [issue], state, records, FakeGitHub(), config,
+            datetime(2026, 9, 22, tzinfo=timezone.utc),
+            live_issue=42,
+            live_actor="Jonathan0823",
+        )
+        self.assertEqual(["two-integer-sum"], [record["problem_id"] for record in records])
+        self.assertEqual([42], acknowledge)
+        self.assertFalse(errors)
+
+    def test_workflow_retries_by_regenerating_from_origin(self):
+        workflow = Path(".github/workflows/recall.yml").read_text()
+        self.assertIn("git reset --hard origin/main", workflow)
+        self.assertIn("python -m scripts.recall.cli \"$RECALL_MODE\"", workflow)
+        self.assertNotIn("git rebase origin/main", workflow)
+        self.assertIn("Unable to push after three regeneration attempts", workflow)
 
     @staticmethod
     def _git(root, message):
