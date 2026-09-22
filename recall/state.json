@@ -1,12 +1,16 @@
 {
   "daily": {
     "2026-09-22": {
-      "created_at": "2026-09-22T06:12:14.299227+00:00",
-      "issue_number": 9,
-      "problem_id": "longest-substring-without-duplicates"
+      "created_at": "2026-09-22T07:10:36.136792+00:00",
+      "issue_number": 10,
+      "problem_id": "max-water-container"
     }
   },
   "daily_issues": {
+    "10": {
+      "day": "2026-09-22",
+      "problem_id": "max-water-container"
+    },
     "2": {
       "day": "2026-09-22",
       "problem_id": "anagram-groups"
