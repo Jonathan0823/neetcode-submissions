@@ -116,10 +116,6 @@ def run(mode: str, repo_root: Path) -> int:
         append_reviews(files["reviews"], new_records)
         reviews.extend(new_records)
         state = replay_state(problems, reviews, state, config)
-        state["pending_acknowledgements"] = sorted(
-            set(state.get("pending_acknowledgements", []))
-            | {int(record["issue_number"]) for record in new_records}
-        )
 
     if mode in {"daily-queue", "rebuild"}:
         today = local_date(now, config.get("timezone", "Asia/Jakarta"))

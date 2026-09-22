@@ -321,6 +321,7 @@ class RecallTests(unittest.TestCase):
             "editor_provenance": {
                 "42": {"actor": "Jonathan0823", "updated_at": issue["updated_at"]}
             },
+            "pending_acknowledgements": [42],
         }
         config = {"learner_login": "Jonathan0823"}
         records, acknowledge, errors = reconcile_issues(
@@ -329,6 +330,7 @@ class RecallTests(unittest.TestCase):
         )
         self.assertEqual(["binary-search"], [record["problem_id"] for record in records])
         self.assertEqual([], acknowledge)
+        self.assertEqual([], state["pending_acknowledgements"])
         self.assertFalse(errors)
 
         second_label = "I need to see a hint or the solution"

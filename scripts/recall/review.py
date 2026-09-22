@@ -148,12 +148,14 @@ def reconcile_issues(
     new_records: list[dict[str, Any]] = []
     acknowledge: list[int] = []
     errors: list[str] = []
+    seen_issue_numbers: set[int] = set()
     for issue in issues:
         parsed = parse_issue_sections(issue)
         if parsed is None:
             continue
         day, sections = parsed
         issue_number = int(issue["number"])
+        seen_issue_numbers.add(issue_number)
         expected = canonical.get(str(issue_number))
         actual_ids = [section["problem_id"] for section in sections]
         if expected is None or expected != (day, actual_ids):
@@ -207,6 +209,8 @@ def reconcile_issues(
             acknowledge.append(issue_number)
 
     pending = set(int(item) for item in state.get("pending_acknowledgements", []))
+    # A stale pending entry must not close a partially completed Issue.
+    pending.difference_update(seen_issue_numbers)
     pending.update(acknowledge)
     state["pending_acknowledgements"] = sorted(pending)
     return new_records, acknowledge, errors
