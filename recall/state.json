@@ -60,6 +60,10 @@
     "7": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T04:32:58Z"
+    },
+    "8": {
+      "actor": "Jonathan0823",
+      "updated_at": "2026-09-22T06:05:35Z"
     }
   },
   "pending_acknowledgements": [
@@ -68,7 +72,8 @@
     4,
     5,
     6,
-    7
+    7,
+    8
   ],
   "problems": {
     "add-two-numbers": {
@@ -190,12 +195,12 @@
     },
     "longest-consecutive-sequence": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-09-08",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 3,
+      "last_rating": "remembered",
+      "last_reviewed_at": "2026-09-22T06:05:35Z",
+      "next_due": "2026-09-25",
+      "review_count": 1,
+      "updated_at": "2026-09-22T06:05:35Z"
     },
     "longest-repeating-substring-with-replacement": {
       "active": true,
