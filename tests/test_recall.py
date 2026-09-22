@@ -141,6 +141,35 @@ class RecallTests(unittest.TestCase):
         self.assertEqual([], stale_records)
         self.assertIn("attribution is unavailable", stale_errors[0])
 
+    def test_daily_recovery_requires_bot_and_known_problem(self):
+        github = FakeGitHub()
+        known = {"id": "binary-search", "slug": "binary-search"}
+        valid = {
+            "number": 42,
+            "user": {"login": "github-actions[bot]"},
+            "body": render_body(known, "2026-09-22", {}),
+            "created_at": "2026-09-22T00:00:00Z",
+        }
+        unknown = {
+            **valid,
+            "number": 43,
+            "body": render_body({"id": "not-tracked", "slug": "not-tracked"}, "2026-09-22", {}),
+        }
+        untrusted = {**valid, "number": 44, "user": {"login": "someone-else"}}
+        state = {"daily": {}, "problems": {"binary-search": {"next_due": "2026-10-01"}}}
+        entry, problem_id, _ = ensure_daily_issue(
+            state,
+            [known],
+            [unknown, untrusted, valid],
+            github,
+            {"timezone": "Asia/Jakarta"},
+            datetime(2026, 9, 22, tzinfo=timezone.utc),
+            {},
+        )
+        self.assertEqual("binary-search", problem_id)
+        self.assertEqual(42, entry["issue_number"])
+        self.assertEqual([], github.created)
+
     def test_no_due_problem_creates_no_issue(self):
         github = FakeGitHub()
         state = {"daily": {}, "problems": {"old": {"active": True, "next_due": "2026-10-01"}}}

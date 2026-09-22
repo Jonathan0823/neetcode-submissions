@@ -45,9 +45,12 @@ def ensure_daily_issue(
         return existing, existing.get("problem_id"), False
 
     # Recover an Issue created before a commit/push was interrupted.
+    known_problem_ids = {problem["id"] for problem in problems}
     for issue in issues:
+        if issue.get("user", {}).get("login") != "github-actions[bot]":
+            continue
         parsed = parse_issue(issue)
-        if parsed and parsed[0] == day:
+        if parsed and parsed[0] == day and parsed[1] in known_problem_ids:
             _, problem_id, _ = parsed
             entry = {
                 "problem_id": problem_id,
