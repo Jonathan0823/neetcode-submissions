@@ -6,7 +6,7 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Any
 
-from .common import RecallError, local_date, parse_datetime, run_git
+from .common import RecallError, daily_problem_ids, local_date, parse_datetime, run_git
 
 RATINGS = {"remembered", "hint", "forgot"}
 
@@ -97,15 +97,17 @@ def replay_state(
             "updated_at": old.get("updated_at"),
         }
 
-    # A correction supersedes the previous record for the same issue.
-    latest_by_issue: dict[str, dict[str, Any]] = {}
+    # A correction supersedes the previous record for one Issue/problem pair.
+    latest_by_review: dict[tuple[str, str], dict[str, Any]] = {}
     for record in reviews:
-        issue_key = str(record["issue_number"])
-        previous = latest_by_issue.get(issue_key)
+        review_key = (str(record["issue_number"]), record["problem_id"])
+        previous = latest_by_review.get(review_key)
         if previous is None or record["reviewed_at"] >= previous["reviewed_at"]:
-            latest_by_issue[issue_key] = record
+            latest_by_review[review_key] = record
 
-    ordered = sorted(latest_by_issue.values(), key=lambda item: (item["reviewed_at"], item["event_id"]))
+    ordered = sorted(
+        latest_by_review.values(), key=lambda item: (item["reviewed_at"], item["event_id"])
+    )
     for record in ordered:
         problem_id = record["problem_id"]
         if problem_id not in states:
@@ -132,23 +134,39 @@ def replay_state(
             }
         )
 
-    daily = dict(existing_state.get("daily", {}))
-    daily_issues = dict(existing_state.get("daily_issues", {}))
+    daily: dict[str, dict[str, Any]] = {}
+    for day, raw_entry in existing_state.get("daily", {}).items():
+        entry = dict(raw_entry)
+        problem_ids = daily_problem_ids(entry)
+        entry["problem_ids"] = problem_ids
+        entry["problem_id"] = problem_ids[0] if problem_ids else None
+        daily[str(day)] = entry
+
+    daily_issues: dict[str, dict[str, Any]] = {}
+    for issue_number, raw_entry in existing_state.get("daily_issues", {}).items():
+        entry = dict(raw_entry)
+        problem_ids = daily_problem_ids(entry)
+        entry["problem_ids"] = problem_ids
+        entry["problem_id"] = problem_ids[0] if problem_ids else None
+        daily_issues[str(issue_number)] = entry
     for day, entry in daily.items():
         if entry.get("issue_number"):
             daily_issues.setdefault(
                 str(entry["issue_number"]),
-                {"day": day, "problem_id": entry.get("problem_id")},
+                {"day": day, "problem_ids": daily_problem_ids(entry),
+                 "problem_id": entry.get("problem_id")},
             )
 
     return {
-        "version": 1,
+        "version": 2,
         "scheduler_version": int(_config_value(config, "version", 1)),
         "problems": states,
         "daily": daily,
         "daily_issues": daily_issues,
         "editor_provenance": dict(existing_state.get("editor_provenance", {})),
-        "pending_acknowledgements": list(existing_state.get("pending_acknowledgements", [])),
+        "pending_acknowledgements": sorted(
+            set(int(item) for item in existing_state.get("pending_acknowledgements", []))
+        ),
     }
 
 

@@ -9,10 +9,16 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from .common import RecallError, append_reviews, load_json, load_reviews, local_date, write_json
+from .common import (
+    RecallError,
+    append_reviews,
+    load_json,
+    load_reviews,
+    local_date,
+)
 from .github import GitHub
 from .queue import ensure_daily_issue, reconcile_old_issues
-from .review import parse_issue, reconcile_issues
+from .review import parse_issue_sections, reconcile_issues
 from .scheduler import replay_state
 from .sync import paths, persist_sync, sync_repository
 
@@ -42,22 +48,31 @@ def hydrate_daily_state(
     for issue in issues:
         if issue.get("user", {}).get("login") != "github-actions[bot]":
             continue
-        parsed = parse_issue(issue)
+        parsed = parse_issue_sections(issue)
         if parsed is None:
             continue
-        day, problem_id, _ = parsed
-        if problem_id not in known_problem_ids:
+        day, sections = parsed
+        problem_ids = [section["problem_id"] for section in sections]
+        if not problem_ids or any(problem_id not in known_problem_ids for problem_id in problem_ids):
             continue
         issue_number = int(issue["number"])
-        daily_issues[str(issue_number)] = {"day": day, "problem_id": problem_id}
-        daily.setdefault(
-            day,
-            {
-                "problem_id": problem_id,
-                "issue_number": issue_number,
-                "created_at": issue.get("created_at"),
-            },
-        )
+        daily_issues[str(issue_number)] = {
+            "day": day,
+            "problem_ids": problem_ids,
+            "problem_id": problem_ids[0],
+        }
+        candidate = {
+            "problem_ids": problem_ids,
+            "problem_id": problem_ids[0],
+            "issue_number": issue_number,
+            "created_at": issue.get("created_at"),
+        }
+        current = daily.get(day)
+        current_number = int(current.get("issue_number") or -1) if current else -1
+        if current is None or (
+            str(candidate.get("created_at", "")), issue_number
+        ) >= (str(current.get("created_at", "")), current_number):
+            daily[day] = candidate
 
 
 def run(mode: str, repo_root: Path) -> int:
@@ -110,11 +125,13 @@ def run(mode: str, repo_root: Path) -> int:
         today = local_date(now, config.get("timezone", "Asia/Jakarta"))
         reconcile_old_issues(issues, today, github)
         metadata = load_json(files["metadata"], {})
-        entry, problem_id, _ = ensure_daily_issue(
+        entry, problem_ids, _ = ensure_daily_issue(
             state, problems, issues, github, config, now, metadata
         )
         status["last_queue_generated"] = today.isoformat()
-        status["queue_problem"] = problem_id
+        status["queue_problem_ids"] = problem_ids
+        status["queue_count"] = len(problem_ids)
+        status["queue_problem"] = problem_ids[0] if problem_ids else None
         status["queue_issue"] = entry.get("issue_number")
 
     status["review_errors"] = errors
@@ -122,7 +139,7 @@ def run(mode: str, repo_root: Path) -> int:
     persist_sync(repo_root, config, status, problems, state)
     print(
         f"mode={mode} problems={status['tracked_problems']} "
-        f"new_reviews={len(new_records)} queue={status.get('queue_problem') or 'none'}"
+        f"new_reviews={len(new_records)} queue={status.get('queue_count', 0)}"
     )
     if errors:
         print("Review warnings:")
