@@ -1,9 +1,9 @@
 {
   "daily": {
     "2026-09-22": {
-      "created_at": "2026-09-22T04:33:50.078270+00:00",
-      "issue_number": 8,
-      "problem_id": "longest-consecutive-sequence"
+      "created_at": "2026-09-22T06:12:14.299227+00:00",
+      "issue_number": 9,
+      "problem_id": "longest-substring-without-duplicates"
     }
   },
   "daily_issues": {
@@ -34,6 +34,10 @@
     "8": {
       "day": "2026-09-22",
       "problem_id": "longest-consecutive-sequence"
+    },
+    "9": {
+      "day": "2026-09-22",
+      "problem_id": "longest-substring-without-duplicates"
     }
   },
   "editor_provenance": {
