@@ -1,59 +1,98 @@
 {
   "daily": {
     "2026-09-22": {
-      "created_at": "2026-09-22T08:12:55.223525+00:00",
+      "created_at": "2026-09-22T08:12:56Z",
       "issue_number": 13,
-      "problem_id": "single-number"
+      "problem_id": "single-number",
+      "problem_ids": [
+        "single-number"
+      ]
     }
   },
   "daily_issues": {
     "10": {
       "day": "2026-09-22",
-      "problem_id": "max-water-container"
+      "problem_id": "max-water-container",
+      "problem_ids": [
+        "max-water-container"
+      ]
     },
     "11": {
       "day": "2026-09-22",
-      "problem_id": "non-cyclical-number"
+      "problem_id": "non-cyclical-number",
+      "problem_ids": [
+        "non-cyclical-number"
+      ]
     },
     "12": {
       "day": "2026-09-22",
-      "problem_id": "plus-one"
+      "problem_id": "plus-one",
+      "problem_ids": [
+        "plus-one"
+      ]
     },
     "13": {
       "day": "2026-09-22",
-      "problem_id": "single-number"
+      "problem_id": "single-number",
+      "problem_ids": [
+        "single-number"
+      ]
     },
     "2": {
       "day": "2026-09-22",
-      "problem_id": "anagram-groups"
+      "problem_id": "anagram-groups",
+      "problem_ids": [
+        "anagram-groups"
+      ]
     },
     "3": {
       "day": "2026-09-22",
-      "problem_id": "binary-search"
+      "problem_id": "binary-search",
+      "problem_ids": [
+        "binary-search"
+      ]
     },
     "4": {
       "day": "2026-09-22",
-      "problem_id": "buy-and-sell-crypto"
+      "problem_id": "buy-and-sell-crypto",
+      "problem_ids": [
+        "buy-and-sell-crypto"
+      ]
     },
     "5": {
       "day": "2026-09-22",
-      "problem_id": "duplicate-integer"
+      "problem_id": "duplicate-integer",
+      "problem_ids": [
+        "duplicate-integer"
+      ]
     },
     "6": {
       "day": "2026-09-22",
-      "problem_id": "is-anagram"
+      "problem_id": "is-anagram",
+      "problem_ids": [
+        "is-anagram"
+      ]
     },
     "7": {
       "day": "2026-09-22",
-      "problem_id": "is-palindrome"
+      "problem_id": "is-palindrome",
+      "problem_ids": [
+        "is-palindrome"
+      ]
     },
     "8": {
       "day": "2026-09-22",
-      "problem_id": "longest-consecutive-sequence"
+      "problem_id": "longest-consecutive-sequence",
+      "problem_ids": [
+        "longest-consecutive-sequence"
+      ]
     },
     "9": {
       "day": "2026-09-22",
-      "problem_id": "longest-substring-without-duplicates"
+      "problem_id": "longest-substring-without-duplicates",
+      "problem_ids": [
+        "longest-substring-without-duplicates"
+      ]
     }
   },
   "editor_provenance": {
@@ -420,5 +459,5 @@
     }
   },
   "scheduler_version": 1,
-  "version": 1
+  "version": 2
 }

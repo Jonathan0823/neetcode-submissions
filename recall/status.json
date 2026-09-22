@@ -1,9 +1,13 @@
 {
   "last_queue_generated": "2026-09-22",
-  "last_sync": "2026-09-22T08:17:55.583477+00:00",
+  "last_sync": "2026-09-22T14:27:38.748309+00:00",
   "pending_acknowledgements": 12,
+  "queue_count": 1,
   "queue_issue": 13,
   "queue_problem": "single-number",
+  "queue_problem_ids": [
+    "single-number"
+  ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
   "scheduler_version": 1,
