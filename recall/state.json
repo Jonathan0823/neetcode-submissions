@@ -44,13 +44,18 @@
     "5": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T04:05:53Z"
+    },
+    "6": {
+      "actor": "Jonathan0823",
+      "updated_at": "2026-09-22T04:14:50Z"
     }
   },
   "pending_acknowledgements": [
     2,
     3,
     4,
-    5
+    5,
+    6
   ],
   "problems": {
     "add-two-numbers": {
@@ -136,12 +141,12 @@
     },
     "is-anagram": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-09-08",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 3,
+      "last_rating": "remembered",
+      "last_reviewed_at": "2026-09-22T04:14:50Z",
+      "next_due": "2026-09-25",
+      "review_count": 1,
+      "updated_at": "2026-09-22T04:14:50Z"
     },
     "is-palindrome": {
       "active": true,
