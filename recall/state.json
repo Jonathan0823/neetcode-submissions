@@ -36,12 +36,17 @@
     "4": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T03:59:51Z"
+    },
+    "5": {
+      "actor": "Jonathan0823",
+      "updated_at": "2026-09-22T04:05:53Z"
     }
   },
   "pending_acknowledgements": [
     2,
     3,
-    4
+    4,
+    5
   ],
   "problems": {
     "add-two-numbers": {
@@ -109,12 +114,12 @@
     },
     "duplicate-integer": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-09-08",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 3,
+      "last_rating": "remembered",
+      "last_reviewed_at": "2026-09-22T04:05:53Z",
+      "next_due": "2026-09-25",
+      "review_count": 1,
+      "updated_at": "2026-09-22T04:05:53Z"
     },
     "evaluate-reverse-polish-notation": {
       "active": true,
