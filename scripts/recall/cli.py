@@ -126,7 +126,14 @@ def run(mode: str, repo_root: Path) -> int:
         reconcile_old_issues(issues, today, github)
         metadata = load_json(files["metadata"], {})
         entry, problem_ids, _ = ensure_daily_issue(
-            state, problems, issues, github, config, now, metadata
+            state,
+            problems,
+            issues,
+            github,
+            config,
+            now,
+            metadata,
+            force_new=os.environ.get("RECALL_FORCE_NEW_ISSUE") == "1",
         )
         status["last_queue_generated"] = today.isoformat()
         status["queue_problem_ids"] = problem_ids

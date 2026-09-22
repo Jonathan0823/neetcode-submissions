@@ -81,7 +81,7 @@ Run it from **Actions → LeetCode Recall → Run workflow** with:
 
 - **sync** — scan submissions and reconcile existing recall Issues.
 - **rebuild** — rebuild derived indexes/state without deleting `reviews.jsonl`.
-- **daily-queue** — sync first, then create one recall Issue for the current WIB date with up to three due problems.
+- **daily-queue** — sync first, then create one recall Issue for the current WIB date with up to three due problems. Manual `daily-queue` runs always create another Issue; scheduled runs remain one per day.
 
 The daily Issue is optional conceptual recall (5–10 minutes per problem): explain the approach, complexity, and edge cases. Select exactly one checkbox in each completed section. The daily limit is configured at `recall.daily_limit` (default: 3). The 30-minute daily learning routine remains separate. Missed days do not create catch-up Issues or failed reviews.
 

@@ -36,6 +36,7 @@ jobs:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GITHUB_REPOSITORY: ${{ github.repository }}
       RECALL_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || github.event_name == 'issues' && 'issue' || github.event_name == 'schedule' && 'daily-queue' || 'sync' }}
+      RECALL_FORCE_NEW_ISSUE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode == 'daily-queue' && '1' || '0' }}
     steps:
       - name: Check out full history
         uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0

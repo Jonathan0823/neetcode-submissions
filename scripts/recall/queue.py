@@ -78,8 +78,10 @@ def ensure_daily_issue(
     config: dict[str, Any],
     now: datetime,
     metadata: dict[str, Any],
+    *,
+    force_new: bool = False,
 ) -> tuple[dict[str, Any], list[str], bool]:
-    """Create or recover one Issue containing today's due recall sections."""
+    """Create or recover an Issue containing today's due recall sections."""
     timezone_name = config.get("timezone", "Asia/Jakarta")
     day = local_date(now, timezone_name).isoformat()
     known_problem_ids = {problem["id"] for problem in problems}
@@ -88,7 +90,7 @@ def ensure_daily_issue(
     daily_issues = state["daily_issues"]
 
     existing = daily.get(day)
-    if existing is not None:
+    if existing is not None and not force_new:
         # Preserve the day's selection, including an empty queue, on every rerun.
         return existing, daily_problem_ids(existing), False
 
@@ -118,11 +120,11 @@ def ensure_daily_issue(
         )
         if recovered is None or candidate[2] >= recovered[2]:
             recovered = candidate
-    if recovered is not None:
+    if recovered is not None and not force_new:
         daily[day] = recovered[0]
         return recovered[0], recovered[1], False
 
-    excluded_today = {
+    excluded_today = set() if force_new else {
         problem_id
         for entry in daily_issues.values()
         if entry.get("day") == day

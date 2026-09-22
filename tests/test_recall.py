@@ -277,6 +277,21 @@ class RecallTests(unittest.TestCase):
         self.assertFalse(rerun_created)
         self.assertEqual(1, len(github.created))
 
+        forced, forced_ids, forced_created = ensure_daily_issue(
+            state,
+            problems,
+            github.created,
+            github,
+            {"timezone": "Asia/Jakarta", "recall": {"daily_limit": 3}},
+            datetime(2026, 9, 22, tzinfo=timezone.utc),
+            {},
+            force_new=True,
+        )
+        self.assertTrue(forced_created)
+        self.assertEqual(problem_ids, forced_ids)
+        self.assertEqual(44, forced["issue_number"])
+        self.assertEqual(2, len(github.created))
+
     def test_partial_multi_problem_review_is_independent_and_stays_open(self):
         problems = [
             {"id": "binary-search", "slug": "binary-search"},
@@ -339,6 +354,7 @@ class RecallTests(unittest.TestCase):
         workflow = Path(".github/workflows/recall.yml").read_text()
         self.assertIn("git reset --hard origin/main", workflow)
         self.assertIn("python -m scripts.recall.cli \"$RECALL_MODE\"", workflow)
+        self.assertIn("RECALL_FORCE_NEW_ISSUE", workflow)
         self.assertNotIn("git rebase origin/main", workflow)
         self.assertIn("Unable to push after three regeneration attempts", workflow)
 
