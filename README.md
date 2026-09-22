@@ -75,7 +75,7 @@ This repository also contains a self-healing active-recall workflow:
 
 - `recall/` stores the problem index, append-only review history, derived state, and sync status.
 - `scripts/recall/` scans every submission folder on each run; triggers are only wake-up signals.
-- `.github/workflows/recall.yml` runs on submission pushes, daily at 00:00 UTC (07:00 WIB), manual runs, and Issue checkbox edits.
+- `.github/workflows/recall.yml` runs on submission pushes, daily at 17:00 UTC (00:00 WIB), manual runs, and Issue checkbox edits.
 
 Run it from **Actions → LeetCode Recall → Run workflow** with:
 
