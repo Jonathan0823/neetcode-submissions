@@ -1,9 +1,9 @@
 {
   "daily": {
     "2026-09-22": {
-      "created_at": "2026-09-22T04:00:58.177816+00:00",
-      "issue_number": 5,
-      "problem_id": "duplicate-integer"
+      "created_at": "2026-09-22T04:07:17.450501+00:00",
+      "issue_number": 6,
+      "problem_id": "is-anagram"
     }
   },
   "daily_issues": {
@@ -22,6 +22,10 @@
     "5": {
       "day": "2026-09-22",
       "problem_id": "duplicate-integer"
+    },
+    "6": {
+      "day": "2026-09-22",
+      "problem_id": "is-anagram"
     }
   },
   "editor_provenance": {
