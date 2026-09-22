@@ -1,6 +1,8 @@
 timezone: Asia/Jakarta
 learner_login: Jonathan0823
 submission_root: Data Structures & Algorithms
+recall:
+  daily_limit: 3
 submission_extensions:
   - .go
   - .js

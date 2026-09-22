@@ -39,6 +39,12 @@ def load_yaml(path: Path) -> dict[str, Any]:
         raise RecallError(f"Invalid YAML in {path}: {exc}") from exc
     if not isinstance(value, dict):
         raise RecallError(f"Expected a mapping in {path}")
+    recall = value.get("recall", {})
+    if not isinstance(recall, dict):
+        raise RecallError(f"Expected recall to be a mapping in {path}")
+    daily_limit = recall.get("daily_limit", 3)
+    if not isinstance(daily_limit, int) or isinstance(daily_limit, bool) or daily_limit < 1:
+        raise RecallError(f"recall.daily_limit must be a positive integer in {path}")
     return value
 
 
@@ -83,6 +89,17 @@ def load_reviews(path: Path) -> list[dict[str, Any]]:
     except (OSError, json.JSONDecodeError) as exc:
         raise RecallError(f"Invalid JSONL in {path}: {exc}") from exc
     return records
+
+
+def daily_problem_ids(entry: dict[str, Any] | None) -> list[str]:
+    if not entry:
+        return []
+    values = entry.get("problem_ids")
+    if values is None and entry.get("problem_id") is not None:
+        values = [entry["problem_id"]]
+    if not isinstance(values, list):
+        return []
+    return [str(value) for value in values if value]
 
 
 def append_reviews(path: Path, records: list[dict[str, Any]]) -> None:
