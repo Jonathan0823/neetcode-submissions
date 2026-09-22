@@ -28,11 +28,16 @@
     "3": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T03:51:41Z"
+    },
+    "4": {
+      "actor": "Jonathan0823",
+      "updated_at": "2026-09-22T03:59:51Z"
     }
   },
   "pending_acknowledgements": [
     2,
-    3
+    3,
+    4
   ],
   "problems": {
     "add-two-numbers": {
@@ -64,12 +69,12 @@
     },
     "buy-and-sell-crypto": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-09-08",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 3,
+      "last_rating": "remembered",
+      "last_reviewed_at": "2026-09-22T03:59:53Z",
+      "next_due": "2026-09-25",
+      "review_count": 1,
+      "updated_at": "2026-09-22T03:59:53Z"
     },
     "car-fleet": {
       "active": true,

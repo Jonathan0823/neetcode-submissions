@@ -1,13 +1,11 @@
 {
   "last_queue_generated": "2026-09-22",
-  "last_sync": "2026-09-22T03:57:38.935516+00:00",
-  "pending_acknowledgements": 2,
+  "last_sync": "2026-09-22T04:00:00.828311+00:00",
+  "pending_acknowledgements": 3,
   "queue_issue": 4,
   "queue_problem": "buy-and-sell-crypto",
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
-  "review_errors": [
-    "Issue #4: edit attribution is unavailable or unauthorized"
-  ],
+  "review_errors": [],
   "scheduler_version": 1,
   "submission_folders": 33,
   "tracked_problems": 33,
