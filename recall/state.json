@@ -20,10 +20,15 @@
     "2": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T03:01:41Z"
+    },
+    "3": {
+      "actor": "Jonathan0823",
+      "updated_at": "2026-09-22T03:51:41Z"
     }
   },
   "pending_acknowledgements": [
-    2
+    2,
+    3
   ],
   "problems": {
     "add-two-numbers": {
@@ -46,12 +51,12 @@
     },
     "binary-search": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-09-08",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 2,
+      "last_rating": "hint",
+      "last_reviewed_at": "2026-09-22T03:51:41Z",
+      "next_due": "2026-09-24",
+      "review_count": 1,
+      "updated_at": "2026-09-22T03:51:41Z"
     },
     "buy-and-sell-crypto": {
       "active": true,
