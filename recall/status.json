@@ -1,9 +1,9 @@
 {
   "last_queue_generated": "2026-09-22",
-  "last_sync": "2026-09-22T03:51:50.461773+00:00",
+  "last_sync": "2026-09-22T03:52:47.327447+00:00",
   "pending_acknowledgements": 2,
-  "queue_issue": 3,
-  "queue_problem": "binary-search",
+  "queue_issue": 4,
+  "queue_problem": "buy-and-sell-crypto",
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
   "scheduler_version": 1,
