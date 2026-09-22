@@ -137,6 +137,7 @@ def replay_state(
         "scheduler_version": int(_config_value(config, "version", 1)),
         "problems": states,
         "daily": dict(existing_state.get("daily", {})),
+        "editor_provenance": dict(existing_state.get("editor_provenance", {})),
         "pending_acknowledgements": list(existing_state.get("pending_acknowledgements", [])),
     }
 

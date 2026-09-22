@@ -60,20 +60,3 @@ class GitHub:
             method="PATCH",
             payload={"state": "closed"},
         )
-
-    def last_editor(self, issue_number: int) -> str | None:
-        """Best-effort attribution for recovery after an issues.edited event was missed."""
-        try:
-            events = self._api(
-                f"repos/{self.repository}/issues/{issue_number}/timeline?per_page=100"
-            )
-        except RecallError:
-            return None
-        if not isinstance(events, list):
-            return None
-        for event in reversed(events):
-            actor = event.get("actor") or event.get("user") or {}
-            login = actor.get("login") if isinstance(actor, dict) else None
-            if login:
-                return login
-        return None

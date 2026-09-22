@@ -52,11 +52,19 @@ def parse_issue(issue: dict[str, Any]) -> tuple[str, str, list[str]] | None:
     return day, problem_id, selected
 
 
-def _issue_actor(issue: dict[str, Any], github: GitHub, live_issue: int | None, live_actor: str | None) -> str | None:
+def _issue_actor(
+    issue: dict[str, Any],
+    state: dict[str, Any],
+    live_issue: int | None,
+    live_actor: str | None,
+) -> str | None:
     issue_number = int(issue["number"])
     if live_issue == issue_number and live_actor:
         return live_actor
-    return github.last_editor(issue_number)
+    provenance = state.get("editor_provenance", {}).get(str(issue_number), {})
+    if provenance.get("updated_at") == issue.get("updated_at"):
+        return provenance.get("actor")
+    return None
 
 
 def reconcile_issues(
@@ -99,7 +107,7 @@ def reconcile_issues(
         if len(selected) > 1:
             errors.append(f"Issue #{issue_number}: select exactly one outcome")
             continue
-        actor = _issue_actor(issue, github, live_issue, live_actor)
+        actor = _issue_actor(issue, state, live_issue, live_actor)
         if actor != learner:
             errors.append(f"Issue #{issue_number}: edit attribution is unavailable or unauthorized")
             continue
