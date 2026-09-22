@@ -1,9 +1,19 @@
 {
   "daily": {
     "2026-09-22": {
-      "created_at": "2026-09-22T02:53:01.430029+00:00",
-      "issue_number": 2,
+      "created_at": "2026-09-22T03:43:19.176907+00:00",
+      "issue_number": 3,
+      "problem_id": "binary-search"
+    }
+  },
+  "daily_issues": {
+    "2": {
+      "day": "2026-09-22",
       "problem_id": "anagram-groups"
+    },
+    "3": {
+      "day": "2026-09-22",
+      "problem_id": "binary-search"
     }
   },
   "editor_provenance": {
