@@ -170,7 +170,7 @@
     },
     "18": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-09-23T07:03:29Z"
+      "updated_at": "2026-09-23T07:18:32Z"
     },
     "2": {
       "actor": "Jonathan0823",
@@ -219,7 +219,8 @@
     12,
     13,
     16,
-    17
+    17,
+    18
   ],
   "problems": {
     "add-two-numbers": {
@@ -350,12 +351,12 @@
     },
     "longest-repeating-substring-with-replacement": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-09-11",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 2,
+      "last_rating": "hint",
+      "last_reviewed_at": "2026-09-23T07:18:32Z",
+      "next_due": "2026-09-25",
+      "review_count": 1,
+      "updated_at": "2026-09-23T07:18:32Z"
     },
     "longest-substring-without-duplicates": {
       "active": true,
