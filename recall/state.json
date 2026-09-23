@@ -155,6 +155,10 @@
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T23:56:32Z"
     },
+    "17": {
+      "actor": "Jonathan0823",
+      "updated_at": "2026-09-23T00:04:31Z"
+    },
     "2": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T03:01:41Z"
@@ -386,12 +390,12 @@
     },
     "missing-number": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-09-09",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 3,
+      "last_rating": "remembered",
+      "last_reviewed_at": "2026-09-23T00:04:31Z",
+      "next_due": "2026-09-26",
+      "review_count": 1,
+      "updated_at": "2026-09-23T00:04:31Z"
     },
     "non-cyclical-number": {
       "active": true,
