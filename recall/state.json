@@ -191,6 +191,10 @@
       "actor": "Jonathan0823",
       "updated_at": "2026-09-23T07:18:32Z"
     },
+    "19": {
+      "actor": "Jonathan0823",
+      "updated_at": "2026-09-23T21:53:32Z"
+    },
     "2": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T03:01:41Z"
@@ -478,12 +482,12 @@
     },
     "reverse-a-linked-list": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-09-15",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 3,
+      "last_rating": "remembered",
+      "last_reviewed_at": "2026-09-23T21:53:32Z",
+      "next_due": "2026-09-27",
+      "review_count": 1,
+      "updated_at": "2026-09-23T21:53:32Z"
     },
     "single-number": {
       "active": true,
