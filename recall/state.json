@@ -168,6 +168,10 @@
       "actor": "Jonathan0823",
       "updated_at": "2026-09-23T06:42:56Z"
     },
+    "18": {
+      "actor": "Jonathan0823",
+      "updated_at": "2026-09-23T06:57:06Z"
+    },
     "2": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T03:01:41Z"
@@ -265,12 +269,12 @@
     },
     "climbing-stairs": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-09-11",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 2,
+      "last_rating": "hint",
+      "last_reviewed_at": "2026-09-23T06:57:06Z",
+      "next_due": "2026-09-25",
+      "review_count": 1,
+      "updated_at": "2026-09-23T06:57:06Z"
     },
     "daily-temperatures": {
       "active": true,
