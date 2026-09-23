@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-09-23",
-  "last_sync": "2026-09-23T07:18:41.364604+00:00",
+  "last_queue_generated": "2026-09-24",
+  "last_sync": "2026-09-23T20:03:32.477399+00:00",
   "pending_acknowledgements": 15,
   "queue_count": 3,
-  "queue_issue": 18,
-  "queue_problem": "climbing-stairs",
+  "queue_issue": 19,
+  "queue_problem": "two-integer-sum-ii",
   "queue_problem_ids": [
-    "climbing-stairs",
-    "longest-repeating-substring-with-replacement",
-    "last-stone-weight"
+    "two-integer-sum-ii",
+    "minimum-stack",
+    "reverse-a-linked-list"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
