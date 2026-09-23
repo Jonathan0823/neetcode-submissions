@@ -1,14 +1,14 @@
 {
   "last_queue_generated": "2026-09-23",
-  "last_sync": "2026-09-23T06:43:14.671868+00:00",
+  "last_sync": "2026-09-23T06:47:08.242828+00:00",
   "pending_acknowledgements": 14,
   "queue_count": 3,
-  "queue_issue": 17,
-  "queue_problem": "meeting-schedule",
+  "queue_issue": 18,
+  "queue_problem": "climbing-stairs",
   "queue_problem_ids": [
-    "meeting-schedule",
-    "missing-number",
-    "three-integer-sum"
+    "climbing-stairs",
+    "longest-repeating-substring-with-replacement",
+    "last-stone-weight"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
