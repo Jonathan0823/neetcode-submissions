@@ -1,14 +1,14 @@
 {
   "last_queue_generated": "2026-09-24",
-  "last_sync": "2026-09-23T22:33:02.824238+00:00",
+  "last_sync": "2026-09-23T23:56:44.530781+00:00",
   "pending_acknowledgements": 16,
   "queue_count": 3,
-  "queue_issue": 19,
-  "queue_problem": "two-integer-sum-ii",
+  "queue_issue": 20,
+  "queue_problem": "evaluate-reverse-polish-notation",
   "queue_problem_ids": [
-    "two-integer-sum-ii",
-    "minimum-stack",
-    "reverse-a-linked-list"
+    "evaluate-reverse-polish-notation",
+    "daily-temperatures",
+    "merge-two-sorted-linked-lists"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
