@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-09-24",
-  "last_sync": "2026-09-24T01:13:55.987034+00:00",
+  "last_queue_generated": "2026-09-25",
+  "last_sync": "2026-09-24T20:19:20.503618+00:00",
   "pending_acknowledgements": 16,
   "queue_count": 3,
-  "queue_issue": 20,
-  "queue_problem": "evaluate-reverse-polish-notation",
+  "queue_issue": 21,
+  "queue_problem": "daily-temperatures",
   "queue_problem_ids": [
-    "evaluate-reverse-polish-notation",
     "daily-temperatures",
-    "merge-two-sorted-linked-lists"
+    "merge-two-sorted-linked-lists",
+    "string-encode-and-decode"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
