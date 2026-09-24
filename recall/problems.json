@@ -64,6 +64,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-09-25T05:19:47+07:00",
+    "id": "find-duplicate-integer",
+    "path": "Data Structures & Algorithms/find-duplicate-integer",
+    "slug": "find-duplicate-integer"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-09-07T05:02:22+07:00",
     "id": "is-anagram",
     "path": "Data Structures & Algorithms/is-anagram",
