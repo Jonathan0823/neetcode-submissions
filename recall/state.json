@@ -21,7 +21,7 @@
       ]
     },
     "2026-09-24": {
-      "created_at": "2026-09-23T23:56:44.530781+00:00",
+      "created_at": "2026-09-23T23:56:45Z",
       "issue_number": 20,
       "problem_id": "evaluate-reverse-polish-notation",
       "problem_ids": [
