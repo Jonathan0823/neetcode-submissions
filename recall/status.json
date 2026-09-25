@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-09-25",
-  "last_sync": "2026-09-25T03:25:16.286593+00:00",
+  "last_queue_generated": "2026-09-26",
+  "last_sync": "2026-09-25T20:20:23.119067+00:00",
   "pending_acknowledgements": 17,
   "queue_count": 3,
-  "queue_issue": 21,
-  "queue_problem": "daily-temperatures",
+  "queue_issue": 22,
+  "queue_problem": "car-fleet",
   "queue_problem_ids": [
-    "daily-temperatures",
-    "merge-two-sorted-linked-lists",
-    "string-encode-and-decode"
+    "car-fleet",
+    "linked-list-cycle-detection",
+    "permutation-string"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],

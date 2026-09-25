@@ -39,6 +39,16 @@
         "merge-two-sorted-linked-lists",
         "string-encode-and-decode"
       ]
+    },
+    "2026-09-26": {
+      "created_at": "2026-09-25T20:20:23.119067+00:00",
+      "issue_number": 22,
+      "problem_id": "car-fleet",
+      "problem_ids": [
+        "car-fleet",
+        "linked-list-cycle-detection",
+        "permutation-string"
+      ]
     }
   },
   "daily_issues": {
@@ -138,6 +148,15 @@
         "daily-temperatures",
         "merge-two-sorted-linked-lists",
         "string-encode-and-decode"
+      ]
+    },
+    "22": {
+      "day": "2026-09-26",
+      "problem_id": "car-fleet",
+      "problem_ids": [
+        "car-fleet",
+        "linked-list-cycle-detection",
+        "permutation-string"
       ]
     },
     "3": {
