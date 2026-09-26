@@ -1,9 +1,9 @@
 {
-  "last_queue_generated": "2026-09-26",
-  "last_sync": "2026-09-25T21:51:43.221242+00:00",
+  "last_queue_generated": "2026-09-27",
+  "last_sync": "2026-09-26T19:37:36.432924+00:00",
   "pending_acknowledgements": 17,
   "queue_count": 3,
-  "queue_issue": 22,
+  "queue_issue": 23,
   "queue_problem": "car-fleet",
   "queue_problem_ids": [
     "car-fleet",
