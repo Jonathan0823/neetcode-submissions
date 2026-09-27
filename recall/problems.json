@@ -78,6 +78,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-09-28T05:02:24+07:00",
+    "id": "find-minimum-in-rotated-sorted-array",
+    "path": "Data Structures & Algorithms/find-minimum-in-rotated-sorted-array",
+    "slug": "find-minimum-in-rotated-sorted-array"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-09-07T05:02:22+07:00",
     "id": "is-anagram",
     "path": "Data Structures & Algorithms/is-anagram",
