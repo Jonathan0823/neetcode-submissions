@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-09-27",
-  "last_sync": "2026-09-27T01:15:54.879545+00:00",
+  "last_queue_generated": "2026-09-28",
+  "last_sync": "2026-09-27T19:59:13.109014+00:00",
   "pending_acknowledgements": 18,
   "queue_count": 3,
-  "queue_issue": 23,
-  "queue_problem": "car-fleet",
+  "queue_issue": 24,
+  "queue_problem": "reorder-linked-list",
   "queue_problem_ids": [
-    "car-fleet",
-    "linked-list-cycle-detection",
-    "permutation-string"
+    "reorder-linked-list",
+    "add-two-numbers",
+    "anagram-groups"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
