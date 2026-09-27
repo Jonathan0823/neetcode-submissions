@@ -454,6 +454,15 @@
       "review_count": 0,
       "updated_at": null
     },
+    "find-target-in-rotated-sorted-array": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-09-29",
+      "review_count": 0,
+      "updated_at": null
+    },
     "is-anagram": {
       "active": true,
       "interval_days": 3,

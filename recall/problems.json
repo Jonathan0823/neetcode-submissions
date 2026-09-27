@@ -85,6 +85,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-09-28T05:25:14+07:00",
+    "id": "find-target-in-rotated-sorted-array",
+    "path": "Data Structures & Algorithms/find-target-in-rotated-sorted-array",
+    "slug": "find-target-in-rotated-sorted-array"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-09-07T05:02:22+07:00",
     "id": "is-anagram",
     "path": "Data Structures & Algorithms/is-anagram",
