@@ -99,6 +99,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-09-29T05:15:09+07:00",
+    "id": "invert-a-binary-tree",
+    "path": "Data Structures & Algorithms/invert-a-binary-tree",
+    "slug": "invert-a-binary-tree"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-09-07T05:02:22+07:00",
     "id": "is-anagram",
     "path": "Data Structures & Algorithms/is-anagram",
