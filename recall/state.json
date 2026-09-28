@@ -296,6 +296,10 @@
       "actor": "Jonathan0823",
       "updated_at": "2026-09-27T01:15:46Z"
     },
+    "24": {
+      "actor": "Jonathan0823",
+      "updated_at": "2026-09-28T06:03:57Z"
+    },
     "3": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T03:51:41Z"
@@ -357,12 +361,12 @@
     },
     "anagram-groups": {
       "active": true,
-      "interval_days": 2,
-      "last_rating": "hint",
-      "last_reviewed_at": "2026-09-22T03:01:41Z",
-      "next_due": "2026-09-24",
-      "review_count": 1,
-      "updated_at": "2026-09-22T03:01:41Z"
+      "interval_days": 3,
+      "last_rating": "remembered",
+      "last_reviewed_at": "2026-09-28T06:03:57Z",
+      "next_due": "2026-10-01",
+      "review_count": 2,
+      "updated_at": "2026-09-28T06:03:57Z"
     },
     "binary-search": {
       "active": true,
