@@ -321,7 +321,7 @@
     },
     "25": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-09-29T03:20:20Z"
+      "updated_at": "2026-09-29T03:33:38Z"
     },
     "3": {
       "actor": "Jonathan0823",
@@ -522,10 +522,10 @@
       "active": true,
       "interval_days": 2,
       "last_rating": "hint",
-      "last_reviewed_at": "2026-09-22T04:32:58Z",
-      "next_due": "2026-09-24",
-      "review_count": 1,
-      "updated_at": "2026-09-22T04:32:58Z"
+      "last_reviewed_at": "2026-09-29T03:33:38Z",
+      "next_due": "2026-10-01",
+      "review_count": 2,
+      "updated_at": "2026-09-29T03:33:38Z"
     },
     "last-stone-weight": {
       "active": true,
