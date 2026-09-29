@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-09-29",
-  "last_sync": "2026-09-29T03:49:20.330085+00:00",
+  "last_queue_generated": "2026-09-30",
+  "last_sync": "2026-09-29T21:18:49.686607+00:00",
   "pending_acknowledgements": 20,
   "queue_count": 3,
-  "queue_issue": 25,
-  "queue_problem": "binary-search",
+  "queue_issue": 26,
+  "queue_problem": "plus-one",
   "queue_problem_ids": [
-    "binary-search",
-    "is-palindrome",
-    "non-cyclical-number"
+    "plus-one",
+    "remove-node-from-end-of-linked-list",
+    "single-number"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],

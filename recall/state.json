@@ -79,6 +79,16 @@
         "is-palindrome",
         "non-cyclical-number"
       ]
+    },
+    "2026-09-30": {
+      "created_at": "2026-09-29T21:18:49.686607+00:00",
+      "issue_number": 26,
+      "problem_id": "plus-one",
+      "problem_ids": [
+        "plus-one",
+        "remove-node-from-end-of-linked-list",
+        "single-number"
+      ]
     }
   },
   "daily_issues": {
@@ -214,6 +224,15 @@
         "binary-search",
         "is-palindrome",
         "non-cyclical-number"
+      ]
+    },
+    "26": {
+      "day": "2026-09-30",
+      "problem_id": "plus-one",
+      "problem_ids": [
+        "plus-one",
+        "remove-node-from-end-of-linked-list",
+        "single-number"
       ]
     },
     "3": {
