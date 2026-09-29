@@ -57,6 +57,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-09-30T04:54:45+07:00",
+    "id": "depth-of-binary-tree",
+    "path": "Data Structures & Algorithms/depth-of-binary-tree",
+    "slug": "depth-of-binary-tree"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-09-07T05:02:22+07:00",
     "id": "duplicate-integer",
     "path": "Data Structures & Algorithms/duplicate-integer",

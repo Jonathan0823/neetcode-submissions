@@ -81,7 +81,7 @@
       ]
     },
     "2026-09-30": {
-      "created_at": "2026-09-29T21:18:49.686607+00:00",
+      "created_at": "2026-09-29T21:18:50Z",
       "issue_number": 26,
       "problem_id": "plus-one",
       "problem_ids": [
@@ -465,6 +465,15 @@
       "next_due": "2026-09-28",
       "review_count": 1,
       "updated_at": "2026-09-25T03:06:29Z"
+    },
+    "depth-of-binary-tree": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-10-01",
+      "review_count": 0,
+      "updated_at": null
     },
     "duplicate-integer": {
       "active": true,
