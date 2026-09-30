@@ -344,7 +344,7 @@
     },
     "26": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-09-30T07:15:14Z"
+      "updated_at": "2026-09-30T07:16:05Z"
     },
     "3": {
       "actor": "Jonathan0823",
@@ -715,12 +715,12 @@
     },
     "single-number": {
       "active": true,
-      "interval_days": 2,
-      "last_rating": "hint",
-      "last_reviewed_at": "2026-09-22T08:17:45Z",
-      "next_due": "2026-09-24",
-      "review_count": 1,
-      "updated_at": "2026-09-22T08:17:45Z"
+      "interval_days": 3,
+      "last_rating": "remembered",
+      "last_reviewed_at": "2026-09-30T07:16:05Z",
+      "next_due": "2026-10-03",
+      "review_count": 2,
+      "updated_at": "2026-09-30T07:16:05Z"
     },
     "string-encode-and-decode": {
       "active": true,
