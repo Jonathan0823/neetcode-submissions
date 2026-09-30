@@ -355,6 +355,10 @@
       "actor": "Jonathan0823",
       "updated_at": "2026-09-30T07:25:42Z"
     },
+    "27": {
+      "actor": "Jonathan0823",
+      "updated_at": "2026-09-30T07:36:09Z"
+    },
     "3": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T03:51:41Z"
@@ -437,12 +441,12 @@
     },
     "buy-and-sell-crypto": {
       "active": true,
-      "interval_days": 3,
+      "interval_days": 6,
       "last_rating": "remembered",
-      "last_reviewed_at": "2026-09-22T03:59:53Z",
-      "next_due": "2026-09-25",
-      "review_count": 1,
-      "updated_at": "2026-09-22T03:59:53Z"
+      "last_reviewed_at": "2026-09-30T07:36:09Z",
+      "next_due": "2026-10-06",
+      "review_count": 2,
+      "updated_at": "2026-09-30T07:36:09Z"
     },
     "car-fleet": {
       "active": true,
