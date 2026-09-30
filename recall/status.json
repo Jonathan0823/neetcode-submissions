@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-09-30",
-  "last_sync": "2026-09-30T08:17:30.500782+00:00",
+  "last_queue_generated": "2026-10-01",
+  "last_sync": "2026-09-30T21:19:52.085775+00:00",
   "pending_acknowledgements": 22,
   "queue_count": 3,
-  "queue_issue": 27,
-  "queue_problem": "buy-and-sell-crypto",
+  "queue_issue": 28,
+  "queue_problem": "is-anagram",
   "queue_problem_ids": [
-    "buy-and-sell-crypto",
-    "climbing-stairs",
-    "duplicate-integer"
+    "is-anagram",
+    "last-stone-weight",
+    "longest-consecutive-sequence"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
