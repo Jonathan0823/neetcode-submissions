@@ -29,6 +29,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-10-02T05:09:14+07:00",
+    "id": "binary-tree-diameter",
+    "path": "Data Structures & Algorithms/binary-tree-diameter",
+    "slug": "binary-tree-diameter"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-09-07T05:02:22+07:00",
     "id": "buy-and-sell-crypto",
     "path": "Data Structures & Algorithms/buy-and-sell-crypto",
