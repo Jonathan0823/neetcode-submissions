@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-10-01",
-  "last_sync": "2026-10-01T06:33:53.821249+00:00",
+  "last_queue_generated": "2026-10-02",
+  "last_sync": "2026-10-01T21:41:52.913811+00:00",
   "pending_acknowledgements": 23,
   "queue_count": 3,
-  "queue_issue": 28,
-  "queue_problem": "is-anagram",
+  "queue_issue": 29,
+  "queue_problem": "longest-repeating-substring-with-replacement",
   "queue_problem_ids": [
-    "is-anagram",
-    "last-stone-weight",
-    "longest-consecutive-sequence"
+    "longest-repeating-substring-with-replacement",
+    "longest-substring-without-duplicates",
+    "max-water-container"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],

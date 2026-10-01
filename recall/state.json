@@ -99,6 +99,16 @@
         "last-stone-weight",
         "longest-consecutive-sequence"
       ]
+    },
+    "2026-10-02": {
+      "created_at": "2026-10-01T21:41:52.913811+00:00",
+      "issue_number": 29,
+      "problem_id": "longest-repeating-substring-with-replacement",
+      "problem_ids": [
+        "longest-repeating-substring-with-replacement",
+        "longest-substring-without-duplicates",
+        "max-water-container"
+      ]
     }
   },
   "daily_issues": {
@@ -261,6 +271,15 @@
         "is-anagram",
         "last-stone-weight",
         "longest-consecutive-sequence"
+      ]
+    },
+    "29": {
+      "day": "2026-10-02",
+      "problem_id": "longest-repeating-substring-with-replacement",
+      "problem_ids": [
+        "longest-repeating-substring-with-replacement",
+        "longest-substring-without-duplicates",
+        "max-water-container"
       ]
     },
     "3": {
