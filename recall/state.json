@@ -380,7 +380,7 @@
     },
     "28": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-10-01T06:27:35Z"
+      "updated_at": "2026-10-01T06:33:43Z"
     },
     "3": {
       "actor": "Jonathan0823",
@@ -433,7 +433,8 @@
     24,
     25,
     26,
-    27
+    27,
+    28
   ],
   "problems": {
     "add-two-numbers": {
@@ -627,12 +628,12 @@
     },
     "longest-consecutive-sequence": {
       "active": true,
-      "interval_days": 3,
+      "interval_days": 6,
       "last_rating": "remembered",
-      "last_reviewed_at": "2026-09-22T06:05:35Z",
-      "next_due": "2026-09-25",
-      "review_count": 1,
-      "updated_at": "2026-09-22T06:05:35Z"
+      "last_reviewed_at": "2026-10-01T06:33:43Z",
+      "next_due": "2026-10-07",
+      "review_count": 2,
+      "updated_at": "2026-10-01T06:33:43Z"
     },
     "longest-repeating-substring-with-replacement": {
       "active": true,
