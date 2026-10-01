@@ -1,6 +1,6 @@
 {
   "last_queue_generated": "2026-10-01",
-  "last_sync": "2026-10-01T06:18:45.969145+00:00",
+  "last_sync": "2026-10-01T06:19:10.997977+00:00",
   "pending_acknowledgements": 22,
   "queue_count": 3,
   "queue_issue": 28,
@@ -11,9 +11,7 @@
     "longest-consecutive-sequence"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
-  "review_errors": [
-    "Issue #28: edit attribution is unavailable or unauthorized"
-  ],
+  "review_errors": [],
   "scheduler_version": 1,
   "submission_folders": 44,
   "tracked_problems": 44,
