@@ -403,7 +403,7 @@
     },
     "29": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-10-02T06:08:38Z"
+      "updated_at": "2026-10-02T06:16:10Z"
     },
     "3": {
       "actor": "Jonathan0823",
@@ -678,12 +678,12 @@
     },
     "longest-substring-without-duplicates": {
       "active": true,
-      "interval_days": 3,
+      "interval_days": 6,
       "last_rating": "remembered",
-      "last_reviewed_at": "2026-09-22T06:31:15Z",
-      "next_due": "2026-09-25",
-      "review_count": 1,
-      "updated_at": "2026-09-22T06:31:15Z"
+      "last_reviewed_at": "2026-10-02T06:16:10Z",
+      "next_due": "2026-10-08",
+      "review_count": 2,
+      "updated_at": "2026-10-02T06:16:10Z"
     },
     "max-water-container": {
       "active": true,
