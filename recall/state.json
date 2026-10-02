@@ -109,6 +109,16 @@
         "longest-substring-without-duplicates",
         "max-water-container"
       ]
+    },
+    "2026-10-03": {
+      "created_at": "2026-10-02T21:13:42.353097+00:00",
+      "issue_number": 30,
+      "problem_id": "meeting-schedule",
+      "problem_ids": [
+        "meeting-schedule",
+        "search-2d-matrix",
+        "three-integer-sum"
+      ]
     }
   },
   "daily_issues": {
@@ -287,6 +297,15 @@
       "problem_id": "binary-search",
       "problem_ids": [
         "binary-search"
+      ]
+    },
+    "30": {
+      "day": "2026-10-03",
+      "problem_id": "meeting-schedule",
+      "problem_ids": [
+        "meeting-schedule",
+        "search-2d-matrix",
+        "three-integer-sum"
       ]
     },
     "4": {
