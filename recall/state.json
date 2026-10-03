@@ -119,6 +119,16 @@
         "search-2d-matrix",
         "three-integer-sum"
       ]
+    },
+    "2026-10-04": {
+      "created_at": "2026-10-03T19:43:16.328299+00:00",
+      "issue_number": 31,
+      "problem_id": "top-k-elements-in-list",
+      "problem_ids": [
+        "top-k-elements-in-list",
+        "validate-parentheses",
+        "evaluate-reverse-polish-notation"
+      ]
     }
   },
   "daily_issues": {
@@ -306,6 +316,15 @@
         "meeting-schedule",
         "search-2d-matrix",
         "three-integer-sum"
+      ]
+    },
+    "31": {
+      "day": "2026-10-04",
+      "problem_id": "top-k-elements-in-list",
+      "problem_ids": [
+        "top-k-elements-in-list",
+        "validate-parentheses",
+        "evaluate-reverse-polish-notation"
       ]
     },
     "4": {

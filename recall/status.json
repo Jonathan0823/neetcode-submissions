@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-10-03",
-  "last_sync": "2026-10-03T09:37:08.662490+00:00",
+  "last_queue_generated": "2026-10-04",
+  "last_sync": "2026-10-03T19:43:16.328299+00:00",
   "pending_acknowledgements": 25,
   "queue_count": 3,
-  "queue_issue": 30,
-  "queue_problem": "meeting-schedule",
+  "queue_issue": 31,
+  "queue_problem": "top-k-elements-in-list",
   "queue_problem_ids": [
-    "meeting-schedule",
-    "search-2d-matrix",
-    "three-integer-sum"
+    "top-k-elements-in-list",
+    "validate-parentheses",
+    "evaluate-reverse-polish-notation"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
