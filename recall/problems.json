@@ -330,6 +330,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-10-05T05:20:48+07:00",
+    "id": "valid-sudoku",
+    "path": "Data Structures & Algorithms/valid-sudoku",
+    "slug": "valid-sudoku"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-09-07T05:33:26+07:00",
     "id": "validate-parentheses",
     "path": "Data Structures & Algorithms/validate-parentheses",
