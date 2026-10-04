@@ -1,7 +1,7 @@
 {
   "last_queue_generated": "2026-10-04",
-  "last_sync": "2026-10-04T00:34:59.970720+00:00",
-  "pending_acknowledgements": 25,
+  "last_sync": "2026-10-04T00:35:25.061032+00:00",
+  "pending_acknowledgements": 26,
   "queue_count": 3,
   "queue_issue": 31,
   "queue_problem": "top-k-elements-in-list",
@@ -11,9 +11,7 @@
     "evaluate-reverse-polish-notation"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
-  "review_errors": [
-    "Issue #31: edit attribution is unavailable or unauthorized"
-  ],
+  "review_errors": [],
   "scheduler_version": 1,
   "submission_folders": 48,
   "tracked_problems": 48,
