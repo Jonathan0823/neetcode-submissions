@@ -176,6 +176,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-10-04T07:06:52+07:00",
+    "id": "lowest-common-ancestor-in-binary-search-tree",
+    "path": "Data Structures & Algorithms/lowest-common-ancestor-in-binary-search-tree",
+    "slug": "lowest-common-ancestor-in-binary-search-tree"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-09-07T05:02:22+07:00",
     "id": "max-water-container",
     "path": "Data Structures & Algorithms/max-water-container",
