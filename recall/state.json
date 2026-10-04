@@ -129,6 +129,16 @@
         "validate-parentheses",
         "evaluate-reverse-polish-notation"
       ]
+    },
+    "2026-10-05": {
+      "created_at": "2026-10-04T19:57:44.613810+00:00",
+      "issue_number": 32,
+      "problem_id": "find-duplicate-integer",
+      "problem_ids": [
+        "find-duplicate-integer",
+        "missing-number",
+        "two-integer-sum"
+      ]
     }
   },
   "daily_issues": {
@@ -325,6 +335,15 @@
         "top-k-elements-in-list",
         "validate-parentheses",
         "evaluate-reverse-polish-notation"
+      ]
+    },
+    "32": {
+      "day": "2026-10-05",
+      "problem_id": "find-duplicate-integer",
+      "problem_ids": [
+        "find-duplicate-integer",
+        "missing-number",
+        "two-integer-sum"
       ]
     },
     "4": {

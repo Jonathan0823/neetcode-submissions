@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-10-04",
-  "last_sync": "2026-10-04T00:35:25.061032+00:00",
+  "last_queue_generated": "2026-10-05",
+  "last_sync": "2026-10-04T19:57:44.613810+00:00",
   "pending_acknowledgements": 26,
   "queue_count": 3,
-  "queue_issue": 31,
-  "queue_problem": "top-k-elements-in-list",
+  "queue_issue": 32,
+  "queue_problem": "find-duplicate-integer",
   "queue_problem_ids": [
-    "top-k-elements-in-list",
-    "validate-parentheses",
-    "evaluate-reverse-polish-notation"
+    "find-duplicate-integer",
+    "missing-number",
+    "two-integer-sum"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
