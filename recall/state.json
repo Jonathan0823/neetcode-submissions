@@ -451,6 +451,10 @@
       "actor": "Jonathan0823",
       "updated_at": "2026-10-03T09:36:33Z"
     },
+    "31": {
+      "actor": "Jonathan0823",
+      "updated_at": "2026-10-04T00:17:18Z"
+    },
     "4": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T03:59:51Z"
@@ -929,12 +933,12 @@
     },
     "validate-parentheses": {
       "active": true,
-      "interval_days": 2,
-      "last_rating": "hint",
-      "last_reviewed_at": "2026-09-22T22:22:14Z",
-      "next_due": "2026-09-25",
-      "review_count": 1,
-      "updated_at": "2026-09-22T22:22:14Z"
+      "interval_days": 3,
+      "last_rating": "remembered",
+      "last_reviewed_at": "2026-10-04T00:17:18Z",
+      "next_due": "2026-10-07",
+      "review_count": 2,
+      "updated_at": "2026-10-04T00:17:18Z"
     }
   },
   "scheduler_version": 1,
