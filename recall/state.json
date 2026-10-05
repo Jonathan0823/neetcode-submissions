@@ -510,6 +510,10 @@
       "actor": "Jonathan0823",
       "updated_at": "2026-10-05T04:35:59Z"
     },
+    "34": {
+      "actor": "Jonathan0823",
+      "updated_at": "2026-10-05T23:58:51Z"
+    },
     "4": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T03:59:51Z"
@@ -991,12 +995,12 @@
     },
     "two-integer-sum-ii": {
       "active": true,
-      "interval_days": 3,
+      "interval_days": 6,
       "last_rating": "remembered",
-      "last_reviewed_at": "2026-09-23T22:12:02Z",
-      "next_due": "2026-09-27",
-      "review_count": 1,
-      "updated_at": "2026-09-23T22:12:02Z"
+      "last_reviewed_at": "2026-10-05T23:58:51Z",
+      "next_due": "2026-10-12",
+      "review_count": 2,
+      "updated_at": "2026-10-05T23:58:51Z"
     },
     "valid-sudoku": {
       "active": true,
