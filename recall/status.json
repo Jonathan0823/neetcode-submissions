@@ -1,14 +1,14 @@
 {
   "last_queue_generated": "2026-10-05",
-  "last_sync": "2026-10-05T03:55:18.511769+00:00",
+  "last_sync": "2026-10-05T03:56:13.901329+00:00",
   "pending_acknowledgements": 27,
   "queue_count": 3,
-  "queue_issue": 32,
-  "queue_problem": "find-duplicate-integer",
+  "queue_issue": 33,
+  "queue_problem": "eating-bananas",
   "queue_problem_ids": [
-    "find-duplicate-integer",
-    "missing-number",
-    "two-integer-sum"
+    "eating-bananas",
+    "minimum-stack",
+    "reverse-a-linked-list"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
