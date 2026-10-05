@@ -474,6 +474,10 @@
       "actor": "Jonathan0823",
       "updated_at": "2026-10-04T00:34:39Z"
     },
+    "32": {
+      "actor": "Jonathan0823",
+      "updated_at": "2026-10-05T03:32:42Z"
+    },
     "4": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T03:59:51Z"
@@ -656,12 +660,12 @@
     },
     "find-duplicate-integer": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-09-26",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 2,
+      "last_rating": "hint",
+      "last_reviewed_at": "2026-10-05T03:32:42Z",
+      "next_due": "2026-10-07",
+      "review_count": 1,
+      "updated_at": "2026-10-05T03:32:42Z"
     },
     "find-minimum-in-rotated-sorted-array": {
       "active": true,
