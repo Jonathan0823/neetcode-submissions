@@ -57,6 +57,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-10-06T09:13:55+07:00",
+    "id": "concatenation-of-array",
+    "path": "Data Structures & Algorithms/concatenation-of-array",
+    "slug": "concatenation-of-array"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-09-29T05:04:43+07:00",
     "id": "copy-linked-list-with-random-pointer",
     "path": "Data Structures & Algorithms/copy-linked-list-with-random-pointer",

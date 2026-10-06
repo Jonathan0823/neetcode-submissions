@@ -643,6 +643,15 @@
       "review_count": 2,
       "updated_at": "2026-09-30T07:41:22Z"
     },
+    "concatenation-of-array": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-10-07",
+      "review_count": 0,
+      "updated_at": null
+    },
     "copy-linked-list-with-random-pointer": {
       "active": true,
       "interval_days": 0,
