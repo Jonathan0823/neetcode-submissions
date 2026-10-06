@@ -211,6 +211,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-10-07T05:12:23+07:00",
+    "id": "majority-element",
+    "path": "Data Structures & Algorithms/majority-element",
+    "slug": "majority-element"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-09-07T05:02:22+07:00",
     "id": "max-water-container",
     "path": "Data Structures & Algorithms/max-water-container",
