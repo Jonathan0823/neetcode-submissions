@@ -36,6 +36,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-10-07T05:00:30+07:00",
+    "id": "binary-tree-right-side-view",
+    "path": "Data Structures & Algorithms/binary-tree-right-side-view",
+    "slug": "binary-tree-right-side-view"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-09-07T05:02:22+07:00",
     "id": "buy-and-sell-crypto",
     "path": "Data Structures & Algorithms/buy-and-sell-crypto",
