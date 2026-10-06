@@ -169,6 +169,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-10-06T09:43:43+07:00",
+    "id": "longest-common-prefix",
+    "path": "Data Structures & Algorithms/longest-common-prefix",
+    "slug": "longest-common-prefix"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-09-07T05:18:08+07:00",
     "id": "longest-consecutive-sequence",
     "path": "Data Structures & Algorithms/longest-consecutive-sequence",
