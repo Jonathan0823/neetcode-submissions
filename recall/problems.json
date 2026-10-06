@@ -295,6 +295,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-10-07T05:13:37+07:00",
+    "id": "reverse-string",
+    "path": "Data Structures & Algorithms/reverse-string",
+    "slug": "reverse-string"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-10-01T04:51:51+07:00",
     "id": "same-binary-tree",
     "path": "Data Structures & Algorithms/same-binary-tree",
