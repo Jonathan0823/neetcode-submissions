@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-10-07",
-  "last_sync": "2026-10-07T11:29:15.755629+00:00",
+  "last_queue_generated": "2026-10-08",
+  "last_sync": "2026-10-07T21:44:06.914845+00:00",
   "pending_acknowledgements": 30,
   "queue_count": 3,
-  "queue_issue": 35,
-  "queue_problem": "merge-two-sorted-linked-lists",
+  "queue_issue": 36,
+  "queue_problem": "find-target-in-rotated-sorted-array",
   "queue_problem_ids": [
-    "merge-two-sorted-linked-lists",
-    "car-fleet",
-    "find-minimum-in-rotated-sorted-array"
+    "find-target-in-rotated-sorted-array",
+    "add-two-numbers",
+    "copy-linked-list-with-random-pointer"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],

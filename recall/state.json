@@ -159,6 +159,16 @@
         "car-fleet",
         "find-minimum-in-rotated-sorted-array"
       ]
+    },
+    "2026-10-08": {
+      "created_at": "2026-10-07T21:44:06.914845+00:00",
+      "issue_number": 36,
+      "problem_id": "find-target-in-rotated-sorted-array",
+      "problem_ids": [
+        "find-target-in-rotated-sorted-array",
+        "add-two-numbers",
+        "copy-linked-list-with-random-pointer"
+      ]
     }
   },
   "daily_issues": {
@@ -391,6 +401,15 @@
         "merge-two-sorted-linked-lists",
         "car-fleet",
         "find-minimum-in-rotated-sorted-array"
+      ]
+    },
+    "36": {
+      "day": "2026-10-08",
+      "problem_id": "find-target-in-rotated-sorted-array",
+      "problem_ids": [
+        "find-target-in-rotated-sorted-array",
+        "add-two-numbers",
+        "copy-linked-list-with-random-pointer"
       ]
     },
     "4": {
