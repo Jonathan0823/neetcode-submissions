@@ -78,6 +78,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-10-08T05:10:33+07:00",
+    "id": "count-good-nodes-in-binary-tree",
+    "path": "Data Structures & Algorithms/count-good-nodes-in-binary-tree",
+    "slug": "count-good-nodes-in-binary-tree"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-09-16T05:26:56+07:00",
     "id": "daily-temperatures",
     "path": "Data Structures & Algorithms/daily-temperatures",

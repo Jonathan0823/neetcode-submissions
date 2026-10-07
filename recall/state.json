@@ -713,6 +713,15 @@
       "review_count": 0,
       "updated_at": null
     },
+    "count-good-nodes-in-binary-tree": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-10-09",
+      "review_count": 0,
+      "updated_at": null
+    },
     "daily-temperatures": {
       "active": true,
       "interval_days": 2,
