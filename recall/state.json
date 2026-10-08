@@ -1124,6 +1124,15 @@
       "review_count": 2,
       "updated_at": "2026-10-05T23:58:51Z"
     },
+    "valid-binary-search-tree": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-10-10",
+      "review_count": 0,
+      "updated_at": null
+    },
     "valid-sudoku": {
       "active": true,
       "interval_days": 0,

@@ -379,6 +379,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-10-09T05:06:55+07:00",
+    "id": "valid-binary-search-tree",
+    "path": "Data Structures & Algorithms/valid-binary-search-tree",
+    "slug": "valid-binary-search-tree"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-10-05T05:20:48+07:00",
     "id": "valid-sudoku",
     "path": "Data Structures & Algorithms/valid-sudoku",
