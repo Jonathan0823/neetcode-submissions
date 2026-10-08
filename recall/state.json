@@ -558,7 +558,7 @@
     },
     "36": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-10-08T01:56:26Z"
+      "updated_at": "2026-10-08T02:02:17Z"
     },
     "4": {
       "actor": "Jonathan0823",
@@ -620,12 +620,12 @@
   "problems": {
     "add-two-numbers": {
       "active": true,
-      "interval_days": 2,
-      "last_rating": "hint",
-      "last_reviewed_at": "2026-09-28T06:11:18Z",
-      "next_due": "2026-09-30",
-      "review_count": 1,
-      "updated_at": "2026-09-28T06:11:18Z"
+      "interval_days": 3,
+      "last_rating": "remembered",
+      "last_reviewed_at": "2026-10-08T02:02:17Z",
+      "next_due": "2026-10-11",
+      "review_count": 2,
+      "updated_at": "2026-10-08T02:02:17Z"
     },
     "anagram-groups": {
       "active": true,
