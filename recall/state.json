@@ -558,7 +558,7 @@
     },
     "36": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-10-08T02:02:17Z"
+      "updated_at": "2026-10-08T02:12:04Z"
     },
     "4": {
       "actor": "Jonathan0823",
@@ -615,7 +615,8 @@
     32,
     33,
     34,
-    35
+    35,
+    36
   ],
   "problems": {
     "add-two-numbers": {
@@ -710,12 +711,12 @@
     },
     "copy-linked-list-with-random-pointer": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-09-30",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 2,
+      "last_rating": "hint",
+      "last_reviewed_at": "2026-10-08T02:12:04Z",
+      "next_due": "2026-10-10",
+      "review_count": 1,
+      "updated_at": "2026-10-08T02:12:04Z"
     },
     "count-good-nodes-in-binary-tree": {
       "active": true,
