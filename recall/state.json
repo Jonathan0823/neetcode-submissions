@@ -579,6 +579,10 @@
       "actor": "Jonathan0823",
       "updated_at": "2026-10-08T02:12:04Z"
     },
+    "37": {
+      "actor": "Jonathan0823",
+      "updated_at": "2026-10-08T22:38:01Z"
+    },
     "4": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T03:59:51Z"
@@ -820,12 +824,12 @@
     },
     "invert-a-binary-tree": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-09-30",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 3,
+      "last_rating": "remembered",
+      "last_reviewed_at": "2026-10-08T22:38:01Z",
+      "next_due": "2026-10-12",
+      "review_count": 1,
+      "updated_at": "2026-10-08T22:38:01Z"
     },
     "is-anagram": {
       "active": true,
