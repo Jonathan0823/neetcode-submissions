@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-10-08",
-  "last_sync": "2026-10-08T02:12:13.359713+00:00",
+  "last_queue_generated": "2026-10-09",
+  "last_sync": "2026-10-08T21:52:08.473496+00:00",
   "pending_acknowledgements": 31,
   "queue_count": 3,
-  "queue_issue": 36,
-  "queue_problem": "find-target-in-rotated-sorted-array",
+  "queue_issue": 37,
+  "queue_problem": "invert-a-binary-tree",
   "queue_problem_ids": [
-    "find-target-in-rotated-sorted-array",
-    "add-two-numbers",
-    "copy-linked-list-with-random-pointer"
+    "invert-a-binary-tree",
+    "linked-list-cycle-detection",
+    "permutation-string"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],

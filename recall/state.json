@@ -169,6 +169,16 @@
         "add-two-numbers",
         "copy-linked-list-with-random-pointer"
       ]
+    },
+    "2026-10-09": {
+      "created_at": "2026-10-08T21:52:08.473496+00:00",
+      "issue_number": 37,
+      "problem_id": "invert-a-binary-tree",
+      "problem_ids": [
+        "invert-a-binary-tree",
+        "linked-list-cycle-detection",
+        "permutation-string"
+      ]
     }
   },
   "daily_issues": {
@@ -410,6 +420,15 @@
         "find-target-in-rotated-sorted-array",
         "add-two-numbers",
         "copy-linked-list-with-random-pointer"
+      ]
+    },
+    "37": {
+      "day": "2026-10-09",
+      "problem_id": "invert-a-binary-tree",
+      "problem_ids": [
+        "invert-a-binary-tree",
+        "linked-list-cycle-detection",
+        "permutation-string"
       ]
     },
     "4": {
