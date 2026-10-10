@@ -162,6 +162,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-10-10T09:43:21+07:00",
+    "id": "kth-smallest-integer-in-bst",
+    "path": "Data Structures & Algorithms/kth-smallest-integer-in-bst",
+    "slug": "kth-smallest-integer-in-bst"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-09-11T04:53:20+07:00",
     "id": "last-stone-weight",
     "path": "Data Structures & Algorithms/last-stone-weight",

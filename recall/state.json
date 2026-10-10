@@ -873,6 +873,15 @@
       "review_count": 2,
       "updated_at": "2026-09-29T03:33:38Z"
     },
+    "kth-smallest-integer-in-bst": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-10-11",
+      "review_count": 0,
+      "updated_at": null
+    },
     "last-stone-weight": {
       "active": true,
       "interval_days": 3,
