@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-10-10",
-  "last_sync": "2026-10-10T02:43:30.281390+00:00",
+  "last_queue_generated": "2026-10-11",
+  "last_sync": "2026-10-10T20:31:32.460733+00:00",
   "pending_acknowledgements": 32,
   "queue_count": 3,
-  "queue_issue": 38,
-  "queue_problem": "linked-list-cycle-detection",
+  "queue_issue": 39,
+  "queue_problem": "anagram-groups",
   "queue_problem_ids": [
-    "linked-list-cycle-detection",
-    "permutation-string",
-    "reorder-linked-list"
+    "anagram-groups",
+    "depth-of-binary-tree",
+    "is-palindrome"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],

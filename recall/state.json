@@ -189,6 +189,16 @@
         "permutation-string",
         "reorder-linked-list"
       ]
+    },
+    "2026-10-11": {
+      "created_at": "2026-10-10T20:31:32.460733+00:00",
+      "issue_number": 39,
+      "problem_id": "anagram-groups",
+      "problem_ids": [
+        "anagram-groups",
+        "depth-of-binary-tree",
+        "is-palindrome"
+      ]
     }
   },
   "daily_issues": {
@@ -448,6 +458,15 @@
         "linked-list-cycle-detection",
         "permutation-string",
         "reorder-linked-list"
+      ]
+    },
+    "39": {
+      "day": "2026-10-11",
+      "problem_id": "anagram-groups",
+      "problem_ids": [
+        "anagram-groups",
+        "depth-of-binary-tree",
+        "is-palindrome"
       ]
     },
     "4": {
