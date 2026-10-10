@@ -191,7 +191,7 @@
       ]
     },
     "2026-10-11": {
-      "created_at": "2026-10-10T20:31:32.460733+00:00",
+      "created_at": "2026-10-10T20:31:33Z",
       "issue_number": 39,
       "problem_id": "anagram-groups",
       "problem_ids": [
@@ -1053,6 +1053,15 @@
       "next_due": "2026-10-03",
       "review_count": 2,
       "updated_at": "2026-09-30T07:15:14Z"
+    },
+    "products-of-array-discluding-self": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-10-12",
+      "review_count": 0,
+      "updated_at": null
     },
     "remove-node-from-end-of-linked-list": {
       "active": true,
