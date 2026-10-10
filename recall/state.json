@@ -602,6 +602,10 @@
       "actor": "Jonathan0823",
       "updated_at": "2026-10-08T22:38:01Z"
     },
+    "38": {
+      "actor": "Jonathan0823",
+      "updated_at": "2026-10-10T02:06:15Z"
+    },
     "4": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T03:59:51Z"
@@ -888,12 +892,12 @@
     },
     "linked-list-cycle-detection": {
       "active": true,
-      "interval_days": 3,
+      "interval_days": 6,
       "last_rating": "remembered",
-      "last_reviewed_at": "2026-09-27T00:56:09Z",
-      "next_due": "2026-09-30",
-      "review_count": 1,
-      "updated_at": "2026-09-27T00:56:09Z"
+      "last_reviewed_at": "2026-10-10T02:06:15Z",
+      "next_due": "2026-10-16",
+      "review_count": 2,
+      "updated_at": "2026-10-10T02:06:15Z"
     },
     "longest-common-prefix": {
       "active": true,
