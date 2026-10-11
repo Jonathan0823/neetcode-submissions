@@ -201,7 +201,7 @@
       ]
     },
     "2026-10-12": {
-      "created_at": "2026-10-11T20:50:52.257100+00:00",
+      "created_at": "2026-10-11T20:50:55Z",
       "issue_number": 40,
       "problem_id": "non-cyclical-number",
       "problem_ids": [
@@ -751,6 +751,15 @@
       "last_rating": null,
       "last_reviewed_at": null,
       "next_due": "2026-10-03",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "binary-tree-from-preorder-and-inorder-traversal": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-10-13",
       "review_count": 0,
       "updated_at": null
     },

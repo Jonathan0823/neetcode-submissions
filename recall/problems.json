@@ -36,6 +36,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-10-12T05:18:27+07:00",
+    "id": "binary-tree-from-preorder-and-inorder-traversal",
+    "path": "Data Structures & Algorithms/binary-tree-from-preorder-and-inorder-traversal",
+    "slug": "binary-tree-from-preorder-and-inorder-traversal"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-10-07T05:00:30+07:00",
     "id": "binary-tree-right-side-view",
     "path": "Data Structures & Algorithms/binary-tree-right-side-view",
