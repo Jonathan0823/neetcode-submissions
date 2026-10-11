@@ -199,6 +199,16 @@
         "depth-of-binary-tree",
         "is-palindrome"
       ]
+    },
+    "2026-10-12": {
+      "created_at": "2026-10-11T20:50:52.257100+00:00",
+      "issue_number": 40,
+      "problem_id": "non-cyclical-number",
+      "problem_ids": [
+        "non-cyclical-number",
+        "balanced-binary-tree",
+        "binary-search"
+      ]
     }
   },
   "daily_issues": {
@@ -474,6 +484,15 @@
       "problem_id": "buy-and-sell-crypto",
       "problem_ids": [
         "buy-and-sell-crypto"
+      ]
+    },
+    "40": {
+      "day": "2026-10-12",
+      "problem_id": "non-cyclical-number",
+      "problem_ids": [
+        "non-cyclical-number",
+        "balanced-binary-tree",
+        "binary-search"
       ]
     },
     "5": {
