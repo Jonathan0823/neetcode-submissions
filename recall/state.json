@@ -209,6 +209,16 @@
         "balanced-binary-tree",
         "binary-search"
       ]
+    },
+    "2026-10-13": {
+      "created_at": "2026-10-12T21:45:17.040601+00:00",
+      "issue_number": 41,
+      "problem_id": "same-binary-tree",
+      "problem_ids": [
+        "same-binary-tree",
+        "binary-tree-diameter",
+        "climbing-stairs"
+      ]
     }
   },
   "daily_issues": {
@@ -493,6 +503,15 @@
         "non-cyclical-number",
         "balanced-binary-tree",
         "binary-search"
+      ]
+    },
+    "41": {
+      "day": "2026-10-13",
+      "problem_id": "same-binary-tree",
+      "problem_ids": [
+        "same-binary-tree",
+        "binary-tree-diameter",
+        "climbing-stairs"
       ]
     },
     "5": {

@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-10-12",
-  "last_sync": "2026-10-12T21:44:03.168932+00:00",
+  "last_queue_generated": "2026-10-13",
+  "last_sync": "2026-10-12T21:45:17.040601+00:00",
   "pending_acknowledgements": 34,
   "queue_count": 3,
-  "queue_issue": 40,
-  "queue_problem": "non-cyclical-number",
+  "queue_issue": 41,
+  "queue_problem": "same-binary-tree",
   "queue_problem_ids": [
-    "non-cyclical-number",
-    "balanced-binary-tree",
-    "binary-search"
+    "same-binary-tree",
+    "binary-tree-diameter",
+    "climbing-stairs"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
