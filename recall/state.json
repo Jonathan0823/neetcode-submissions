@@ -654,7 +654,7 @@
     },
     "40": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-10-12T07:49:02Z"
+      "updated_at": "2026-10-12T21:43:15Z"
     },
     "5": {
       "actor": "Jonathan0823",
@@ -710,7 +710,8 @@
     35,
     36,
     38,
-    39
+    39,
+    40
   ],
   "problems": {
     "add-two-numbers": {
@@ -733,21 +734,21 @@
     },
     "balanced-binary-tree": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-10-02",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 2,
+      "last_rating": "hint",
+      "last_reviewed_at": "2026-10-12T21:43:17Z",
+      "next_due": "2026-10-15",
+      "review_count": 1,
+      "updated_at": "2026-10-12T21:43:17Z"
     },
     "binary-search": {
       "active": true,
-      "interval_days": 3,
+      "interval_days": 6,
       "last_rating": "remembered",
-      "last_reviewed_at": "2026-09-29T03:20:20Z",
-      "next_due": "2026-10-02",
-      "review_count": 2,
-      "updated_at": "2026-09-29T03:20:20Z"
+      "last_reviewed_at": "2026-10-12T21:43:17Z",
+      "next_due": "2026-10-19",
+      "review_count": 3,
+      "updated_at": "2026-10-12T21:43:17Z"
     },
     "binary-tree-diameter": {
       "active": true,
@@ -1068,10 +1069,10 @@
       "active": true,
       "interval_days": 2,
       "last_rating": "hint",
-      "last_reviewed_at": "2026-09-29T03:44:44Z",
-      "next_due": "2026-10-01",
-      "review_count": 2,
-      "updated_at": "2026-09-29T03:44:44Z"
+      "last_reviewed_at": "2026-10-12T21:43:17Z",
+      "next_due": "2026-10-15",
+      "review_count": 3,
+      "updated_at": "2026-10-12T21:43:17Z"
     },
     "permutation-string": {
       "active": true,
