@@ -1,6 +1,6 @@
 {
   "last_queue_generated": "2026-10-12",
-  "last_sync": "2026-10-12T07:48:53.038649+00:00",
+  "last_sync": "2026-10-12T07:49:27.499983+00:00",
   "pending_acknowledgements": 33,
   "queue_count": 3,
   "queue_issue": 40,
@@ -11,7 +11,9 @@
     "binary-search"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
-  "review_errors": [],
+  "review_errors": [
+    "Issue #40: select exactly one outcome per problem"
+  ],
   "scheduler_version": 1,
   "submission_folders": 60,
   "tracked_problems": 60,
