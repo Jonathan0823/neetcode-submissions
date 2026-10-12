@@ -169,6 +169,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-10-13T05:15:54+07:00",
+    "id": "kth-largest-integer-in-a-stream",
+    "path": "Data Structures & Algorithms/kth-largest-integer-in-a-stream",
+    "slug": "kth-largest-integer-in-a-stream"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-10-10T09:43:21+07:00",
     "id": "kth-smallest-integer-in-bst",
     "path": "Data Structures & Algorithms/kth-smallest-integer-in-bst",

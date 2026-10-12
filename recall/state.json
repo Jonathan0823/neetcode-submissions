@@ -211,7 +211,7 @@
       ]
     },
     "2026-10-13": {
-      "created_at": "2026-10-12T21:45:17.040601+00:00",
+      "created_at": "2026-10-12T21:45:18Z",
       "issue_number": 41,
       "problem_id": "same-binary-tree",
       "problem_ids": [
@@ -948,6 +948,15 @@
       "next_due": "2026-10-13",
       "review_count": 3,
       "updated_at": "2026-10-11T05:14:11Z"
+    },
+    "kth-largest-integer-in-a-stream": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-10-14",
+      "review_count": 0,
+      "updated_at": null
     },
     "kth-smallest-integer-in-bst": {
       "active": true,
