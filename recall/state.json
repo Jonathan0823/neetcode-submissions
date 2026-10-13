@@ -219,6 +219,16 @@
         "binary-tree-diameter",
         "climbing-stairs"
       ]
+    },
+    "2026-10-14": {
+      "created_at": "2026-10-13T21:42:15.093200+00:00",
+      "issue_number": 42,
+      "problem_id": "plus-one",
+      "problem_ids": [
+        "plus-one",
+        "remove-node-from-end-of-linked-list",
+        "single-number"
+      ]
     }
   },
   "daily_issues": {
@@ -512,6 +522,15 @@
         "same-binary-tree",
         "binary-tree-diameter",
         "climbing-stairs"
+      ]
+    },
+    "42": {
+      "day": "2026-10-14",
+      "problem_id": "plus-one",
+      "problem_ids": [
+        "plus-one",
+        "remove-node-from-end-of-linked-list",
+        "single-number"
       ]
     },
     "5": {
