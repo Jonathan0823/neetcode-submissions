@@ -169,6 +169,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-10-14T05:10:38+07:00",
+    "id": "k-closest-points-to-origin",
+    "path": "Data Structures & Algorithms/k-closest-points-to-origin",
+    "slug": "k-closest-points-to-origin"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-10-13T05:15:54+07:00",
     "id": "kth-largest-integer-in-a-stream",
     "path": "Data Structures & Algorithms/kth-largest-integer-in-a-stream",
