@@ -677,7 +677,7 @@
     },
     "41": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-10-13T03:39:37Z"
+      "updated_at": "2026-10-13T07:00:09Z"
     },
     "5": {
       "actor": "Jonathan0823",
@@ -775,12 +775,12 @@
     },
     "binary-tree-diameter": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-10-03",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 2,
+      "last_rating": "hint",
+      "last_reviewed_at": "2026-10-13T07:00:09Z",
+      "next_due": "2026-10-15",
+      "review_count": 1,
+      "updated_at": "2026-10-13T07:00:09Z"
     },
     "binary-tree-from-preorder-and-inorder-traversal": {
       "active": true,
