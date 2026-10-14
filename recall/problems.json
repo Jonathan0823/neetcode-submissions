@@ -176,6 +176,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-10-15T04:59:19+07:00",
+    "id": "kth-largest-element-in-an-array",
+    "path": "Data Structures & Algorithms/kth-largest-element-in-an-array",
+    "slug": "kth-largest-element-in-an-array"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-10-13T05:15:54+07:00",
     "id": "kth-largest-integer-in-a-stream",
     "path": "Data Structures & Algorithms/kth-largest-integer-in-a-stream",

@@ -231,7 +231,7 @@
       ]
     },
     "2026-10-15": {
-      "created_at": "2026-10-14T20:31:37.625510+00:00",
+      "created_at": "2026-10-14T20:31:39Z",
       "issue_number": 43,
       "problem_id": "last-stone-weight",
       "problem_ids": [
@@ -1003,6 +1003,15 @@
       "last_rating": null,
       "last_reviewed_at": null,
       "next_due": "2026-10-15",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "kth-largest-element-in-an-array": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-10-16",
       "review_count": 0,
       "updated_at": null
     },
