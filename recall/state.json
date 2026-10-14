@@ -229,6 +229,16 @@
         "remove-node-from-end-of-linked-list",
         "single-number"
       ]
+    },
+    "2026-10-15": {
+      "created_at": "2026-10-14T20:31:37.625510+00:00",
+      "issue_number": 43,
+      "problem_id": "last-stone-weight",
+      "problem_ids": [
+        "last-stone-weight",
+        "longest-repeating-substring-with-replacement",
+        "subtree-of-a-binary-tree"
+      ]
     }
   },
   "daily_issues": {
@@ -531,6 +541,15 @@
         "plus-one",
         "remove-node-from-end-of-linked-list",
         "single-number"
+      ]
+    },
+    "43": {
+      "day": "2026-10-15",
+      "problem_id": "last-stone-weight",
+      "problem_ids": [
+        "last-stone-weight",
+        "longest-repeating-substring-with-replacement",
+        "subtree-of-a-binary-tree"
       ]
     },
     "5": {
