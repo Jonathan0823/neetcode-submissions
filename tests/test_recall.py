@@ -7,6 +7,7 @@ import unittest
 from datetime import datetime, timezone
 from pathlib import Path
 
+from scripts.recall.github import GitHub
 from scripts.recall.queue import ensure_daily_issue
 from scripts.recall.review import (
     parse_issue,
@@ -37,6 +38,20 @@ class FakeGitHub:
 
 
 class RecallTests(unittest.TestCase):
+    def test_created_issue_is_assigned_to_authenticated_user(self):
+        github = GitHub("owner/repo")
+        calls = []
+
+        def api(endpoint, *, method="GET", payload=None):
+            calls.append((endpoint, method, payload))
+            return {"login": "my-user"} if endpoint == "user" else {"number": 1}
+
+        github._api = api
+        github.create_issue("title", "body", "recall")
+
+        self.assertEqual("user", calls[0][0])
+        self.assertEqual(["my-user"], calls[1][2]["assignees"])
+
     def test_sync_recovers_multiple_missed_submission_folders(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

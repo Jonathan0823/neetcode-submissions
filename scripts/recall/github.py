@@ -48,10 +48,11 @@ class GitHub:
         return [item for item in issues if isinstance(item, dict) and "pull_request" not in item]
 
     def create_issue(self, title: str, body: str, label: str) -> dict[str, Any]:
+        assignee = self._api("user")["login"]
         return self._api(
             f"repos/{self.repository}/issues",
             method="POST",
-            payload={"title": title, "body": body},
+            payload={"title": title, "body": body, "assignees": [assignee]},
         )
 
     def close_issue(self, issue_number: int) -> None:
