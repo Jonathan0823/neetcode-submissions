@@ -140,7 +140,12 @@ def ensure_daily_issue(
         selected = [next(problem for problem in problems if problem["id"] == problem_id) for problem_id in due]
         label = config.get("github", {}).get("issue_label", "recall")
         title = f"Recall · {len(due)} problem(s) · {day}"
-        created = github.create_issue(title, render_daily_body(selected, day, metadata), label)
+        created = github.create_issue(
+            title,
+            render_daily_body(selected, day, metadata),
+            label,
+            config.get("learner_login", "Jonathan0823"),
+        )
         entry["issue_number"] = int(created["number"])
         daily_issues[str(created["number"])] = {
             "day": day,

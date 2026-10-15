@@ -47,8 +47,7 @@ class GitHub:
         issues = [item for page in pages for item in page] if pages and isinstance(pages[0], list) else pages
         return [item for item in issues if isinstance(item, dict) and "pull_request" not in item]
 
-    def create_issue(self, title: str, body: str, label: str) -> dict[str, Any]:
-        assignee = self._api("user")["login"]
+    def create_issue(self, title: str, body: str, label: str, assignee: str) -> dict[str, Any]:
         return self._api(
             f"repos/{self.repository}/issues",
             method="POST",

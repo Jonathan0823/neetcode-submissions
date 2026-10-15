@@ -27,7 +27,7 @@ class FakeGitHub:
         self.closed = []
         self.next_issue = 43
 
-    def create_issue(self, title, body, label):
+    def create_issue(self, title, body, label, assignee):
         issue = {"number": self.next_issue, "title": title, "body": body, "created_at": "2026-09-22T00:00:00Z"}
         self.next_issue += 1
         self.created.append(issue)
@@ -44,13 +44,13 @@ class RecallTests(unittest.TestCase):
 
         def api(endpoint, *, method="GET", payload=None):
             calls.append((endpoint, method, payload))
-            return {"login": "my-user"} if endpoint == "user" else {"number": 1}
+            return {"number": 1}
 
         github._api = api
-        github.create_issue("title", "body", "recall")
+        github.create_issue("title", "body", "recall", "Jonathan0823")
 
-        self.assertEqual("user", calls[0][0])
-        self.assertEqual(["my-user"], calls[1][2]["assignees"])
+        self.assertEqual(1, len(calls))
+        self.assertEqual(["Jonathan0823"], calls[0][2]["assignees"])
 
     def test_sync_recovers_multiple_missed_submission_folders(self):
         with tempfile.TemporaryDirectory() as directory:
