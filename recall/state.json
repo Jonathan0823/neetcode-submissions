@@ -231,7 +231,7 @@
       ]
     },
     "2026-10-15": {
-      "created_at": "2026-10-15T06:00:14.043228+00:00",
+      "created_at": "2026-10-15T06:00:15Z",
       "issue_number": 44,
       "problem_id": "time-based-key-value-store",
       "problem_ids": [
