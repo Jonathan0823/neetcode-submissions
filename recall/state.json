@@ -231,13 +231,13 @@
       ]
     },
     "2026-10-15": {
-      "created_at": "2026-10-14T20:31:39Z",
-      "issue_number": 43,
-      "problem_id": "last-stone-weight",
+      "created_at": "2026-10-15T06:00:14.043228+00:00",
+      "issue_number": 44,
+      "problem_id": "time-based-key-value-store",
       "problem_ids": [
-        "last-stone-weight",
-        "longest-repeating-substring-with-replacement",
-        "subtree-of-a-binary-tree"
+        "time-based-key-value-store",
+        "lowest-common-ancestor-in-binary-search-tree",
+        "search-2d-matrix"
       ]
     }
   },
@@ -550,6 +550,15 @@
         "last-stone-weight",
         "longest-repeating-substring-with-replacement",
         "subtree-of-a-binary-tree"
+      ]
+    },
+    "44": {
+      "day": "2026-10-15",
+      "problem_id": "time-based-key-value-store",
+      "problem_ids": [
+        "time-based-key-value-store",
+        "lowest-common-ancestor-in-binary-search-tree",
+        "search-2d-matrix"
       ]
     },
     "5": {

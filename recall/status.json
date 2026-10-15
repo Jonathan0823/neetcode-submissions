@@ -1,14 +1,14 @@
 {
   "last_queue_generated": "2026-10-15",
-  "last_sync": "2026-10-15T04:07:23.317879+00:00",
+  "last_sync": "2026-10-15T06:00:14.043228+00:00",
   "pending_acknowledgements": 37,
   "queue_count": 3,
-  "queue_issue": 43,
-  "queue_problem": "last-stone-weight",
+  "queue_issue": 44,
+  "queue_problem": "time-based-key-value-store",
   "queue_problem_ids": [
-    "last-stone-weight",
-    "longest-repeating-substring-with-replacement",
-    "subtree-of-a-binary-tree"
+    "time-based-key-value-store",
+    "lowest-common-ancestor-in-binary-search-tree",
+    "search-2d-matrix"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
