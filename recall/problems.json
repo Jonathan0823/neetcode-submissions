@@ -386,6 +386,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-10-16T05:19:44+07:00",
+    "id": "task-scheduling",
+    "path": "Data Structures & Algorithms/task-scheduling",
+    "slug": "task-scheduling"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-09-09T05:20:46+07:00",
     "id": "three-integer-sum",
     "path": "Data Structures & Algorithms/three-integer-sum",
