@@ -1,6 +1,6 @@
 {
   "last_queue_generated": "2026-10-15",
-  "last_sync": "2026-10-15T03:41:28.776885+00:00",
+  "last_sync": "2026-10-15T03:42:05.173984+00:00",
   "pending_acknowledgements": 36,
   "queue_count": 3,
   "queue_issue": 43,
@@ -11,9 +11,7 @@
     "subtree-of-a-binary-tree"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
-  "review_errors": [
-    "Issue #43: edit attribution is unavailable or unauthorized"
-  ],
+  "review_errors": [],
   "scheduler_version": 1,
   "submission_folders": 63,
   "tracked_problems": 63,
