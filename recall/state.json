@@ -249,6 +249,16 @@
         "duplicate-integer",
         "evaluate-reverse-polish-notation"
       ]
+    },
+    "2026-10-17": {
+      "created_at": "2026-10-16T19:50:15.649069+00:00",
+      "issue_number": 46,
+      "problem_id": "meeting-schedule",
+      "problem_ids": [
+        "meeting-schedule",
+        "three-integer-sum",
+        "top-k-elements-in-list"
+      ]
     }
   },
   "daily_issues": {
@@ -578,6 +588,15 @@
         "buy-and-sell-crypto",
         "duplicate-integer",
         "evaluate-reverse-polish-notation"
+      ]
+    },
+    "46": {
+      "day": "2026-10-17",
+      "problem_id": "meeting-schedule",
+      "problem_ids": [
+        "meeting-schedule",
+        "three-integer-sum",
+        "top-k-elements-in-list"
       ]
     },
     "5": {
