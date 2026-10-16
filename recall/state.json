@@ -251,7 +251,7 @@
       ]
     },
     "2026-10-17": {
-      "created_at": "2026-10-16T19:50:15.649069+00:00",
+      "created_at": "2026-10-16T19:50:17Z",
       "issue_number": 46,
       "problem_id": "meeting-schedule",
       "problem_ids": [
@@ -977,6 +977,15 @@
       "next_due": "2026-10-14",
       "review_count": 1,
       "updated_at": "2026-10-11T05:09:26Z"
+    },
+    "design-twitter-feed": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-10-18",
+      "review_count": 0,
+      "updated_at": null
     },
     "duplicate-integer": {
       "active": true,
