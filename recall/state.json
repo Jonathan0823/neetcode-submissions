@@ -782,7 +782,7 @@
     },
     "46": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-10-17T13:54:24Z"
+      "updated_at": "2026-10-17T14:02:18Z"
     },
     "5": {
       "actor": "Jonathan0823",
@@ -844,7 +844,8 @@
     42,
     43,
     44,
-    45
+    45,
+    46
   ],
   "problems": {
     "add-two-numbers": {
@@ -1362,12 +1363,12 @@
     },
     "three-integer-sum": {
       "active": true,
-      "interval_days": 3,
-      "last_rating": "remembered",
-      "last_reviewed_at": "2026-10-03T09:00:30Z",
-      "next_due": "2026-10-06",
-      "review_count": 2,
-      "updated_at": "2026-10-03T09:00:30Z"
+      "interval_days": 2,
+      "last_rating": "hint",
+      "last_reviewed_at": "2026-10-17T14:02:18Z",
+      "next_due": "2026-10-19",
+      "review_count": 3,
+      "updated_at": "2026-10-17T14:02:18Z"
     },
     "time-based-key-value-store": {
       "active": true,
