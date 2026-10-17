@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-10-17",
-  "last_sync": "2026-10-17T14:05:19.042484+00:00",
+  "last_queue_generated": "2026-10-18",
+  "last_sync": "2026-10-17T19:07:44.030925+00:00",
   "pending_acknowledgements": 40,
   "queue_count": 3,
-  "queue_issue": 46,
-  "queue_problem": "meeting-schedule",
+  "queue_issue": 47,
+  "queue_problem": "valid-sudoku",
   "queue_problem_ids": [
-    "meeting-schedule",
-    "three-integer-sum",
-    "top-k-elements-in-list"
+    "valid-sudoku",
+    "concatenation-of-array",
+    "eating-bananas"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
