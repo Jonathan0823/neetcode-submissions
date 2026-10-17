@@ -780,6 +780,10 @@
       "actor": "Jonathan0823",
       "updated_at": "2026-10-16T07:29:33Z"
     },
+    "46": {
+      "actor": "Jonathan0823",
+      "updated_at": "2026-10-17T13:43:28Z"
+    },
     "5": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T04:05:53Z"
@@ -1196,12 +1200,12 @@
     },
     "meeting-schedule": {
       "active": true,
-      "interval_days": 3,
+      "interval_days": 6,
       "last_rating": "remembered",
-      "last_reviewed_at": "2026-10-03T08:45:55Z",
-      "next_due": "2026-10-06",
-      "review_count": 2,
-      "updated_at": "2026-10-03T08:45:55Z"
+      "last_reviewed_at": "2026-10-17T13:43:28Z",
+      "next_due": "2026-10-23",
+      "review_count": 3,
+      "updated_at": "2026-10-17T13:43:28Z"
     },
     "merge-two-sorted-linked-lists": {
       "active": true,
