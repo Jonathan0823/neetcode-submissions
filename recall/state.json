@@ -805,7 +805,7 @@
     },
     "47": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-10-18T00:03:25Z"
+      "updated_at": "2026-10-18T13:48:49Z"
     },
     "5": {
       "actor": "Jonathan0823",
@@ -868,7 +868,8 @@
     43,
     44,
     45,
-    46
+    46,
+    47
   ],
   "problems": {
     "add-two-numbers": {
@@ -1449,12 +1450,12 @@
     },
     "valid-sudoku": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-10-06",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 2,
+      "last_rating": "hint",
+      "last_reviewed_at": "2026-10-18T13:48:49Z",
+      "next_due": "2026-10-20",
+      "review_count": 1,
+      "updated_at": "2026-10-18T13:48:49Z"
     },
     "validate-parentheses": {
       "active": true,
