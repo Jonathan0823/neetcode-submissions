@@ -805,7 +805,7 @@
     },
     "47": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-10-18T00:00:38Z"
+      "updated_at": "2026-10-18T00:03:25Z"
     },
     "5": {
       "actor": "Jonathan0823",
@@ -963,12 +963,12 @@
     },
     "concatenation-of-array": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-10-07",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 3,
+      "last_rating": "remembered",
+      "last_reviewed_at": "2026-10-18T00:03:25Z",
+      "next_due": "2026-10-21",
+      "review_count": 1,
+      "updated_at": "2026-10-18T00:03:25Z"
     },
     "copy-linked-list-with-random-pointer": {
       "active": true,
