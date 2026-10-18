@@ -803,6 +803,10 @@
       "actor": "Jonathan0823",
       "updated_at": "2026-10-17T14:02:18Z"
     },
+    "47": {
+      "actor": "Jonathan0823",
+      "updated_at": "2026-10-18T00:00:38Z"
+    },
     "5": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T04:05:53Z"
@@ -1024,10 +1028,10 @@
       "active": true,
       "interval_days": 2,
       "last_rating": "hint",
-      "last_reviewed_at": "2026-10-05T04:35:59Z",
-      "next_due": "2026-10-07",
-      "review_count": 1,
-      "updated_at": "2026-10-05T04:35:59Z"
+      "last_reviewed_at": "2026-10-18T00:00:38Z",
+      "next_due": "2026-10-20",
+      "review_count": 2,
+      "updated_at": "2026-10-18T00:00:38Z"
     },
     "evaluate-reverse-polish-notation": {
       "active": true,
