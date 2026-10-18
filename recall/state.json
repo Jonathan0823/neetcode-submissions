@@ -269,6 +269,16 @@
         "concatenation-of-array",
         "eating-bananas"
       ]
+    },
+    "2026-10-19": {
+      "created_at": "2026-10-18T19:20:00.622671+00:00",
+      "issue_number": 48,
+      "problem_id": "find-duplicate-integer",
+      "problem_ids": [
+        "find-duplicate-integer",
+        "is-anagram",
+        "level-order-traversal-of-binary-tree"
+      ]
     }
   },
   "daily_issues": {
@@ -616,6 +626,15 @@
         "valid-sudoku",
         "concatenation-of-array",
         "eating-bananas"
+      ]
+    },
+    "48": {
+      "day": "2026-10-19",
+      "problem_id": "find-duplicate-integer",
+      "problem_ids": [
+        "find-duplicate-integer",
+        "is-anagram",
+        "level-order-traversal-of-binary-tree"
       ]
     },
     "5": {
