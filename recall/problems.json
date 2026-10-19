@@ -295,6 +295,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-10-19T14:04:15+07:00",
+    "id": "merge-sorted-array",
+    "path": "Data Structures & Algorithms/merge-sorted-array",
+    "slug": "merge-sorted-array"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-10-19T13:30:53+07:00",
     "id": "merge-strings-alternately",
     "path": "Data Structures & Algorithms/merge-strings-alternately",
