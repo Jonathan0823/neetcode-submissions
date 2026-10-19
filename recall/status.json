@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-10-19",
-  "last_sync": "2026-10-19T07:44:54.197695+00:00",
+  "last_queue_generated": "2026-10-20",
+  "last_sync": "2026-10-19T21:23:03.212758+00:00",
   "pending_acknowledgements": 42,
   "queue_count": 3,
-  "queue_issue": 48,
-  "queue_problem": "find-duplicate-integer",
+  "queue_issue": 49,
+  "queue_problem": "longest-common-prefix",
   "queue_problem_ids": [
-    "find-duplicate-integer",
-    "is-anagram",
-    "level-order-traversal-of-binary-tree"
+    "longest-common-prefix",
+    "longest-consecutive-sequence",
+    "missing-number"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
