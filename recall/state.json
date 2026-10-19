@@ -828,7 +828,7 @@
     },
     "48": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-10-19T04:10:35Z"
+      "updated_at": "2026-10-19T04:13:04Z"
     },
     "5": {
       "actor": "Jonathan0823",
@@ -1122,12 +1122,12 @@
     },
     "is-anagram": {
       "active": true,
-      "interval_days": 6,
+      "interval_days": 12,
       "last_rating": "remembered",
-      "last_reviewed_at": "2026-10-01T06:18:39Z",
-      "next_due": "2026-10-07",
-      "review_count": 2,
-      "updated_at": "2026-10-01T06:18:39Z"
+      "last_reviewed_at": "2026-10-19T04:13:04Z",
+      "next_due": "2026-10-31",
+      "review_count": 3,
+      "updated_at": "2026-10-19T04:13:04Z"
     },
     "is-palindrome": {
       "active": true,
