@@ -1121,6 +1121,15 @@
       "review_count": 1,
       "updated_at": "2026-10-08T01:56:26Z"
     },
+    "guess-number-higher-or-lower": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-10-20",
+      "review_count": 0,
+      "updated_at": null
+    },
     "implement-prefix-tree": {
       "active": true,
       "interval_days": 0,

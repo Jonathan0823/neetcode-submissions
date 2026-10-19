@@ -176,6 +176,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-10-19T14:44:44+07:00",
+    "id": "guess-number-higher-or-lower",
+    "path": "Data Structures & Algorithms/guess-number-higher-or-lower",
+    "slug": "guess-number-higher-or-lower"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-10-18T06:46:07+07:00",
     "id": "implement-prefix-tree",
     "path": "Data Structures & Algorithms/implement-prefix-tree",
