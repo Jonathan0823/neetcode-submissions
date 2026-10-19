@@ -344,6 +344,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-10-19T13:16:49+07:00",
+    "id": "remove-element",
+    "path": "Data Structures & Algorithms/remove-element",
+    "slug": "remove-element"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-09-23T05:03:20+07:00",
     "id": "remove-node-from-end-of-linked-list",
     "path": "Data Structures & Algorithms/remove-node-from-end-of-linked-list",
