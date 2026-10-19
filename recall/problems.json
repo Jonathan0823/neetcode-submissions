@@ -428,6 +428,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-10-19T14:40:01+07:00",
+    "id": "search-insert-position",
+    "path": "Data Structures & Algorithms/search-insert-position",
+    "slug": "search-insert-position"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-09-07T05:02:22+07:00",
     "id": "single-number",
     "path": "Data Structures & Algorithms/single-number",
