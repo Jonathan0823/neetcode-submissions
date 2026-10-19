@@ -1346,6 +1346,15 @@
       "review_count": 0,
       "updated_at": null
     },
+    "remove-duplicates-from-sorted-array": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-10-20",
+      "review_count": 0,
+      "updated_at": null
+    },
     "remove-element": {
       "active": true,
       "interval_days": 0,
