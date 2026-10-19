@@ -78,6 +78,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-10-19T14:19:03+07:00",
+    "id": "contains-duplicate-ii",
+    "path": "Data Structures & Algorithms/contains-duplicate-ii",
+    "slug": "contains-duplicate-ii"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-09-29T05:04:43+07:00",
     "id": "copy-linked-list-with-random-pointer",
     "path": "Data Structures & Algorithms/copy-linked-list-with-random-pointer",
