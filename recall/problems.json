@@ -22,6 +22,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-10-19T14:26:19+07:00",
+    "id": "baseball-game",
+    "path": "Data Structures & Algorithms/baseball-game",
+    "slug": "baseball-game"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-09-07T05:02:22+07:00",
     "id": "binary-search",
     "path": "Data Structures & Algorithms/binary-search",
