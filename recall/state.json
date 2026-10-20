@@ -849,6 +849,10 @@
       "actor": "Jonathan0823",
       "updated_at": "2026-10-19T04:32:03Z"
     },
+    "49": {
+      "actor": "Jonathan0823",
+      "updated_at": "2026-10-20T01:52:17Z"
+    },
     "5": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T04:05:53Z"
@@ -1250,12 +1254,12 @@
     },
     "longest-common-prefix": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-10-07",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 2,
+      "last_rating": "hint",
+      "last_reviewed_at": "2026-10-20T01:52:17Z",
+      "next_due": "2026-10-22",
+      "review_count": 1,
+      "updated_at": "2026-10-20T01:52:17Z"
     },
     "longest-consecutive-sequence": {
       "active": true,
