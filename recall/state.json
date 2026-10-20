@@ -851,7 +851,7 @@
     },
     "49": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-10-20T01:52:17Z"
+      "updated_at": "2026-10-20T01:59:43Z"
     },
     "5": {
       "actor": "Jonathan0823",
@@ -1263,12 +1263,12 @@
     },
     "longest-consecutive-sequence": {
       "active": true,
-      "interval_days": 6,
+      "interval_days": 12,
       "last_rating": "remembered",
-      "last_reviewed_at": "2026-10-01T06:33:43Z",
-      "next_due": "2026-10-07",
-      "review_count": 2,
-      "updated_at": "2026-10-01T06:33:43Z"
+      "last_reviewed_at": "2026-10-20T01:59:43Z",
+      "next_due": "2026-11-01",
+      "review_count": 3,
+      "updated_at": "2026-10-20T01:59:43Z"
     },
     "longest-repeating-substring-with-replacement": {
       "active": true,
