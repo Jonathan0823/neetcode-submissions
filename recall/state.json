@@ -289,6 +289,16 @@
         "binary-tree-right-side-view",
         "daily-temperatures"
       ]
+    },
+    "2026-10-21": {
+      "created_at": "2026-10-20T20:20:32.797182+00:00",
+      "issue_number": 51,
+      "problem_id": "longest-substring-without-duplicates",
+      "problem_ids": [
+        "longest-substring-without-duplicates",
+        "majority-element",
+        "max-water-container"
+      ]
     }
   },
   "daily_issues": {
@@ -670,6 +680,15 @@
         "validate-parentheses",
         "binary-tree-right-side-view",
         "daily-temperatures"
+      ]
+    },
+    "51": {
+      "day": "2026-10-21",
+      "problem_id": "longest-substring-without-duplicates",
+      "problem_ids": [
+        "longest-substring-without-duplicates",
+        "majority-element",
+        "max-water-container"
       ]
     },
     "6": {
