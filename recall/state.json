@@ -868,7 +868,7 @@
     },
     "50": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-10-20T02:44:43Z"
+      "updated_at": "2026-10-20T02:57:34Z"
     },
     "6": {
       "actor": "Jonathan0823",
@@ -998,12 +998,12 @@
     },
     "binary-tree-right-side-view": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-10-08",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 3,
+      "last_rating": "remembered",
+      "last_reviewed_at": "2026-10-20T02:57:34Z",
+      "next_due": "2026-10-23",
+      "review_count": 1,
+      "updated_at": "2026-10-20T02:57:34Z"
     },
     "buy-and-sell-crypto": {
       "active": true,
