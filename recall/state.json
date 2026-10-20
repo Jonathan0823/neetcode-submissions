@@ -866,6 +866,10 @@
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T04:05:53Z"
     },
+    "50": {
+      "actor": "Jonathan0823",
+      "updated_at": "2026-10-20T02:44:43Z"
+    },
     "6": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T04:14:50Z"
@@ -1606,12 +1610,12 @@
     },
     "validate-parentheses": {
       "active": true,
-      "interval_days": 3,
-      "last_rating": "remembered",
-      "last_reviewed_at": "2026-10-04T00:17:18Z",
-      "next_due": "2026-10-07",
-      "review_count": 2,
-      "updated_at": "2026-10-04T00:17:18Z"
+      "interval_days": 2,
+      "last_rating": "hint",
+      "last_reviewed_at": "2026-10-20T02:44:43Z",
+      "next_due": "2026-10-22",
+      "review_count": 3,
+      "updated_at": "2026-10-20T02:44:43Z"
     }
   },
   "scheduler_version": 1,
