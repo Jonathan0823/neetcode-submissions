@@ -291,7 +291,7 @@
       ]
     },
     "2026-10-21": {
-      "created_at": "2026-10-20T20:20:32.797182+00:00",
+      "created_at": "2026-10-20T20:20:34Z",
       "issue_number": 51,
       "problem_id": "longest-substring-without-duplicates",
       "problem_ids": [
@@ -1051,6 +1051,15 @@
       "next_due": "2026-10-15",
       "review_count": 3,
       "updated_at": "2026-10-13T09:02:16Z"
+    },
+    "combination-target-sum": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-10-22",
+      "review_count": 0,
+      "updated_at": null
     },
     "concatenation-of-array": {
       "active": true,
