@@ -1,7 +1,7 @@
 {
   "last_queue_generated": "2026-10-21",
-  "last_sync": "2026-10-21T02:30:48.805582+00:00",
-  "pending_acknowledgements": 44,
+  "last_sync": "2026-10-21T02:31:28.942511+00:00",
+  "pending_acknowledgements": 45,
   "queue_count": 3,
   "queue_issue": 51,
   "queue_problem": "longest-substring-without-duplicates",
@@ -11,9 +11,7 @@
     "max-water-container"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
-  "review_errors": [
-    "Issue #51: edit attribution is unavailable or unauthorized"
-  ],
+  "review_errors": [],
   "scheduler_version": 1,
   "submission_folders": 77,
   "tracked_problems": 77,
