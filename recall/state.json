@@ -299,6 +299,16 @@
         "majority-element",
         "max-water-container"
       ]
+    },
+    "2026-10-22": {
+      "created_at": "2026-10-21T20:29:04.892999+00:00",
+      "issue_number": 52,
+      "problem_id": "reverse-string",
+      "problem_ids": [
+        "reverse-string",
+        "string-encode-and-decode",
+        "car-fleet"
+      ]
     }
   },
   "daily_issues": {
@@ -689,6 +699,15 @@
         "longest-substring-without-duplicates",
         "majority-element",
         "max-water-container"
+      ]
+    },
+    "52": {
+      "day": "2026-10-22",
+      "problem_id": "reverse-string",
+      "problem_ids": [
+        "reverse-string",
+        "string-encode-and-decode",
+        "car-fleet"
       ]
     },
     "6": {

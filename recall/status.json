@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-10-21",
-  "last_sync": "2026-10-21T07:25:30.579387+00:00",
+  "last_queue_generated": "2026-10-22",
+  "last_sync": "2026-10-21T20:29:04.892999+00:00",
   "pending_acknowledgements": 45,
   "queue_count": 3,
-  "queue_issue": 51,
-  "queue_problem": "longest-substring-without-duplicates",
+  "queue_issue": 52,
+  "queue_problem": "reverse-string",
   "queue_problem_ids": [
-    "longest-substring-without-duplicates",
-    "majority-element",
-    "max-water-container"
+    "reverse-string",
+    "string-encode-and-decode",
+    "car-fleet"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
