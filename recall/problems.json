@@ -57,6 +57,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-10-21T14:25:20+07:00",
+    "id": "binary-tree-postorder-traversal",
+    "path": "Data Structures & Algorithms/binary-tree-postorder-traversal",
+    "slug": "binary-tree-postorder-traversal"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-10-21T14:02:15+07:00",
     "id": "binary-tree-preorder-traversal",
     "path": "Data Structures & Algorithms/binary-tree-preorder-traversal",
