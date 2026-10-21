@@ -1030,6 +1030,15 @@
       "review_count": 0,
       "updated_at": null
     },
+    "binary-tree-preorder-traversal": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-10-22",
+      "review_count": 0,
+      "updated_at": null
+    },
     "binary-tree-right-side-view": {
       "active": true,
       "interval_days": 3,
