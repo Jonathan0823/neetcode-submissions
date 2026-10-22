@@ -1,6 +1,6 @@
 {
   "last_queue_generated": "2026-10-22",
-  "last_sync": "2026-10-22T06:04:40.834252+00:00",
+  "last_sync": "2026-10-22T06:05:15.006439+00:00",
   "pending_acknowledgements": 45,
   "queue_count": 3,
   "queue_issue": 52,
@@ -11,9 +11,7 @@
     "car-fleet"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
-  "review_errors": [
-    "Issue #52: edit attribution is unavailable or unauthorized"
-  ],
+  "review_errors": [],
   "scheduler_version": 1,
   "submission_folders": 81,
   "tracked_problems": 81,
