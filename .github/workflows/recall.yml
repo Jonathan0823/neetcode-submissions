@@ -69,7 +69,7 @@ jobs:
               break
             fi
 
-            git commit -m "chore: update recall state"
+            git commit -m "chore: update recall state" --trailer "Co-authored-by: Jonathan0823 <146400304+Jonathan0823@users.noreply.github.com>"
             if git push origin HEAD:main; then
               break
             fi
