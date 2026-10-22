@@ -311,7 +311,7 @@
       ]
     },
     "2026-10-23": {
-      "created_at": "2026-10-22T20:26:57.603244+00:00",
+      "created_at": "2026-10-22T20:27:01Z",
       "issue_number": 53,
       "problem_id": "count-good-nodes-in-binary-tree",
       "problem_ids": [
@@ -1513,6 +1513,15 @@
       "next_due": "2026-10-16",
       "review_count": 2,
       "updated_at": "2026-10-10T02:12:25Z"
+    },
+    "permutations": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-10-24",
+      "review_count": 0,
+      "updated_at": null
     },
     "plus-one": {
       "active": true,

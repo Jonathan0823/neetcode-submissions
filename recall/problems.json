@@ -400,6 +400,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-10-23T05:29:52+07:00",
+    "id": "permutations",
+    "path": "Data Structures & Algorithms/permutations",
+    "slug": "permutations"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-09-07T05:02:22+07:00",
     "id": "plus-one",
     "path": "Data Structures & Algorithms/plus-one",
