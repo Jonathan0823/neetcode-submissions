@@ -1519,6 +1519,15 @@
       "review_count": 3,
       "updated_at": "2026-10-12T21:43:17Z"
     },
+    "number-of-senior-citizens": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-10-24",
+      "review_count": 0,
+      "updated_at": null
+    },
     "permutation-string": {
       "active": true,
       "interval_days": 6,
