@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-10-23",
-  "last_sync": "2026-10-23T09:10:22.624021+00:00",
+  "last_queue_generated": "2026-10-24",
+  "last_sync": "2026-10-23T20:15:27.794376+00:00",
   "pending_acknowledgements": 47,
   "queue_count": 3,
-  "queue_issue": 53,
-  "queue_problem": "count-good-nodes-in-binary-tree",
+  "queue_issue": 54,
+  "queue_problem": "copy-linked-list-with-random-pointer",
   "queue_problem_ids": [
-    "count-good-nodes-in-binary-tree",
-    "find-minimum-in-rotated-sorted-array",
-    "merge-two-sorted-linked-lists"
+    "copy-linked-list-with-random-pointer",
+    "find-target-in-rotated-sorted-array",
+    "valid-binary-search-tree"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],

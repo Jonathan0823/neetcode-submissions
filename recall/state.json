@@ -319,6 +319,16 @@
         "find-minimum-in-rotated-sorted-array",
         "merge-two-sorted-linked-lists"
       ]
+    },
+    "2026-10-24": {
+      "created_at": "2026-10-23T20:15:27.794376+00:00",
+      "issue_number": 54,
+      "problem_id": "copy-linked-list-with-random-pointer",
+      "problem_ids": [
+        "copy-linked-list-with-random-pointer",
+        "find-target-in-rotated-sorted-array",
+        "valid-binary-search-tree"
+      ]
     }
   },
   "daily_issues": {
@@ -727,6 +737,15 @@
         "count-good-nodes-in-binary-tree",
         "find-minimum-in-rotated-sorted-array",
         "merge-two-sorted-linked-lists"
+      ]
+    },
+    "54": {
+      "day": "2026-10-24",
+      "problem_id": "copy-linked-list-with-random-pointer",
+      "problem_ids": [
+        "copy-linked-list-with-random-pointer",
+        "find-target-in-rotated-sorted-array",
+        "valid-binary-search-tree"
       ]
     },
     "6": {
