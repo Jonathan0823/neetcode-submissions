@@ -526,6 +526,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-10-24T05:49:52+07:00",
+    "id": "subsets-ii",
+    "path": "Data Structures & Algorithms/subsets-ii",
+    "slug": "subsets-ii"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-10-03T08:08:09+07:00",
     "id": "subtree-of-a-binary-tree",
     "path": "Data Structures & Algorithms/subtree-of-a-binary-tree",
