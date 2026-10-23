@@ -1366,6 +1366,15 @@
       "review_count": 3,
       "updated_at": "2026-10-14T22:15:32Z"
     },
+    "length-of-last-word": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-10-24",
+      "review_count": 0,
+      "updated_at": null
+    },
     "level-order-traversal-of-binary-tree": {
       "active": true,
       "interval_days": 2,
