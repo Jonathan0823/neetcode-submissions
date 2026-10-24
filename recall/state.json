@@ -960,7 +960,7 @@
     },
     "54": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-10-24T06:05:47Z"
+      "updated_at": "2026-10-24T06:16:01Z"
     },
     "6": {
       "actor": "Jonathan0823",
@@ -1294,10 +1294,10 @@
       "active": true,
       "interval_days": 2,
       "last_rating": "hint",
-      "last_reviewed_at": "2026-10-08T01:56:26Z",
-      "next_due": "2026-10-10",
-      "review_count": 1,
-      "updated_at": "2026-10-08T01:56:26Z"
+      "last_reviewed_at": "2026-10-24T06:16:01Z",
+      "next_due": "2026-10-26",
+      "review_count": 2,
+      "updated_at": "2026-10-24T06:16:01Z"
     },
     "guess-number-higher-or-lower": {
       "active": true,
