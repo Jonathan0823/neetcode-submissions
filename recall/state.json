@@ -960,7 +960,7 @@
     },
     "54": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-10-24T06:16:01Z"
+      "updated_at": "2026-10-24T06:29:14Z"
     },
     "6": {
       "actor": "Jonathan0823",
@@ -1026,7 +1026,8 @@
     50,
     51,
     52,
-    53
+    53,
+    54
   ],
   "problems": {
     "add-two-numbers": {
@@ -1778,12 +1779,12 @@
     },
     "valid-binary-search-tree": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-10-10",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 2,
+      "last_rating": "hint",
+      "last_reviewed_at": "2026-10-24T06:29:14Z",
+      "next_due": "2026-10-26",
+      "review_count": 1,
+      "updated_at": "2026-10-24T06:29:14Z"
     },
     "valid-sudoku": {
       "active": true,
