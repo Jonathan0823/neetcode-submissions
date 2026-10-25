@@ -339,6 +339,16 @@
         "kth-smallest-integer-in-bst",
         "minimum-stack"
       ]
+    },
+    "2026-10-26": {
+      "created_at": "2026-10-25T19:28:54.433654+00:00",
+      "issue_number": 56,
+      "problem_id": "reverse-a-linked-list",
+      "problem_ids": [
+        "reverse-a-linked-list",
+        "two-integer-sum",
+        "invert-a-binary-tree"
+      ]
     }
   },
   "daily_issues": {
@@ -765,6 +775,15 @@
         "add-two-numbers",
         "kth-smallest-integer-in-bst",
         "minimum-stack"
+      ]
+    },
+    "56": {
+      "day": "2026-10-26",
+      "problem_id": "reverse-a-linked-list",
+      "problem_ids": [
+        "reverse-a-linked-list",
+        "two-integer-sum",
+        "invert-a-binary-tree"
       ]
     },
     "6": {

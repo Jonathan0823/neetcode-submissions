@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-10-25",
-  "last_sync": "2026-10-25T02:40:08.754157+00:00",
+  "last_queue_generated": "2026-10-26",
+  "last_sync": "2026-10-25T19:28:54.433654+00:00",
   "pending_acknowledgements": 49,
   "queue_count": 3,
-  "queue_issue": 55,
-  "queue_problem": "add-two-numbers",
+  "queue_issue": 56,
+  "queue_problem": "reverse-a-linked-list",
   "queue_problem_ids": [
-    "add-two-numbers",
-    "kth-smallest-integer-in-bst",
-    "minimum-stack"
+    "reverse-a-linked-list",
+    "two-integer-sum",
+    "invert-a-binary-tree"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
