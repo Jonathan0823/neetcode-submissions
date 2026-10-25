@@ -505,6 +505,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-10-26T05:11:17+07:00",
+    "id": "search-for-word",
+    "path": "Data Structures & Algorithms/search-for-word",
+    "slug": "search-for-word"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-10-19T14:40:01+07:00",
     "id": "search-insert-position",
     "path": "Data Structures & Algorithms/search-insert-position",
