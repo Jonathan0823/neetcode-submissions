@@ -211,6 +211,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-10-25T08:59:29+07:00",
+    "id": "generate-parentheses",
+    "path": "Data Structures & Algorithms/generate-parentheses",
+    "slug": "generate-parentheses"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-10-19T14:44:44+07:00",
     "id": "guess-number-higher-or-lower",
     "path": "Data Structures & Algorithms/guess-number-higher-or-lower",

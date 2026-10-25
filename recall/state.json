@@ -331,7 +331,7 @@
       ]
     },
     "2026-10-25": {
-      "created_at": "2026-10-24T19:19:51.631665+00:00",
+      "created_at": "2026-10-24T19:19:54Z",
       "issue_number": 55,
       "problem_id": "add-two-numbers",
       "problem_ids": [
@@ -1318,6 +1318,15 @@
       "next_due": "2026-10-26",
       "review_count": 2,
       "updated_at": "2026-10-24T06:16:01Z"
+    },
+    "generate-parentheses": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-10-26",
+      "review_count": 0,
+      "updated_at": null
     },
     "guess-number-higher-or-lower": {
       "active": true,
