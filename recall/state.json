@@ -1006,7 +1006,7 @@
     },
     "56": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-10-26T05:42:44Z"
+      "updated_at": "2026-10-26T05:45:06Z"
     },
     "6": {
       "actor": "Jonathan0823",
@@ -1074,7 +1074,8 @@
     52,
     53,
     54,
-    55
+    55,
+    56
   ],
   "problems": {
     "add-two-numbers": {
@@ -1376,12 +1377,12 @@
     },
     "invert-a-binary-tree": {
       "active": true,
-      "interval_days": 3,
+      "interval_days": 6,
       "last_rating": "remembered",
-      "last_reviewed_at": "2026-10-08T22:38:01Z",
-      "next_due": "2026-10-12",
-      "review_count": 1,
-      "updated_at": "2026-10-08T22:38:01Z"
+      "last_reviewed_at": "2026-10-26T05:45:06Z",
+      "next_due": "2026-11-01",
+      "review_count": 2,
+      "updated_at": "2026-10-26T05:45:06Z"
     },
     "is-anagram": {
       "active": true,
