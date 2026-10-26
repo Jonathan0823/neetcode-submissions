@@ -349,6 +349,16 @@
         "two-integer-sum",
         "invert-a-binary-tree"
       ]
+    },
+    "2026-10-27": {
+      "created_at": "2026-10-26T21:30:34.613677+00:00",
+      "issue_number": 57,
+      "problem_id": "products-of-array-discluding-self",
+      "problem_ids": [
+        "products-of-array-discluding-self",
+        "reorder-linked-list",
+        "two-integer-sum-ii"
+      ]
     }
   },
   "daily_issues": {
@@ -784,6 +794,15 @@
         "reverse-a-linked-list",
         "two-integer-sum",
         "invert-a-binary-tree"
+      ]
+    },
+    "57": {
+      "day": "2026-10-27",
+      "problem_id": "products-of-array-discluding-self",
+      "problem_ids": [
+        "products-of-array-discluding-self",
+        "reorder-linked-list",
+        "two-integer-sum-ii"
       ]
     },
     "6": {
