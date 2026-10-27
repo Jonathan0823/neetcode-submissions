@@ -1265,6 +1265,15 @@
       "review_count": 0,
       "updated_at": null
     },
+    "combinations-of-a-phone-number": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-10-29",
+      "review_count": 0,
+      "updated_at": null
+    },
     "concatenation-of-array": {
       "active": true,
       "interval_days": 3,
