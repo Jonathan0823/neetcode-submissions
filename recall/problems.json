@@ -421,6 +421,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-10-28T04:46:49+07:00",
+    "id": "palindrome-partitioning",
+    "path": "Data Structures & Algorithms/palindrome-partitioning",
+    "slug": "palindrome-partitioning"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-09-20T07:30:03+07:00",
     "id": "permutation-string",
     "path": "Data Structures & Algorithms/permutation-string",
