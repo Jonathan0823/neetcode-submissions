@@ -1050,6 +1050,10 @@
       "actor": "Jonathan0823",
       "updated_at": "2026-10-27T07:11:42Z"
     },
+    "58": {
+      "actor": "Jonathan0823",
+      "updated_at": "2026-10-28T00:48:55Z"
+    },
     "6": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T04:14:50Z"
@@ -1447,12 +1451,12 @@
     },
     "is-palindrome": {
       "active": true,
-      "interval_days": 2,
-      "last_rating": "hint",
-      "last_reviewed_at": "2026-10-11T05:14:11Z",
-      "next_due": "2026-10-13",
-      "review_count": 3,
-      "updated_at": "2026-10-11T05:14:11Z"
+      "interval_days": 3,
+      "last_rating": "remembered",
+      "last_reviewed_at": "2026-10-28T00:48:55Z",
+      "next_due": "2026-10-31",
+      "review_count": 4,
+      "updated_at": "2026-10-28T00:48:55Z"
     },
     "k-closest-points-to-origin": {
       "active": true,
