@@ -1071,7 +1071,7 @@
     },
     "58": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-10-28T00:50:28Z"
+      "updated_at": "2026-10-28T22:33:11Z"
     },
     "6": {
       "actor": "Jonathan0823",
@@ -1141,7 +1141,8 @@
     54,
     55,
     56,
-    57
+    57,
+    58
   ],
   "problems": {
     "add-two-numbers": {
@@ -1200,12 +1201,12 @@
     },
     "binary-tree-from-preorder-and-inorder-traversal": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-10-13",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 2,
+      "last_rating": "hint",
+      "last_reviewed_at": "2026-10-28T22:33:11Z",
+      "next_due": "2026-10-31",
+      "review_count": 1,
+      "updated_at": "2026-10-28T22:33:11Z"
     },
     "binary-tree-inorder-traversal": {
       "active": true,
