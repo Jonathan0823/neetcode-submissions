@@ -400,6 +400,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-10-29T05:10:34+07:00",
+    "id": "min-cost-climbing-stairs",
+    "path": "Data Structures & Algorithms/min-cost-climbing-stairs",
+    "slug": "min-cost-climbing-stairs"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-09-13T07:57:24+07:00",
     "id": "minimum-stack",
     "path": "Data Structures & Algorithms/minimum-stack",
