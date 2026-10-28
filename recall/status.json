@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-10-28",
-  "last_sync": "2026-10-28T07:06:56.995944+00:00",
+  "last_queue_generated": "2026-10-29",
+  "last_sync": "2026-10-28T21:33:23.806781+00:00",
   "pending_acknowledgements": 51,
   "queue_count": 3,
-  "queue_issue": 58,
+  "queue_issue": 59,
   "queue_problem": "binary-tree-from-preorder-and-inorder-traversal",
   "queue_problem_ids": [
     "binary-tree-from-preorder-and-inorder-traversal",
-    "is-palindrome",
-    "depth-of-binary-tree"
+    "kth-largest-integer-in-a-stream",
+    "balanced-binary-tree"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
