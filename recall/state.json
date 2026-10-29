@@ -1075,7 +1075,7 @@
     },
     "59": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-10-29T05:54:49Z"
+      "updated_at": "2026-10-29T06:06:01Z"
     },
     "6": {
       "actor": "Jonathan0823",
@@ -1502,12 +1502,12 @@
     },
     "kth-largest-integer-in-a-stream": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-10-14",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 2,
+      "last_rating": "hint",
+      "last_reviewed_at": "2026-10-29T06:06:01Z",
+      "next_due": "2026-10-31",
+      "review_count": 1,
+      "updated_at": "2026-10-29T06:06:01Z"
     },
     "kth-smallest-integer-in-bst": {
       "active": true,
