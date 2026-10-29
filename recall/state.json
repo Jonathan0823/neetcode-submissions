@@ -379,6 +379,16 @@
         "kth-largest-integer-in-a-stream",
         "balanced-binary-tree"
       ]
+    },
+    "2026-10-30": {
+      "created_at": "2026-10-29T21:41:10.881556+00:00",
+      "issue_number": 60,
+      "problem_id": "binary-tree-diameter",
+      "problem_ids": [
+        "binary-tree-diameter",
+        "climbing-stairs",
+        "k-closest-points-to-origin"
+      ]
     }
   },
   "daily_issues": {
@@ -848,6 +858,15 @@
       "problem_id": "is-anagram",
       "problem_ids": [
         "is-anagram"
+      ]
+    },
+    "60": {
+      "day": "2026-10-30",
+      "problem_id": "binary-tree-diameter",
+      "problem_ids": [
+        "binary-tree-diameter",
+        "climbing-stairs",
+        "k-closest-points-to-origin"
       ]
     },
     "7": {
