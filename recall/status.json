@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-10-30",
-  "last_sync": "2026-10-30T08:24:35.857870+00:00",
+  "last_queue_generated": "2026-10-31",
+  "last_sync": "2026-10-30T21:24:22.836253+00:00",
   "pending_acknowledgements": 54,
   "queue_count": 3,
-  "queue_issue": 60,
-  "queue_problem": "binary-tree-diameter",
+  "queue_issue": 61,
+  "queue_problem": "non-cyclical-number",
   "queue_problem_ids": [
-    "binary-tree-diameter",
-    "climbing-stairs",
-    "k-closest-points-to-origin"
+    "non-cyclical-number",
+    "same-binary-tree",
+    "kth-largest-element-in-an-array"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
