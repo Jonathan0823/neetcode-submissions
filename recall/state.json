@@ -1102,7 +1102,7 @@
     },
     "60": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-10-30T08:06:34Z"
+      "updated_at": "2026-10-30T08:23:50Z"
     },
     "7": {
       "actor": "Jonathan0823",
@@ -1170,7 +1170,8 @@
     56,
     57,
     58,
-    59
+    59,
+    60
   ],
   "problems": {
     "add-two-numbers": {
@@ -1517,12 +1518,12 @@
     },
     "k-closest-points-to-origin": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-10-15",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 2,
+      "last_rating": "hint",
+      "last_reviewed_at": "2026-10-30T08:23:50Z",
+      "next_due": "2026-11-01",
+      "review_count": 1,
+      "updated_at": "2026-10-30T08:23:50Z"
     },
     "kth-largest-element-in-an-array": {
       "active": true,
