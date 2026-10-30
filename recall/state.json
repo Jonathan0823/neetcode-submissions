@@ -1102,7 +1102,7 @@
     },
     "60": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-10-30T07:58:41Z"
+      "updated_at": "2026-10-30T08:06:34Z"
     },
     "7": {
       "actor": "Jonathan0823",
@@ -1222,10 +1222,10 @@
       "active": true,
       "interval_days": 2,
       "last_rating": "hint",
-      "last_reviewed_at": "2026-10-13T07:00:09Z",
-      "next_due": "2026-10-15",
-      "review_count": 1,
-      "updated_at": "2026-10-13T07:00:09Z"
+      "last_reviewed_at": "2026-10-30T08:06:34Z",
+      "next_due": "2026-11-01",
+      "review_count": 2,
+      "updated_at": "2026-10-30T08:06:34Z"
     },
     "binary-tree-from-preorder-and-inorder-traversal": {
       "active": true,
