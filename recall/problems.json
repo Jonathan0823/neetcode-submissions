@@ -239,6 +239,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-10-31T05:43:25+07:00",
+    "id": "house-robber-ii",
+    "path": "Data Structures & Algorithms/house-robber-ii",
+    "slug": "house-robber-ii"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-10-18T06:46:07+07:00",
     "id": "implement-prefix-tree",
     "path": "Data Structures & Algorithms/implement-prefix-tree",
