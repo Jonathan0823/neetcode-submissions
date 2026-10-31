@@ -399,6 +399,16 @@
         "same-binary-tree",
         "kth-largest-element-in-an-array"
       ]
+    },
+    "2026-11-01": {
+      "created_at": "2026-10-31T20:24:50.930479+00:00",
+      "issue_number": 62,
+      "problem_id": "linked-list-cycle-detection",
+      "problem_ids": [
+        "linked-list-cycle-detection",
+        "permutation-string",
+        "plus-one"
+      ]
     }
   },
   "daily_issues": {
@@ -886,6 +896,15 @@
         "non-cyclical-number",
         "same-binary-tree",
         "kth-largest-element-in-an-array"
+      ]
+    },
+    "62": {
+      "day": "2026-11-01",
+      "problem_id": "linked-list-cycle-detection",
+      "problem_ids": [
+        "linked-list-cycle-detection",
+        "permutation-string",
+        "plus-one"
       ]
     },
     "7": {
