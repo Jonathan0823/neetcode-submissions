@@ -1148,7 +1148,7 @@
     },
     "62": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-11-01T11:37:33Z"
+      "updated_at": "2026-11-01T12:12:28Z"
     },
     "7": {
       "actor": "Jonathan0823",
@@ -1218,7 +1218,8 @@
     58,
     59,
     60,
-    61
+    61,
+    62
   ],
   "problems": {
     "add-two-numbers": {
@@ -1817,12 +1818,12 @@
     },
     "permutation-string": {
       "active": true,
-      "interval_days": 6,
-      "last_rating": "remembered",
-      "last_reviewed_at": "2026-10-10T02:12:25Z",
-      "next_due": "2026-10-16",
-      "review_count": 2,
-      "updated_at": "2026-10-10T02:12:25Z"
+      "interval_days": 2,
+      "last_rating": "hint",
+      "last_reviewed_at": "2026-11-01T12:12:28Z",
+      "next_due": "2026-11-03",
+      "review_count": 3,
+      "updated_at": "2026-11-01T12:12:28Z"
     },
     "permutations": {
       "active": true,
