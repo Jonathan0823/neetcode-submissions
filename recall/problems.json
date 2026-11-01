@@ -463,6 +463,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-11-02T05:15:15+07:00",
+    "id": "palindromic-substrings",
+    "path": "Data Structures & Algorithms/palindromic-substrings",
+    "slug": "palindromic-substrings"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-09-20T07:30:03+07:00",
     "id": "permutation-string",
     "path": "Data Structures & Algorithms/permutation-string",
