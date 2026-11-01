@@ -409,6 +409,16 @@
         "permutation-string",
         "plus-one"
       ]
+    },
+    "2026-11-02": {
+      "created_at": "2026-11-01T21:01:30.328939+00:00",
+      "issue_number": 63,
+      "problem_id": "anagram-groups",
+      "problem_ids": [
+        "anagram-groups",
+        "last-stone-weight",
+        "longest-repeating-substring-with-replacement"
+      ]
     }
   },
   "daily_issues": {
@@ -905,6 +915,15 @@
         "linked-list-cycle-detection",
         "permutation-string",
         "plus-one"
+      ]
+    },
+    "63": {
+      "day": "2026-11-02",
+      "problem_id": "anagram-groups",
+      "problem_ids": [
+        "anagram-groups",
+        "last-stone-weight",
+        "longest-repeating-substring-with-replacement"
       ]
     },
     "7": {

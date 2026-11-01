@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-11-01",
-  "last_sync": "2026-11-01T12:13:09.218428+00:00",
+  "last_queue_generated": "2026-11-02",
+  "last_sync": "2026-11-01T21:01:30.328939+00:00",
   "pending_acknowledgements": 56,
   "queue_count": 3,
-  "queue_issue": 62,
-  "queue_problem": "linked-list-cycle-detection",
+  "queue_issue": 63,
+  "queue_problem": "anagram-groups",
   "queue_problem_ids": [
-    "linked-list-cycle-detection",
-    "permutation-string",
-    "plus-one"
+    "anagram-groups",
+    "last-stone-weight",
+    "longest-repeating-substring-with-replacement"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
