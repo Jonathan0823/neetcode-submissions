@@ -1444,6 +1444,15 @@
       "review_count": 3,
       "updated_at": "2026-10-20T03:17:54Z"
     },
+    "decode-ways": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-11-04",
+      "review_count": 0,
+      "updated_at": null
+    },
     "depth-of-binary-tree": {
       "active": true,
       "interval_days": 6,
