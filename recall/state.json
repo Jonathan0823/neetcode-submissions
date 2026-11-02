@@ -419,6 +419,16 @@
         "last-stone-weight",
         "longest-repeating-substring-with-replacement"
       ]
+    },
+    "2026-11-03": {
+      "created_at": "2026-11-02T23:49:35.488643+00:00",
+      "issue_number": 64,
+      "problem_id": "lowest-common-ancestor-in-binary-search-tree",
+      "problem_ids": [
+        "lowest-common-ancestor-in-binary-search-tree",
+        "search-2d-matrix",
+        "subtree-of-a-binary-tree"
+      ]
     }
   },
   "daily_issues": {
@@ -924,6 +934,15 @@
         "anagram-groups",
         "last-stone-weight",
         "longest-repeating-substring-with-replacement"
+      ]
+    },
+    "64": {
+      "day": "2026-11-03",
+      "problem_id": "lowest-common-ancestor-in-binary-search-tree",
+      "problem_ids": [
+        "lowest-common-ancestor-in-binary-search-tree",
+        "search-2d-matrix",
+        "subtree-of-a-binary-tree"
       ]
     },
     "7": {
