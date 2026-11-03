@@ -99,6 +99,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-11-04T05:12:58+07:00",
+    "id": "coin-change",
+    "path": "Data Structures & Algorithms/coin-change",
+    "slug": "coin-change"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-10-21T05:19:54+07:00",
     "id": "combination-target-sum",
     "path": "Data Structures & Algorithms/combination-target-sum",
