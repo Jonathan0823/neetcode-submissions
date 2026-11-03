@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-11-03",
-  "last_sync": "2026-11-03T22:13:09.176506+00:00",
+  "last_queue_generated": "2026-11-04",
+  "last_sync": "2026-11-03T22:14:18.260704+00:00",
   "pending_acknowledgements": 59,
   "queue_count": 3,
-  "queue_issue": 65,
-  "queue_problem": "task-scheduling",
+  "queue_issue": 66,
+  "queue_problem": "evaluate-reverse-polish-notation",
   "queue_problem_ids": [
-    "task-scheduling",
-    "time-based-key-value-store",
-    "design-twitter-feed"
+    "evaluate-reverse-polish-notation",
+    "binary-search",
+    "implement-prefix-tree"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
