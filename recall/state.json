@@ -1253,7 +1253,7 @@
     },
     "67": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-11-05T01:34:56Z"
+      "updated_at": "2026-11-05T01:45:27Z"
     },
     "7": {
       "actor": "Jonathan0823",
@@ -1328,7 +1328,8 @@
     63,
     64,
     65,
-    66
+    66,
+    67
   ],
   "problems": {
     "add-two-numbers": {
@@ -1360,12 +1361,12 @@
     },
     "baseball-game": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-10-20",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 3,
+      "last_rating": "remembered",
+      "last_reviewed_at": "2026-11-05T01:45:27Z",
+      "next_due": "2026-11-08",
+      "review_count": 1,
+      "updated_at": "2026-11-05T01:45:27Z"
     },
     "binary-search": {
       "active": true,
