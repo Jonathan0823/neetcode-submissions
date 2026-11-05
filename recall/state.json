@@ -441,7 +441,7 @@
       ]
     },
     "2026-11-05": {
-      "created_at": "2026-11-04T22:29:26.017771+00:00",
+      "created_at": "2026-11-04T22:29:28Z",
       "issue_number": 67,
       "problem_id": "three-integer-sum",
       "problem_ids": [
