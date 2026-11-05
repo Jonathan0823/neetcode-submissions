@@ -691,5 +691,12 @@
     "id": "validate-parentheses",
     "path": "Data Structures & Algorithms/validate-parentheses",
     "slug": "validate-parentheses"
+  },
+  {
+    "active": true,
+    "first_submission_at": "2026-11-06T05:14:58+07:00",
+    "id": "word-break",
+    "path": "Data Structures & Algorithms/word-break",
+    "slug": "word-break"
   }
 ]
