@@ -414,6 +414,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-11-05T15:21:52+07:00",
+    "id": "maximum-product-subarray",
+    "path": "Data Structures & Algorithms/maximum-product-subarray",
+    "slug": "maximum-product-subarray"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-09-08T05:02:04+07:00",
     "id": "meeting-schedule",
     "path": "Data Structures & Algorithms/meeting-schedule",

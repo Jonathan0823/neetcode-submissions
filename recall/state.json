@@ -1863,6 +1863,15 @@
       "review_count": 3,
       "updated_at": "2026-10-21T02:30:45Z"
     },
+    "maximum-product-subarray": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-11-06",
+      "review_count": 0,
+      "updated_at": null
+    },
     "meeting-schedule": {
       "active": true,
       "interval_days": 6,
