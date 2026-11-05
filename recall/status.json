@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-11-05",
-  "last_sync": "2026-11-05T22:16:11.499180+00:00",
+  "last_queue_generated": "2026-11-06",
+  "last_sync": "2026-11-05T22:36:47.259554+00:00",
   "pending_acknowledgements": 61,
   "queue_count": 3,
-  "queue_issue": 67,
-  "queue_problem": "three-integer-sum",
+  "queue_issue": 68,
+  "queue_problem": "contains-duplicate-ii",
   "queue_problem_ids": [
-    "three-integer-sum",
-    "top-k-elements-in-list",
-    "baseball-game"
+    "contains-duplicate-ii",
+    "design-word-search-data-structure",
+    "eating-bananas"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],

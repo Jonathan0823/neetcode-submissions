@@ -449,6 +449,16 @@
         "top-k-elements-in-list",
         "baseball-game"
       ]
+    },
+    "2026-11-06": {
+      "created_at": "2026-11-05T22:36:47.259554+00:00",
+      "issue_number": 68,
+      "problem_id": "contains-duplicate-ii",
+      "problem_ids": [
+        "contains-duplicate-ii",
+        "design-word-search-data-structure",
+        "eating-bananas"
+      ]
     }
   },
   "daily_issues": {
@@ -990,6 +1000,15 @@
         "three-integer-sum",
         "top-k-elements-in-list",
         "baseball-game"
+      ]
+    },
+    "68": {
+      "day": "2026-11-06",
+      "problem_id": "contains-duplicate-ii",
+      "problem_ids": [
+        "contains-duplicate-ii",
+        "design-word-search-data-structure",
+        "eating-bananas"
       ]
     },
     "7": {
