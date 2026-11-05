@@ -1,6 +1,13 @@
 [
   {
     "active": true,
+    "first_submission_at": "2026-11-05T08:53:26+07:00",
+    "id": "4sum",
+    "path": "Data Structures & Algorithms/4sum",
+    "slug": "4sum"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-09-22T05:06:18+07:00",
     "id": "add-two-numbers",
     "path": "Data Structures & Algorithms/add-two-numbers",

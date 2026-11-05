@@ -1332,6 +1332,15 @@
     67
   ],
   "problems": {
+    "4sum": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-11-06",
+      "review_count": 0,
+      "updated_at": null
+    },
     "add-two-numbers": {
       "active": true,
       "interval_days": 2,
