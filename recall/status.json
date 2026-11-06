@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-11-06",
-  "last_sync": "2026-11-06T02:18:33.250181+00:00",
+  "last_queue_generated": "2026-11-07",
+  "last_sync": "2026-11-06T21:58:59.739268+00:00",
   "pending_acknowledgements": 62,
   "queue_count": 3,
-  "queue_issue": 68,
-  "queue_problem": "contains-duplicate-ii",
+  "queue_issue": 69,
+  "queue_problem": "guess-number-higher-or-lower",
   "queue_problem_ids": [
-    "contains-duplicate-ii",
-    "design-word-search-data-structure",
-    "eating-bananas"
+    "guess-number-higher-or-lower",
+    "merge-sorted-array",
+    "merge-strings-alternately"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],

@@ -459,6 +459,16 @@
         "design-word-search-data-structure",
         "eating-bananas"
       ]
+    },
+    "2026-11-07": {
+      "created_at": "2026-11-06T21:58:59.739268+00:00",
+      "issue_number": 69,
+      "problem_id": "guess-number-higher-or-lower",
+      "problem_ids": [
+        "guess-number-higher-or-lower",
+        "merge-sorted-array",
+        "merge-strings-alternately"
+      ]
     }
   },
   "daily_issues": {
@@ -1009,6 +1019,15 @@
         "contains-duplicate-ii",
         "design-word-search-data-structure",
         "eating-bananas"
+      ]
+    },
+    "69": {
+      "day": "2026-11-07",
+      "problem_id": "guess-number-higher-or-lower",
+      "problem_ids": [
+        "guess-number-higher-or-lower",
+        "merge-sorted-array",
+        "merge-strings-alternately"
       ]
     },
     "7": {
