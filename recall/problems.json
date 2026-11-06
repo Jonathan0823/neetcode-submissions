@@ -365,6 +365,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-11-07T06:40:38+07:00",
+    "id": "longest-increasing-subsequence",
+    "path": "Data Structures & Algorithms/longest-increasing-subsequence",
+    "slug": "longest-increasing-subsequence"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-11-01T06:50:56+07:00",
     "id": "longest-palindromic-substring",
     "path": "Data Structures & Algorithms/longest-palindromic-substring",
