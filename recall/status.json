@@ -1,7 +1,7 @@
 {
   "last_queue_generated": "2026-11-06",
-  "last_sync": "2026-11-06T02:17:37.681779+00:00",
-  "pending_acknowledgements": 61,
+  "last_sync": "2026-11-06T02:18:33.250181+00:00",
+  "pending_acknowledgements": 62,
   "queue_count": 3,
   "queue_issue": 68,
   "queue_problem": "contains-duplicate-ii",
@@ -11,9 +11,7 @@
     "eating-bananas"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
-  "review_errors": [
-    "Issue #68: edit attribution is unavailable or unauthorized"
-  ],
+  "review_errors": [],
   "scheduler_version": 1,
   "submission_folders": 100,
   "tracked_problems": 100,
