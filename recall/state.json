@@ -1299,7 +1299,7 @@
     },
     "69": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-11-07T02:50:46Z"
+      "updated_at": "2026-11-07T02:58:01Z"
     },
     "7": {
       "actor": "Jonathan0823",
@@ -1376,7 +1376,8 @@
     65,
     66,
     67,
-    68
+    68,
+    69
   ],
   "problems": {
     "4sum": {
@@ -1948,12 +1949,12 @@
     },
     "merge-strings-alternately": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-10-20",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 3,
+      "last_rating": "remembered",
+      "last_reviewed_at": "2026-11-07T02:58:01Z",
+      "next_due": "2026-11-10",
+      "review_count": 1,
+      "updated_at": "2026-11-07T02:58:01Z"
     },
     "merge-two-sorted-linked-lists": {
       "active": true,
