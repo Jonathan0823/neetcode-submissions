@@ -505,6 +505,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-11-08T06:17:32+07:00",
+    "id": "partition-equal-subset-sum",
+    "path": "Data Structures & Algorithms/partition-equal-subset-sum",
+    "slug": "partition-equal-subset-sum"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-09-20T07:30:03+07:00",
     "id": "permutation-string",
     "path": "Data Structures & Algorithms/permutation-string",
