@@ -469,6 +469,16 @@
         "merge-sorted-array",
         "merge-strings-alternately"
       ]
+    },
+    "2026-11-08": {
+      "created_at": "2026-11-07T20:44:05.849336+00:00",
+      "issue_number": 70,
+      "problem_id": "remove-duplicates-from-sorted-array",
+      "problem_ids": [
+        "remove-duplicates-from-sorted-array",
+        "remove-element",
+        "remove-node-from-end-of-linked-list"
+      ]
     }
   },
   "daily_issues": {
@@ -1035,6 +1045,15 @@
       "problem_id": "is-palindrome",
       "problem_ids": [
         "is-palindrome"
+      ]
+    },
+    "70": {
+      "day": "2026-11-08",
+      "problem_id": "remove-duplicates-from-sorted-array",
+      "problem_ids": [
+        "remove-duplicates-from-sorted-array",
+        "remove-element",
+        "remove-node-from-end-of-linked-list"
       ]
     },
     "8": {
