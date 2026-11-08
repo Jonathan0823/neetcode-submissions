@@ -1326,7 +1326,7 @@
     },
     "70": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-11-08T01:03:24Z"
+      "updated_at": "2026-11-08T01:12:37Z"
     },
     "8": {
       "actor": "Jonathan0823",
@@ -1400,7 +1400,8 @@
     66,
     67,
     68,
-    69
+    69,
+    70
   ],
   "problems": {
     "4sum": {
@@ -2116,12 +2117,12 @@
     },
     "remove-node-from-end-of-linked-list": {
       "active": true,
-      "interval_days": 6,
-      "last_rating": "remembered",
-      "last_reviewed_at": "2026-10-14T06:40:05Z",
-      "next_due": "2026-10-20",
-      "review_count": 2,
-      "updated_at": "2026-10-14T06:40:05Z"
+      "interval_days": 2,
+      "last_rating": "hint",
+      "last_reviewed_at": "2026-11-08T01:12:37Z",
+      "next_due": "2026-11-10",
+      "review_count": 3,
+      "updated_at": "2026-11-08T01:12:37Z"
     },
     "reorder-linked-list": {
       "active": true,
