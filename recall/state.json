@@ -479,6 +479,16 @@
         "remove-element",
         "remove-node-from-end-of-linked-list"
       ]
+    },
+    "2026-11-09": {
+      "created_at": "2026-11-08T21:00:06.380940+00:00",
+      "issue_number": 71,
+      "problem_id": "search-insert-position",
+      "problem_ids": [
+        "search-insert-position",
+        "single-number",
+        "valid-sudoku"
+      ]
     }
   },
   "daily_issues": {
@@ -1054,6 +1064,15 @@
         "remove-duplicates-from-sorted-array",
         "remove-element",
         "remove-node-from-end-of-linked-list"
+      ]
+    },
+    "71": {
+      "day": "2026-11-09",
+      "problem_id": "search-insert-position",
+      "problem_ids": [
+        "search-insert-position",
+        "single-number",
+        "valid-sudoku"
       ]
     },
     "8": {

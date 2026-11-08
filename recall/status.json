@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-11-08",
-  "last_sync": "2026-11-08T01:12:58.815854+00:00",
+  "last_queue_generated": "2026-11-09",
+  "last_sync": "2026-11-08T21:00:06.380940+00:00",
   "pending_acknowledgements": 64,
   "queue_count": 3,
-  "queue_issue": 70,
-  "queue_problem": "remove-duplicates-from-sorted-array",
+  "queue_issue": 71,
+  "queue_problem": "search-insert-position",
   "queue_problem_ids": [
-    "remove-duplicates-from-sorted-array",
-    "remove-element",
-    "remove-node-from-end-of-linked-list"
+    "search-insert-position",
+    "single-number",
+    "valid-sudoku"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
