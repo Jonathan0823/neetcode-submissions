@@ -1959,6 +1959,15 @@
       "review_count": 1,
       "updated_at": "2026-10-21T02:10:28Z"
     },
+    "max-area-of-island": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-11-11",
+      "review_count": 0,
+      "updated_at": null
+    },
     "max-consecutive-ones": {
       "active": true,
       "interval_days": 0,

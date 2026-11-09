@@ -414,6 +414,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-11-10T04:55:22+07:00",
+    "id": "max-area-of-island",
+    "path": "Data Structures & Algorithms/max-area-of-island",
+    "slug": "max-area-of-island"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-10-23T16:08:10+07:00",
     "id": "max-consecutive-ones",
     "path": "Data Structures & Algorithms/max-consecutive-ones",
