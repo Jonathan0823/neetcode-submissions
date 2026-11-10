@@ -1370,6 +1370,10 @@
       "actor": "Jonathan0823",
       "updated_at": "2026-11-09T06:57:56Z"
     },
+    "72": {
+      "actor": "Jonathan0823",
+      "updated_at": "2026-11-10T10:02:37Z"
+    },
     "8": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T06:05:35Z"
@@ -1620,12 +1624,12 @@
     },
     "concatenation-of-array": {
       "active": true,
-      "interval_days": 3,
+      "interval_days": 6,
       "last_rating": "remembered",
-      "last_reviewed_at": "2026-10-18T00:03:25Z",
-      "next_due": "2026-10-21",
-      "review_count": 1,
-      "updated_at": "2026-10-18T00:03:25Z"
+      "last_reviewed_at": "2026-11-10T10:02:37Z",
+      "next_due": "2026-11-16",
+      "review_count": 2,
+      "updated_at": "2026-11-10T10:02:37Z"
     },
     "contains-duplicate-ii": {
       "active": true,
@@ -1739,10 +1743,10 @@
       "active": true,
       "interval_days": 2,
       "last_rating": "hint",
-      "last_reviewed_at": "2026-10-19T04:10:35Z",
-      "next_due": "2026-10-21",
-      "review_count": 2,
-      "updated_at": "2026-10-19T04:10:35Z"
+      "last_reviewed_at": "2026-11-10T10:02:37Z",
+      "next_due": "2026-11-12",
+      "review_count": 3,
+      "updated_at": "2026-11-10T10:02:37Z"
     },
     "find-minimum-in-rotated-sorted-array": {
       "active": true,
