@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-11-11",
-  "last_sync": "2026-11-11T22:22:51.585275+00:00",
+  "last_queue_generated": "2026-11-12",
+  "last_sync": "2026-11-11T23:22:56.603166+00:00",
   "pending_acknowledgements": 67,
   "queue_count": 3,
-  "queue_issue": 73,
-  "queue_problem": "subsets",
+  "queue_issue": 74,
+  "queue_problem": "binary-tree-preorder-traversal",
   "queue_problem_ids": [
-    "subsets",
-    "binary-tree-inorder-traversal",
-    "binary-tree-postorder-traversal"
+    "binary-tree-preorder-traversal",
+    "combination-target-sum",
+    "longest-common-prefix"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
