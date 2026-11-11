@@ -309,6 +309,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-11-12T05:21:50+07:00",
+    "id": "islands-and-treasure",
+    "path": "Data Structures & Algorithms/islands-and-treasure",
+    "slug": "islands-and-treasure"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-10-14T05:10:38+07:00",
     "id": "k-closest-points-to-origin",
     "path": "Data Structures & Algorithms/k-closest-points-to-origin",

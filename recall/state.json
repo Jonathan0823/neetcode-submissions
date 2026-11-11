@@ -1872,6 +1872,15 @@
       "review_count": 4,
       "updated_at": "2026-10-28T00:48:55Z"
     },
+    "islands-and-treasure": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-11-13",
+      "review_count": 0,
+      "updated_at": null
+    },
     "k-closest-points-to-origin": {
       "active": true,
       "interval_days": 2,
