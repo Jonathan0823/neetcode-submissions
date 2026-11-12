@@ -1418,7 +1418,7 @@
     },
     "74": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-11-12T00:14:05Z"
+      "updated_at": "2026-11-12T00:17:15Z"
     },
     "8": {
       "actor": "Jonathan0823",
@@ -1978,12 +1978,12 @@
     },
     "longest-common-prefix": {
       "active": true,
-      "interval_days": 2,
-      "last_rating": "hint",
-      "last_reviewed_at": "2026-10-20T01:52:17Z",
-      "next_due": "2026-10-22",
-      "review_count": 1,
-      "updated_at": "2026-10-20T01:52:17Z"
+      "interval_days": 3,
+      "last_rating": "remembered",
+      "last_reviewed_at": "2026-11-12T00:17:15Z",
+      "next_due": "2026-11-15",
+      "review_count": 2,
+      "updated_at": "2026-11-12T00:17:15Z"
     },
     "longest-consecutive-sequence": {
       "active": true,
