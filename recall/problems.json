@@ -610,6 +610,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-11-13T05:07:22+07:00",
+    "id": "rotting-fruit",
+    "path": "Data Structures & Algorithms/rotting-fruit",
+    "slug": "rotting-fruit"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-10-01T04:51:51+07:00",
     "id": "same-binary-tree",
     "path": "Data Structures & Algorithms/same-binary-tree",
