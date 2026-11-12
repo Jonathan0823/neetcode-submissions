@@ -519,6 +519,16 @@
         "combination-target-sum",
         "longest-common-prefix"
       ]
+    },
+    "2026-11-13": {
+      "created_at": "2026-11-12T22:38:49.587587+00:00",
+      "issue_number": 75,
+      "problem_id": "missing-number",
+      "problem_ids": [
+        "missing-number",
+        "validate-parentheses",
+        "binary-tree-right-side-view"
+      ]
     }
   },
   "daily_issues": {
@@ -1130,6 +1140,15 @@
         "binary-tree-preorder-traversal",
         "combination-target-sum",
         "longest-common-prefix"
+      ]
+    },
+    "75": {
+      "day": "2026-11-13",
+      "problem_id": "missing-number",
+      "problem_ids": [
+        "missing-number",
+        "validate-parentheses",
+        "binary-tree-right-side-view"
       ]
     },
     "8": {
