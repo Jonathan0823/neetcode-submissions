@@ -521,7 +521,7 @@
       ]
     },
     "2026-11-13": {
-      "created_at": "2026-11-12T22:38:49.587587+00:00",
+      "created_at": "2026-11-12T22:38:52Z",
       "issue_number": 75,
       "problem_id": "missing-number",
       "problem_ids": [
@@ -1439,6 +1439,10 @@
       "actor": "Jonathan0823",
       "updated_at": "2026-11-12T10:31:32Z"
     },
+    "75": {
+      "actor": "Jonathan0823",
+      "updated_at": "2026-11-13T00:11:05Z"
+    },
     "8": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T06:05:35Z"
@@ -2160,12 +2164,12 @@
     },
     "missing-number": {
       "active": true,
-      "interval_days": 2,
-      "last_rating": "hint",
-      "last_reviewed_at": "2026-10-20T02:15:03Z",
-      "next_due": "2026-10-22",
-      "review_count": 3,
-      "updated_at": "2026-10-20T02:15:03Z"
+      "interval_days": 3,
+      "last_rating": "remembered",
+      "last_reviewed_at": "2026-11-13T00:11:05Z",
+      "next_due": "2026-11-16",
+      "review_count": 4,
+      "updated_at": "2026-11-13T00:11:05Z"
     },
     "non-cyclical-number": {
       "active": true,
