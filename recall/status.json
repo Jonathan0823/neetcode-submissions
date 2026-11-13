@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-11-13",
-  "last_sync": "2026-11-13T00:59:39.402400+00:00",
+  "last_queue_generated": "2026-11-14",
+  "last_sync": "2026-11-13T22:25:40.902994+00:00",
   "pending_acknowledgements": 69,
   "queue_count": 3,
-  "queue_issue": 75,
-  "queue_problem": "missing-number",
+  "queue_issue": 76,
+  "queue_problem": "combination-target-sum-ii",
   "queue_problem_ids": [
-    "missing-number",
-    "validate-parentheses",
-    "binary-tree-right-side-view"
+    "combination-target-sum-ii",
+    "daily-temperatures",
+    "majority-element"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
