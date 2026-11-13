@@ -1441,7 +1441,7 @@
     },
     "75": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-11-13T00:18:42Z"
+      "updated_at": "2026-11-13T00:50:20Z"
     },
     "8": {
       "actor": "Jonathan0823",
@@ -1520,7 +1520,8 @@
     71,
     72,
     73,
-    74
+    74,
+    75
   ],
   "problems": {
     "4sum": {
@@ -2470,12 +2471,12 @@
     },
     "validate-parentheses": {
       "active": true,
-      "interval_days": 2,
-      "last_rating": "hint",
-      "last_reviewed_at": "2026-10-20T02:44:43Z",
-      "next_due": "2026-10-22",
-      "review_count": 3,
-      "updated_at": "2026-10-20T02:44:43Z"
+      "interval_days": 3,
+      "last_rating": "remembered",
+      "last_reviewed_at": "2026-11-13T00:50:20Z",
+      "next_due": "2026-11-16",
+      "review_count": 4,
+      "updated_at": "2026-11-13T00:50:20Z"
     },
     "word-break": {
       "active": true,
