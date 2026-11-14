@@ -1464,7 +1464,7 @@
     },
     "76": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-11-14T01:09:20Z"
+      "updated_at": "2026-11-14T02:20:31Z"
     },
     "8": {
       "actor": "Jonathan0823",
@@ -1711,12 +1711,12 @@
     },
     "combination-target-sum-ii": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-10-23",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 2,
+      "last_rating": "hint",
+      "last_reviewed_at": "2026-11-14T02:20:31Z",
+      "next_due": "2026-11-16",
+      "review_count": 1,
+      "updated_at": "2026-11-14T02:20:31Z"
     },
     "combinations-of-a-phone-number": {
       "active": true,
