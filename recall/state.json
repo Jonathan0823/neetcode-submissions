@@ -1464,7 +1464,7 @@
     },
     "76": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-11-14T02:20:31Z"
+      "updated_at": "2026-11-14T02:29:33Z"
     },
     "8": {
       "actor": "Jonathan0823",
@@ -1544,7 +1544,8 @@
     72,
     73,
     74,
-    75
+    75,
+    76
   ],
   "problems": {
     "4sum": {
@@ -1774,12 +1775,12 @@
     },
     "daily-temperatures": {
       "active": true,
-      "interval_days": 3,
+      "interval_days": 6,
       "last_rating": "remembered",
-      "last_reviewed_at": "2026-10-20T03:17:54Z",
-      "next_due": "2026-10-23",
-      "review_count": 3,
-      "updated_at": "2026-10-20T03:17:54Z"
+      "last_reviewed_at": "2026-11-14T02:29:33Z",
+      "next_due": "2026-11-20",
+      "review_count": 4,
+      "updated_at": "2026-11-14T02:29:33Z"
     },
     "decode-ways": {
       "active": true,
