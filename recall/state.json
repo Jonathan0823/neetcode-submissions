@@ -539,6 +539,16 @@
         "daily-temperatures",
         "majority-element"
       ]
+    },
+    "2026-11-15": {
+      "created_at": "2026-11-14T21:13:29.001627+00:00",
+      "issue_number": 77,
+      "problem_id": "meeting-schedule",
+      "problem_ids": [
+        "meeting-schedule",
+        "car-fleet",
+        "length-of-last-word"
+      ]
     }
   },
   "daily_issues": {
@@ -1168,6 +1178,15 @@
         "combination-target-sum-ii",
         "daily-temperatures",
         "majority-element"
+      ]
+    },
+    "77": {
+      "day": "2026-11-15",
+      "problem_id": "meeting-schedule",
+      "problem_ids": [
+        "meeting-schedule",
+        "car-fleet",
+        "length-of-last-word"
       ]
     },
     "8": {
