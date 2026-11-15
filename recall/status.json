@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-11-15",
-  "last_sync": "2026-11-15T15:28:01.651312+00:00",
+  "last_queue_generated": "2026-11-16",
+  "last_sync": "2026-11-15T21:33:49.499309+00:00",
   "pending_acknowledgements": 71,
   "queue_count": 3,
-  "queue_issue": 77,
-  "queue_problem": "meeting-schedule",
+  "queue_issue": 78,
+  "queue_problem": "max-consecutive-ones",
   "queue_problem_ids": [
-    "meeting-schedule",
-    "car-fleet",
-    "length-of-last-word"
+    "max-consecutive-ones",
+    "number-of-senior-citizens",
+    "permutations"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
