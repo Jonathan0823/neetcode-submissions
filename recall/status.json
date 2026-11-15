@@ -1,6 +1,6 @@
 {
   "last_queue_generated": "2026-11-16",
-  "last_sync": "2026-11-15T21:33:49.499309+00:00",
+  "last_sync": "2026-11-15T22:08:35.287081+00:00",
   "pending_acknowledgements": 71,
   "queue_count": 3,
   "queue_issue": 78,
@@ -13,8 +13,8 @@
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
   "scheduler_version": 1,
-  "submission_folders": 109,
-  "tracked_problems": 109,
+  "submission_folders": 110,
+  "tracked_problems": 110,
   "unsynced": 0,
   "version": 1
 }
