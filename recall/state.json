@@ -1487,7 +1487,7 @@
     },
     "77": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-11-15T03:31:10Z"
+      "updated_at": "2026-11-15T03:35:14Z"
     },
     "8": {
       "actor": "Jonathan0823",
@@ -2158,12 +2158,12 @@
     },
     "meeting-schedule": {
       "active": true,
-      "interval_days": 6,
+      "interval_days": 12,
       "last_rating": "remembered",
-      "last_reviewed_at": "2026-10-17T13:43:28Z",
-      "next_due": "2026-10-23",
-      "review_count": 3,
-      "updated_at": "2026-10-17T13:43:28Z"
+      "last_reviewed_at": "2026-11-15T03:35:14Z",
+      "next_due": "2026-11-27",
+      "review_count": 4,
+      "updated_at": "2026-11-15T03:35:14Z"
     },
     "merge-sorted-array": {
       "active": true,
