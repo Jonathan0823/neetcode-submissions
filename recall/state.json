@@ -1830,6 +1830,15 @@
       "review_count": 0,
       "updated_at": null
     },
+    "course-schedule-ii": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-11-18",
+      "review_count": 0,
+      "updated_at": null
+    },
     "daily-temperatures": {
       "active": true,
       "interval_days": 6,
