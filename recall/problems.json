@@ -764,6 +764,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-11-18T04:57:51+07:00",
+    "id": "valid-tree",
+    "path": "Data Structures & Algorithms/valid-tree",
+    "slug": "valid-tree"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-09-07T05:33:26+07:00",
     "id": "validate-parentheses",
     "path": "Data Structures & Algorithms/validate-parentheses",

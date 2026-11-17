@@ -2601,6 +2601,15 @@
       "review_count": 2,
       "updated_at": "2026-11-09T06:57:56Z"
     },
+    "valid-tree": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-11-19",
+      "review_count": 0,
+      "updated_at": null
+    },
     "validate-parentheses": {
       "active": true,
       "interval_days": 3,
