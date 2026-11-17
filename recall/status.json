@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-11-17",
-  "last_sync": "2026-11-17T22:15:16.882290+00:00",
+  "last_queue_generated": "2026-11-18",
+  "last_sync": "2026-11-17T23:47:19.249618+00:00",
   "pending_acknowledgements": 73,
   "queue_count": 3,
-  "queue_issue": 79,
-  "queue_problem": "string-encode-and-decode",
+  "queue_issue": 80,
+  "queue_problem": "merge-two-sorted-linked-lists",
   "queue_problem_ids": [
-    "string-encode-and-decode",
-    "count-good-nodes-in-binary-tree",
-    "find-minimum-in-rotated-sorted-array"
+    "merge-two-sorted-linked-lists",
+    "reverse-string",
+    "subsets-ii"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
