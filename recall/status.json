@@ -1,6 +1,6 @@
 {
   "last_queue_generated": "2026-11-17",
-  "last_sync": "2026-11-17T06:12:16.530218+00:00",
+  "last_sync": "2026-11-17T06:21:05.896333+00:00",
   "pending_acknowledgements": 72,
   "queue_count": 3,
   "queue_issue": 79,
@@ -11,7 +11,9 @@
     "find-minimum-in-rotated-sorted-array"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
-  "review_errors": [],
+  "review_errors": [
+    "Issue #79: edit attribution is unavailable or unauthorized"
+  ],
   "scheduler_version": 1,
   "submission_folders": 111,
   "tracked_problems": 111,
