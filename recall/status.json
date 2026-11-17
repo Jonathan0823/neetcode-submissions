@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-11-16",
-  "last_sync": "2026-11-16T22:12:03.995045+00:00",
+  "last_queue_generated": "2026-11-17",
+  "last_sync": "2026-11-17T00:41:54.065560+00:00",
   "pending_acknowledgements": 72,
   "queue_count": 3,
-  "queue_issue": 78,
-  "queue_problem": "max-consecutive-ones",
+  "queue_issue": 79,
+  "queue_problem": "string-encode-and-decode",
   "queue_problem_ids": [
-    "max-consecutive-ones",
-    "number-of-senior-citizens",
-    "permutations"
+    "string-encode-and-decode",
+    "count-good-nodes-in-binary-tree",
+    "find-minimum-in-rotated-sorted-array"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
