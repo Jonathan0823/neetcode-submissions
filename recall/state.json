@@ -1531,6 +1531,10 @@
       "actor": "Jonathan0823",
       "updated_at": "2026-11-16T06:46:36Z"
     },
+    "79": {
+      "actor": "Jonathan0823",
+      "updated_at": "2026-11-17T06:04:27Z"
+    },
     "8": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T06:05:35Z"
@@ -1826,10 +1830,10 @@
       "active": true,
       "interval_days": 2,
       "last_rating": "hint",
-      "last_reviewed_at": "2026-10-23T07:25:39Z",
-      "next_due": "2026-10-25",
-      "review_count": 1,
-      "updated_at": "2026-10-23T07:25:39Z"
+      "last_reviewed_at": "2026-11-17T06:04:27Z",
+      "next_due": "2026-11-19",
+      "review_count": 2,
+      "updated_at": "2026-11-17T06:04:27Z"
     },
     "count-number-of-islands": {
       "active": true,
