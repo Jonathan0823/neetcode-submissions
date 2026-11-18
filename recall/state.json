@@ -1560,7 +1560,7 @@
     },
     "80": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-11-18T05:43:15Z"
+      "updated_at": "2026-11-18T05:59:49Z"
     },
     "9": {
       "actor": "Jonathan0823",
@@ -2275,12 +2275,12 @@
     },
     "merge-two-sorted-linked-lists": {
       "active": true,
-      "interval_days": 2,
-      "last_rating": "hint",
-      "last_reviewed_at": "2026-10-23T07:33:41Z",
-      "next_due": "2026-10-25",
-      "review_count": 3,
-      "updated_at": "2026-10-23T07:33:41Z"
+      "interval_days": 3,
+      "last_rating": "remembered",
+      "last_reviewed_at": "2026-11-18T05:59:49Z",
+      "next_due": "2026-11-21",
+      "review_count": 4,
+      "updated_at": "2026-11-18T05:59:49Z"
     },
     "min-cost-climbing-stairs": {
       "active": true,
