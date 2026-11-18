@@ -162,6 +162,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-11-19T04:50:00+07:00",
+    "id": "count-connected-components",
+    "path": "Data Structures & Algorithms/count-connected-components",
+    "slug": "count-connected-components"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-10-08T05:10:33+07:00",
     "id": "count-good-nodes-in-binary-tree",
     "path": "Data Structures & Algorithms/count-good-nodes-in-binary-tree",
