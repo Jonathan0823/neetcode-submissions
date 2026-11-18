@@ -1558,6 +1558,10 @@
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T06:05:35Z"
     },
+    "80": {
+      "actor": "Jonathan0823",
+      "updated_at": "2026-11-18T05:43:15Z"
+    },
     "9": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T06:31:15Z"
@@ -2442,12 +2446,12 @@
     },
     "reverse-string": {
       "active": true,
-      "interval_days": 3,
+      "interval_days": 6,
       "last_rating": "remembered",
-      "last_reviewed_at": "2026-10-22T05:58:22Z",
-      "next_due": "2026-10-25",
-      "review_count": 1,
-      "updated_at": "2026-10-22T05:58:22Z"
+      "last_reviewed_at": "2026-11-18T05:43:15Z",
+      "next_due": "2026-11-24",
+      "review_count": 2,
+      "updated_at": "2026-11-18T05:43:15Z"
     },
     "rotting-fruit": {
       "active": true,
