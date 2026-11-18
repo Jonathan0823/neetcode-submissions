@@ -579,6 +579,16 @@
         "reverse-string",
         "subsets-ii"
       ]
+    },
+    "2026-11-19": {
+      "created_at": "2026-11-18T23:18:52.978871+00:00",
+      "issue_number": 81,
+      "problem_id": "copy-linked-list-with-random-pointer",
+      "problem_ids": [
+        "copy-linked-list-with-random-pointer",
+        "find-target-in-rotated-sorted-array",
+        "generate-parentheses"
+      ]
     }
   },
   "daily_issues": {
@@ -1251,6 +1261,15 @@
         "merge-two-sorted-linked-lists",
         "reverse-string",
         "subsets-ii"
+      ]
+    },
+    "81": {
+      "day": "2026-11-19",
+      "problem_id": "copy-linked-list-with-random-pointer",
+      "problem_ids": [
+        "copy-linked-list-with-random-pointer",
+        "find-target-in-rotated-sorted-array",
+        "generate-parentheses"
       ]
     },
     "9": {

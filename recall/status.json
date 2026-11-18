@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-11-18",
-  "last_sync": "2026-11-18T22:22:07.311538+00:00",
+  "last_queue_generated": "2026-11-19",
+  "last_sync": "2026-11-18T23:18:52.978871+00:00",
   "pending_acknowledgements": 74,
   "queue_count": 3,
-  "queue_issue": 80,
-  "queue_problem": "merge-two-sorted-linked-lists",
+  "queue_issue": 81,
+  "queue_problem": "copy-linked-list-with-random-pointer",
   "queue_problem_ids": [
-    "merge-two-sorted-linked-lists",
-    "reverse-string",
-    "subsets-ii"
+    "copy-linked-list-with-random-pointer",
+    "find-target-in-rotated-sorted-array",
+    "generate-parentheses"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
