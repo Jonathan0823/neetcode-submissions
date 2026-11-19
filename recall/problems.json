@@ -596,6 +596,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-11-20T05:11:24+07:00",
+    "id": "redundant-connection",
+    "path": "Data Structures & Algorithms/redundant-connection",
+    "slug": "redundant-connection"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-10-19T13:51:09+07:00",
     "id": "remove-duplicates-from-sorted-array",
     "path": "Data Structures & Algorithms/remove-duplicates-from-sorted-array",
