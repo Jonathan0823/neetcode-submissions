@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-11-19",
-  "last_sync": "2026-11-19T22:11:47.925185+00:00",
+  "last_queue_generated": "2026-11-20",
+  "last_sync": "2026-11-19T23:27:05.749910+00:00",
   "pending_acknowledgements": 75,
   "queue_count": 3,
-  "queue_issue": 81,
-  "queue_problem": "copy-linked-list-with-random-pointer",
+  "queue_issue": 82,
+  "queue_problem": "valid-binary-search-tree",
   "queue_problem_ids": [
-    "copy-linked-list-with-random-pointer",
-    "find-target-in-rotated-sorted-array",
-    "generate-parentheses"
+    "valid-binary-search-tree",
+    "add-two-numbers",
+    "kth-smallest-integer-in-bst"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
