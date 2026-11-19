@@ -1581,6 +1581,10 @@
       "actor": "Jonathan0823",
       "updated_at": "2026-11-18T07:27:23Z"
     },
+    "81": {
+      "actor": "Jonathan0823",
+      "updated_at": "2026-11-19T06:44:48Z"
+    },
     "9": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T06:31:15Z"
@@ -1863,12 +1867,12 @@
     },
     "copy-linked-list-with-random-pointer": {
       "active": true,
-      "interval_days": 2,
-      "last_rating": "hint",
-      "last_reviewed_at": "2026-10-24T06:05:47Z",
-      "next_due": "2026-10-26",
-      "review_count": 2,
-      "updated_at": "2026-10-24T06:05:47Z"
+      "interval_days": 3,
+      "last_rating": "remembered",
+      "last_reviewed_at": "2026-11-19T06:44:48Z",
+      "next_due": "2026-11-22",
+      "review_count": 3,
+      "updated_at": "2026-11-19T06:44:48Z"
     },
     "count-connected-components": {
       "active": true,
