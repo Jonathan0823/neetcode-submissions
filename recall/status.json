@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-11-20",
-  "last_sync": "2026-11-20T22:39:59.684583+00:00",
+  "last_queue_generated": "2026-11-21",
+  "last_sync": "2026-11-20T22:59:42.343224+00:00",
   "pending_acknowledgements": 76,
   "queue_count": 3,
-  "queue_issue": 82,
-  "queue_problem": "valid-binary-search-tree",
+  "queue_issue": 83,
+  "queue_problem": "search-for-word",
   "queue_problem_ids": [
-    "valid-binary-search-tree",
-    "add-two-numbers",
-    "kth-smallest-integer-in-bst"
+    "search-for-word",
+    "buy-and-sell-crypto",
+    "duplicate-integer"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],

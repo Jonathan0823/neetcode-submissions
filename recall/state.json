@@ -599,6 +599,16 @@
         "add-two-numbers",
         "kth-smallest-integer-in-bst"
       ]
+    },
+    "2026-11-21": {
+      "created_at": "2026-11-20T22:59:42.343224+00:00",
+      "issue_number": 83,
+      "problem_id": "search-for-word",
+      "problem_ids": [
+        "search-for-word",
+        "buy-and-sell-crypto",
+        "duplicate-integer"
+      ]
     }
   },
   "daily_issues": {
@@ -1289,6 +1299,15 @@
         "valid-binary-search-tree",
         "add-two-numbers",
         "kth-smallest-integer-in-bst"
+      ]
+    },
+    "83": {
+      "day": "2026-11-21",
+      "problem_id": "search-for-word",
+      "problem_ids": [
+        "search-for-word",
+        "buy-and-sell-crypto",
+        "duplicate-integer"
       ]
     },
     "9": {
