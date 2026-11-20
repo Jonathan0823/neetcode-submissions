@@ -591,7 +591,7 @@
       ]
     },
     "2026-11-20": {
-      "created_at": "2026-11-19T23:27:05.749910+00:00",
+      "created_at": "2026-11-19T23:27:10Z",
       "issue_number": 82,
       "problem_id": "valid-binary-search-tree",
       "problem_ids": [
