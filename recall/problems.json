@@ -183,6 +183,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-11-21T05:39:43+07:00",
+    "id": "counting-bits",
+    "path": "Data Structures & Algorithms/counting-bits",
+    "slug": "counting-bits"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-11-16T05:08:26+07:00",
     "id": "course-schedule",
     "path": "Data Structures & Algorithms/course-schedule",
