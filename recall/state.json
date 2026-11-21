@@ -1627,6 +1627,10 @@
       "actor": "Jonathan0823",
       "updated_at": "2026-11-20T09:24:23Z"
     },
+    "83": {
+      "actor": "Jonathan0823",
+      "updated_at": "2026-11-21T03:06:26Z"
+    },
     "9": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T06:31:15Z"
@@ -2586,12 +2590,12 @@
     },
     "search-for-word": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-10-27",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 3,
+      "last_rating": "remembered",
+      "last_reviewed_at": "2026-11-21T03:06:26Z",
+      "next_due": "2026-11-24",
+      "review_count": 1,
+      "updated_at": "2026-11-21T03:06:26Z"
     },
     "search-insert-position": {
       "active": true,
