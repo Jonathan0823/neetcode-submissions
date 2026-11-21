@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-11-21",
-  "last_sync": "2026-11-21T07:28:05.469517+00:00",
+  "last_queue_generated": "2026-11-22",
+  "last_sync": "2026-11-21T22:05:15.969070+00:00",
   "pending_acknowledgements": 77,
   "queue_count": 3,
-  "queue_issue": 83,
-  "queue_problem": "search-for-word",
+  "queue_issue": 84,
+  "queue_problem": "combinations-of-a-phone-number",
   "queue_problem_ids": [
-    "search-for-word",
-    "buy-and-sell-crypto",
-    "duplicate-integer"
+    "combinations-of-a-phone-number",
+    "palindrome-partitioning",
+    "products-of-array-discluding-self"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
