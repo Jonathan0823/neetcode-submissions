@@ -1652,7 +1652,7 @@
     },
     "84": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-11-22T13:05:29Z"
+      "updated_at": "2026-11-22T13:15:40Z"
     },
     "9": {
       "actor": "Jonathan0823",
@@ -2470,12 +2470,12 @@
     },
     "palindrome-partitioning": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-10-29",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 2,
+      "last_rating": "hint",
+      "last_reviewed_at": "2026-11-22T13:15:40Z",
+      "next_due": "2026-11-24",
+      "review_count": 1,
+      "updated_at": "2026-11-22T13:15:40Z"
     },
     "palindromic-substrings": {
       "active": true,
