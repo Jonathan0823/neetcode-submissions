@@ -1652,7 +1652,7 @@
     },
     "84": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-11-22T13:15:40Z"
+      "updated_at": "2026-11-22T13:17:22Z"
     },
     "9": {
       "actor": "Jonathan0823",
@@ -1736,7 +1736,8 @@
     80,
     81,
     82,
-    83
+    83,
+    84
   ],
   "problems": {
     "4sum": {
@@ -2524,12 +2525,12 @@
     },
     "products-of-array-discluding-self": {
       "active": true,
-      "interval_days": 2,
-      "last_rating": "hint",
-      "last_reviewed_at": "2026-10-27T06:59:44Z",
-      "next_due": "2026-10-29",
-      "review_count": 1,
-      "updated_at": "2026-10-27T06:59:44Z"
+      "interval_days": 1,
+      "last_rating": "forgot",
+      "last_reviewed_at": "2026-11-22T13:17:22Z",
+      "next_due": "2026-11-23",
+      "review_count": 2,
+      "updated_at": "2026-11-22T13:17:22Z"
     },
     "redundant-connection": {
       "active": true,
