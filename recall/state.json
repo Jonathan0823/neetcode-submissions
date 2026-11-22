@@ -619,6 +619,16 @@
         "palindrome-partitioning",
         "products-of-array-discluding-self"
       ]
+    },
+    "2026-11-23": {
+      "created_at": "2026-11-22T22:21:28.592554+00:00",
+      "issue_number": 85,
+      "problem_id": "reorder-linked-list",
+      "problem_ids": [
+        "reorder-linked-list",
+        "min-cost-climbing-stairs",
+        "balanced-binary-tree"
+      ]
     }
   },
   "daily_issues": {
@@ -1327,6 +1337,15 @@
         "combinations-of-a-phone-number",
         "palindrome-partitioning",
         "products-of-array-discluding-self"
+      ]
+    },
+    "85": {
+      "day": "2026-11-23",
+      "problem_id": "reorder-linked-list",
+      "problem_ids": [
+        "reorder-linked-list",
+        "min-cost-climbing-stairs",
+        "balanced-binary-tree"
       ]
     },
     "9": {
