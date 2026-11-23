@@ -351,6 +351,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-11-24T05:04:08+07:00",
+    "id": "jump-game-ii",
+    "path": "Data Structures & Algorithms/jump-game-ii",
+    "slug": "jump-game-ii"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-10-14T05:10:38+07:00",
     "id": "k-closest-points-to-origin",
     "path": "Data Structures & Algorithms/k-closest-points-to-origin",
