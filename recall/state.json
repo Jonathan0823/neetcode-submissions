@@ -1675,7 +1675,7 @@
     },
     "85": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-11-23T06:04:02Z"
+      "updated_at": "2026-11-23T06:19:14Z"
     },
     "9": {
       "actor": "Jonathan0823",
@@ -2440,12 +2440,12 @@
     },
     "min-cost-climbing-stairs": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-10-30",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 2,
+      "last_rating": "hint",
+      "last_reviewed_at": "2026-11-23T06:19:14Z",
+      "next_due": "2026-11-25",
+      "review_count": 1,
+      "updated_at": "2026-11-23T06:19:14Z"
     },
     "minimum-stack": {
       "active": true,
