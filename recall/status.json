@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-11-23",
-  "last_sync": "2026-11-23T22:04:19.894793+00:00",
-  "pending_acknowledgements": 79,
+  "last_queue_generated": "2026-11-24",
+  "last_sync": "2026-11-24T03:12:18.398354+00:00",
+  "pending_acknowledgements": 0,
   "queue_count": 3,
-  "queue_issue": 85,
-  "queue_problem": "reorder-linked-list",
+  "queue_issue": 86,
+  "queue_problem": "binary-tree-from-preorder-and-inorder-traversal",
   "queue_problem_ids": [
-    "reorder-linked-list",
-    "min-cost-climbing-stairs",
-    "balanced-binary-tree"
+    "binary-tree-from-preorder-and-inorder-traversal",
+    "house-robber",
+    "is-anagram"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
