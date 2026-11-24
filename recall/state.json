@@ -1705,9 +1705,7 @@
       "updated_at": "2026-09-22T06:31:15Z"
     }
   },
-  "pending_acknowledgements": [
-    86
-  ],
+  "pending_acknowledgements": [],
   "problems": {
     "4sum": {
       "active": true,
@@ -2068,6 +2066,15 @@
       "next_due": "2026-11-22",
       "review_count": 3,
       "updated_at": "2026-11-19T06:58:59Z"
+    },
+    "gas-station": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-11-26",
+      "review_count": 0,
+      "updated_at": null
     },
     "generate-parentheses": {
       "active": true,

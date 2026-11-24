@@ -1,7 +1,7 @@
 {
   "last_queue_generated": "2026-11-24",
-  "last_sync": "2026-11-24T07:18:25.895594+00:00",
-  "pending_acknowledgements": 1,
+  "last_sync": "2026-11-24T22:05:47.893850+00:00",
+  "pending_acknowledgements": 0,
   "queue_count": 3,
   "queue_issue": 86,
   "queue_problem": "binary-tree-from-preorder-and-inorder-traversal",
@@ -13,8 +13,8 @@
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
   "scheduler_version": 1,
-  "submission_folders": 119,
-  "tracked_problems": 119,
+  "submission_folders": 120,
+  "tracked_problems": 120,
   "unsynced": 0,
   "version": 1
 }
