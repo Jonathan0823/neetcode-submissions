@@ -149,6 +149,8 @@ def reconcile_issues(
     acknowledge: list[int] = []
     errors: list[str] = []
     seen_issue_numbers: set[int] = set()
+    # Completed Issues that are still open; only these may stay pending.
+    complete_open: set[int] = set()
     for issue in issues:
         parsed = parse_issue_sections(issue)
         if parsed is None:
@@ -156,6 +158,7 @@ def reconcile_issues(
         day, sections = parsed
         issue_number = int(issue["number"])
         seen_issue_numbers.add(issue_number)
+        issue_open = issue.get("state", "open") != "closed"
         expected = canonical.get(str(issue_number))
         actual_ids = [section["problem_id"] for section in sections]
         if expected is None or expected != (day, actual_ids):
@@ -205,12 +208,17 @@ def reconcile_issues(
             latest_by_review[(str(issue_number), record["problem_id"])] = record
 
         # Keep partial Issues open; the next edit can complete the remaining sections.
-        if len(selected_sections) == len(sections):
-            acknowledge.append(issue_number)
+        # Only acknowledge a completion recorded in this run, so already-closed
+        # Issues are not re-closed every run and a reopened Issue stays open.
+        if len(selected_sections) == len(sections) and issue_open:
+            complete_open.add(issue_number)
+            if issue_records:
+                acknowledge.append(issue_number)
 
     pending = set(int(item) for item in state.get("pending_acknowledgements", []))
-    # A stale pending entry must not close a partially completed Issue.
-    pending.difference_update(seen_issue_numbers)
+    # Drop seen Issues that are closed (acknowledged) or no longer complete; keep
+    # open completed ones so a failed acknowledgement is retried next run.
+    pending.difference_update(seen_issue_numbers - complete_open)
     pending.update(acknowledge)
     state["pending_acknowledgements"] = sorted(pending)
     return new_records, acknowledge, errors

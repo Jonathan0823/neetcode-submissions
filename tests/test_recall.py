@@ -367,6 +367,44 @@ class RecallTests(unittest.TestCase):
         self.assertEqual([42], acknowledge)
         self.assertFalse(errors)
 
+    def test_acknowledgements_drop_closed_and_skip_reopened_issues(self):
+        problems = [{"id": "binary-search", "slug": "binary-search"}]
+        label = "I remember it and can explain it without help"
+        body = render_daily_body(problems, "2026-09-22", {}).replace(
+            f"- [ ] {label}", f"- [x] {label}", 1
+        )
+        issue = {"number": 42, "body": body, "updated_at": "2026-09-22T01:00:00Z"}
+        state = {
+            "daily_issues": {"42": {"day": "2026-09-22", "problem_ids": ["binary-search"]}},
+            "editor_provenance": {
+                "42": {"actor": "Jonathan0823", "updated_at": issue["updated_at"]}
+            },
+            "pending_acknowledgements": [],
+        }
+        config = {"learner_login": "Jonathan0823"}
+        now = datetime(2026, 9, 22, tzinfo=timezone.utc)
+
+        # Newly completed: acknowledged and pending.
+        records, acknowledge, _ = reconcile_issues([issue], state, [], FakeGitHub(), config, now)
+        self.assertEqual([42], acknowledge)
+        self.assertEqual([42], state["pending_acknowledgements"])
+
+        # Acknowledgement failed, Issue still open: stays pending for retry.
+        _, acknowledge, _ = reconcile_issues([issue], state, records, FakeGitHub(), config, now)
+        self.assertEqual([], acknowledge)
+        self.assertEqual([42], state["pending_acknowledgements"])
+
+        # Closed: drops out of pending.
+        issue["state"] = "closed"
+        reconcile_issues([issue], state, records, FakeGitHub(), config, now)
+        self.assertEqual([], state["pending_acknowledgements"])
+
+        # Reopened without new answers: not closed again.
+        issue["state"] = "open"
+        _, acknowledge, _ = reconcile_issues([issue], state, records, FakeGitHub(), config, now)
+        self.assertEqual([], acknowledge)
+        self.assertEqual([], state["pending_acknowledgements"])
+
     def test_workflow_retries_by_regenerating_from_origin(self):
         workflow = Path(".github/workflows/recall.yml").read_text()
         self.assertIn("git reset --hard origin/main", workflow)
