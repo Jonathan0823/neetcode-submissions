@@ -1698,7 +1698,7 @@
     },
     "86": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-11-24T06:29:35Z"
+      "updated_at": "2026-11-24T06:59:18Z"
     },
     "9": {
       "actor": "Jonathan0823",
@@ -2087,12 +2087,12 @@
     },
     "house-robber": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-10-31",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 2,
+      "last_rating": "hint",
+      "last_reviewed_at": "2026-11-24T06:59:18Z",
+      "next_due": "2026-11-26",
+      "review_count": 1,
+      "updated_at": "2026-11-24T06:59:18Z"
     },
     "house-robber-ii": {
       "active": true,
