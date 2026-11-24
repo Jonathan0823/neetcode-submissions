@@ -1,7 +1,7 @@
 {
   "last_queue_generated": "2026-11-24",
-  "last_sync": "2026-11-24T07:12:05.391391+00:00",
-  "pending_acknowledgements": 0,
+  "last_sync": "2026-11-24T07:18:25.895594+00:00",
+  "pending_acknowledgements": 1,
   "queue_count": 3,
   "queue_issue": 86,
   "queue_problem": "binary-tree-from-preorder-and-inorder-traversal",
