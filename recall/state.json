@@ -1719,6 +1719,10 @@
       "actor": "Jonathan0823",
       "updated_at": "2026-11-24T07:18:16Z"
     },
+    "87": {
+      "actor": "Jonathan0823",
+      "updated_at": "2026-11-25T06:59:32Z"
+    },
     "9": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T06:31:15Z"
@@ -2160,12 +2164,12 @@
     },
     "is-palindrome": {
       "active": true,
-      "interval_days": 3,
+      "interval_days": 6,
       "last_rating": "remembered",
-      "last_reviewed_at": "2026-10-28T00:48:55Z",
-      "next_due": "2026-10-31",
-      "review_count": 4,
-      "updated_at": "2026-10-28T00:48:55Z"
+      "last_reviewed_at": "2026-11-25T06:59:32Z",
+      "next_due": "2026-12-01",
+      "review_count": 5,
+      "updated_at": "2026-11-25T06:59:32Z"
     },
     "islands-and-treasure": {
       "active": true,
