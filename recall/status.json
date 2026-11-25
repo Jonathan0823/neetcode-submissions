@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-11-24",
-  "last_sync": "2026-11-24T22:09:34.130089+00:00",
+  "last_queue_generated": "2026-11-25",
+  "last_sync": "2026-11-25T01:17:14.680391+00:00",
   "pending_acknowledgements": 0,
   "queue_count": 3,
-  "queue_issue": 86,
-  "queue_problem": "binary-tree-from-preorder-and-inorder-traversal",
+  "queue_issue": 87,
+  "queue_problem": "is-palindrome",
   "queue_problem_ids": [
-    "binary-tree-from-preorder-and-inorder-traversal",
-    "house-robber",
-    "is-anagram"
+    "is-palindrome",
+    "kth-largest-integer-in-a-stream",
+    "binary-tree-diameter"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
