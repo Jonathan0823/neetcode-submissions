@@ -1721,14 +1721,16 @@
     },
     "87": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-11-25T13:14:30Z"
+      "updated_at": "2026-11-25T21:37:32Z"
     },
     "9": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T06:31:15Z"
     }
   },
-  "pending_acknowledgements": [],
+  "pending_acknowledgements": [
+    87
+  ],
   "problems": {
     "4sum": {
       "active": true,
@@ -2220,10 +2222,10 @@
       "active": true,
       "interval_days": 2,
       "last_rating": "hint",
-      "last_reviewed_at": "2026-10-29T06:06:01Z",
-      "next_due": "2026-10-31",
-      "review_count": 1,
-      "updated_at": "2026-10-29T06:06:01Z"
+      "last_reviewed_at": "2026-11-25T21:37:32Z",
+      "next_due": "2026-11-28",
+      "review_count": 2,
+      "updated_at": "2026-11-25T21:37:32Z"
     },
     "kth-smallest-integer-in-bst": {
       "active": true,
