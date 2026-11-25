@@ -302,6 +302,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-11-26T05:15:28+07:00",
+    "id": "hand-of-straights",
+    "path": "Data Structures & Algorithms/hand-of-straights",
+    "slug": "hand-of-straights"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-10-30T05:06:09+07:00",
     "id": "house-robber",
     "path": "Data Structures & Algorithms/house-robber",

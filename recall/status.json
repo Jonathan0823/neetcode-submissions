@@ -1,7 +1,7 @@
 {
   "last_queue_generated": "2026-11-25",
-  "last_sync": "2026-11-25T21:37:52.877047+00:00",
-  "pending_acknowledgements": 1,
+  "last_sync": "2026-11-25T22:15:39.247470+00:00",
+  "pending_acknowledgements": 0,
   "queue_count": 3,
   "queue_issue": 87,
   "queue_problem": "is-palindrome",
@@ -13,8 +13,8 @@
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
   "scheduler_version": 1,
-  "submission_folders": 120,
-  "tracked_problems": 120,
+  "submission_folders": 121,
+  "tracked_problems": 121,
   "unsynced": 0,
   "version": 1
 }

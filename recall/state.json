@@ -1728,9 +1728,7 @@
       "updated_at": "2026-09-22T06:31:15Z"
     }
   },
-  "pending_acknowledgements": [
-    87
-  ],
+  "pending_acknowledgements": [],
   "problems": {
     "4sum": {
       "active": true,
@@ -2118,6 +2116,15 @@
       "next_due": "2026-11-10",
       "review_count": 1,
       "updated_at": "2026-11-07T02:45:51Z"
+    },
+    "hand-of-straights": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-11-27",
+      "review_count": 0,
+      "updated_at": null
     },
     "house-robber": {
       "active": true,
