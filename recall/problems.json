@@ -540,6 +540,13 @@
   },
   {
     "active": true,
+    "first_submission_at": "2026-11-27T04:58:59+07:00",
+    "id": "merge-triplets-to-form-target",
+    "path": "Data Structures & Algorithms/merge-triplets-to-form-target",
+    "slug": "merge-triplets-to-form-target"
+  },
+  {
+    "active": true,
     "first_submission_at": "2026-09-17T05:07:12+07:00",
     "id": "merge-two-sorted-linked-lists",
     "path": "Data Structures & Algorithms/merge-two-sorted-linked-lists",

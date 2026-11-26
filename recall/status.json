@@ -1,7 +1,7 @@
 {
   "last_queue_generated": "2026-11-26",
-  "last_sync": "2026-11-26T07:27:55.475634+00:00",
-  "pending_acknowledgements": 1,
+  "last_sync": "2026-11-26T21:59:08.047623+00:00",
+  "pending_acknowledgements": 0,
   "queue_count": 3,
   "queue_issue": 88,
   "queue_problem": "house-robber-ii",
@@ -13,8 +13,8 @@
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
   "scheduler_version": 1,
-  "submission_folders": 121,
-  "tracked_problems": 121,
+  "submission_folders": 122,
+  "tracked_problems": 122,
   "unsynced": 0,
   "version": 1
 }
