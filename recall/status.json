@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-11-25",
-  "last_sync": "2026-11-25T22:16:23.628754+00:00",
+  "last_queue_generated": "2026-11-26",
+  "last_sync": "2026-11-26T00:52:17.861504+00:00",
   "pending_acknowledgements": 0,
   "queue_count": 3,
-  "queue_issue": 87,
-  "queue_problem": "is-palindrome",
+  "queue_issue": 88,
+  "queue_problem": "house-robber-ii",
   "queue_problem_ids": [
-    "is-palindrome",
-    "kth-largest-integer-in-a-stream",
-    "binary-tree-diameter"
+    "house-robber-ii",
+    "invert-a-binary-tree",
+    "k-closest-points-to-origin"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
