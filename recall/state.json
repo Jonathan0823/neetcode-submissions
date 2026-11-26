@@ -1742,6 +1742,10 @@
       "actor": "Jonathan0823",
       "updated_at": "2026-11-25T21:37:32Z"
     },
+    "88": {
+      "actor": "Jonathan0823",
+      "updated_at": "2026-11-26T05:57:56Z"
+    },
     "9": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T06:31:15Z"
@@ -2174,12 +2178,12 @@
     },
     "invert-a-binary-tree": {
       "active": true,
-      "interval_days": 6,
+      "interval_days": 12,
       "last_rating": "remembered",
-      "last_reviewed_at": "2026-10-26T05:45:06Z",
-      "next_due": "2026-11-01",
-      "review_count": 2,
-      "updated_at": "2026-10-26T05:45:06Z"
+      "last_reviewed_at": "2026-11-26T05:57:56Z",
+      "next_due": "2026-12-08",
+      "review_count": 3,
+      "updated_at": "2026-11-26T05:57:56Z"
     },
     "is-anagram": {
       "active": true,
