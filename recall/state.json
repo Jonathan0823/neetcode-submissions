@@ -1744,14 +1744,16 @@
     },
     "88": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-11-26T06:22:15Z"
+      "updated_at": "2026-11-26T07:27:14Z"
     },
     "9": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T06:31:15Z"
     }
   },
-  "pending_acknowledgements": [],
+  "pending_acknowledgements": [
+    88
+  ],
   "problems": {
     "4sum": {
       "active": true,
@@ -2160,12 +2162,12 @@
     },
     "house-robber-ii": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-11-01",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 2,
+      "last_rating": "hint",
+      "last_reviewed_at": "2026-11-26T07:27:14Z",
+      "next_due": "2026-11-28",
+      "review_count": 1,
+      "updated_at": "2026-11-26T07:27:14Z"
     },
     "implement-prefix-tree": {
       "active": true,
