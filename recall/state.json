@@ -1767,14 +1767,16 @@
     },
     "89": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-11-27T07:00:06Z"
+      "updated_at": "2026-11-27T08:05:31Z"
     },
     "9": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T06:31:15Z"
     }
   },
-  "pending_acknowledgements": [],
+  "pending_acknowledgements": [
+    89
+  ],
   "problems": {
     "4sum": {
       "active": true,
@@ -2354,12 +2356,12 @@
     },
     "longest-palindromic-substring": {
       "active": true,
-      "interval_days": 0,
-      "last_rating": null,
-      "last_reviewed_at": null,
-      "next_due": "2026-11-02",
-      "review_count": 0,
-      "updated_at": null
+      "interval_days": 3,
+      "last_rating": "remembered",
+      "last_reviewed_at": "2026-11-27T08:05:31Z",
+      "next_due": "2026-11-30",
+      "review_count": 1,
+      "updated_at": "2026-11-27T08:05:31Z"
     },
     "longest-repeating-substring-with-replacement": {
       "active": true,
