@@ -1767,7 +1767,7 @@
     },
     "89": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-11-27T06:39:30Z"
+      "updated_at": "2026-11-27T07:00:06Z"
     },
     "9": {
       "actor": "Jonathan0823",
@@ -2336,12 +2336,12 @@
     },
     "longest-consecutive-sequence": {
       "active": true,
-      "interval_days": 12,
+      "interval_days": 24,
       "last_rating": "remembered",
-      "last_reviewed_at": "2026-10-20T01:59:43Z",
-      "next_due": "2026-11-01",
-      "review_count": 3,
-      "updated_at": "2026-10-20T01:59:43Z"
+      "last_reviewed_at": "2026-11-27T07:00:06Z",
+      "next_due": "2026-12-21",
+      "review_count": 4,
+      "updated_at": "2026-11-27T07:00:06Z"
     },
     "longest-increasing-subsequence": {
       "active": true,
