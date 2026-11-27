@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-11-26",
-  "last_sync": "2026-11-26T22:08:17.431644+00:00",
+  "last_queue_generated": "2026-11-27",
+  "last_sync": "2026-11-27T00:58:17.559885+00:00",
   "pending_acknowledgements": 0,
   "queue_count": 3,
-  "queue_issue": 88,
-  "queue_problem": "house-robber-ii",
+  "queue_issue": 89,
+  "queue_problem": "longest-consecutive-sequence",
   "queue_problem_ids": [
-    "house-robber-ii",
-    "invert-a-binary-tree",
-    "k-closest-points-to-origin"
+    "longest-consecutive-sequence",
+    "climbing-stairs",
+    "longest-palindromic-substring"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],

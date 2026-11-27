@@ -659,6 +659,16 @@
         "invert-a-binary-tree",
         "k-closest-points-to-origin"
       ]
+    },
+    "2026-11-27": {
+      "created_at": "2026-11-27T00:58:17.559885+00:00",
+      "issue_number": 89,
+      "problem_id": "longest-consecutive-sequence",
+      "problem_ids": [
+        "longest-consecutive-sequence",
+        "climbing-stairs",
+        "longest-palindromic-substring"
+      ]
     }
   },
   "daily_issues": {
@@ -1403,6 +1413,15 @@
         "house-robber-ii",
         "invert-a-binary-tree",
         "k-closest-points-to-origin"
+      ]
+    },
+    "89": {
+      "day": "2026-11-27",
+      "problem_id": "longest-consecutive-sequence",
+      "problem_ids": [
+        "longest-consecutive-sequence",
+        "climbing-stairs",
+        "longest-palindromic-substring"
       ]
     },
     "9": {
