@@ -1774,9 +1774,7 @@
       "updated_at": "2026-09-22T06:31:15Z"
     }
   },
-  "pending_acknowledgements": [
-    89
-  ],
+  "pending_acknowledgements": [],
   "problems": {
     "4sum": {
       "active": true,
@@ -2576,6 +2574,15 @@
       "last_rating": null,
       "last_reviewed_at": null,
       "next_due": "2026-11-09",
+      "review_count": 0,
+      "updated_at": null
+    },
+    "partition-labels": {
+      "active": true,
+      "interval_days": 0,
+      "last_rating": null,
+      "last_reviewed_at": null,
+      "next_due": "2026-11-29",
       "review_count": 0,
       "updated_at": null
     },
