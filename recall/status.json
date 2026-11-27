@@ -1,6 +1,6 @@
 {
   "last_queue_generated": "2026-11-27",
-  "last_sync": "2026-11-27T00:58:17.559885+00:00",
+  "last_sync": "2026-11-27T06:39:43.474204+00:00",
   "pending_acknowledgements": 0,
   "queue_count": 3,
   "queue_issue": 89,
@@ -11,7 +11,9 @@
     "longest-palindromic-substring"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
-  "review_errors": [],
+  "review_errors": [
+    "Issue #89: edit attribution is unavailable or unauthorized"
+  ],
   "scheduler_version": 1,
   "submission_folders": 122,
   "tracked_problems": 122,
