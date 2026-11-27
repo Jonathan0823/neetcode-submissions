@@ -1765,6 +1765,10 @@
       "actor": "Jonathan0823",
       "updated_at": "2026-11-26T07:27:14Z"
     },
+    "89": {
+      "actor": "Jonathan0823",
+      "updated_at": "2026-11-27T06:39:30Z"
+    },
     "9": {
       "actor": "Jonathan0823",
       "updated_at": "2026-09-22T06:31:15Z"
@@ -1900,12 +1904,12 @@
     },
     "climbing-stairs": {
       "active": true,
-      "interval_days": 3,
+      "interval_days": 6,
       "last_rating": "remembered",
-      "last_reviewed_at": "2026-10-30T07:58:41Z",
-      "next_due": "2026-11-02",
-      "review_count": 4,
-      "updated_at": "2026-10-30T07:58:41Z"
+      "last_reviewed_at": "2026-11-27T06:39:30Z",
+      "next_due": "2026-12-03",
+      "review_count": 5,
+      "updated_at": "2026-11-27T06:39:30Z"
     },
     "clone-graph": {
       "active": true,
