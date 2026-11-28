@@ -669,6 +669,16 @@
         "climbing-stairs",
         "longest-palindromic-substring"
       ]
+    },
+    "2026-11-28": {
+      "created_at": "2026-11-28T00:24:30.392528+00:00",
+      "issue_number": 90,
+      "problem_id": "longest-substring-without-duplicates",
+      "problem_ids": [
+        "longest-substring-without-duplicates",
+        "max-water-container",
+        "non-cyclical-number"
+      ]
     }
   },
   "daily_issues": {
@@ -1429,6 +1439,15 @@
       "problem_id": "longest-substring-without-duplicates",
       "problem_ids": [
         "longest-substring-without-duplicates"
+      ]
+    },
+    "90": {
+      "day": "2026-11-28",
+      "problem_id": "longest-substring-without-duplicates",
+      "problem_ids": [
+        "longest-substring-without-duplicates",
+        "max-water-container",
+        "non-cyclical-number"
       ]
     }
   },

@@ -1,14 +1,14 @@
 {
-  "last_queue_generated": "2026-11-27",
-  "last_sync": "2026-11-27T22:50:45.739761+00:00",
+  "last_queue_generated": "2026-11-28",
+  "last_sync": "2026-11-28T00:24:30.392528+00:00",
   "pending_acknowledgements": 0,
   "queue_count": 3,
-  "queue_issue": 89,
-  "queue_problem": "longest-consecutive-sequence",
+  "queue_issue": 90,
+  "queue_problem": "longest-substring-without-duplicates",
   "queue_problem_ids": [
-    "longest-consecutive-sequence",
-    "climbing-stairs",
-    "longest-palindromic-substring"
+    "longest-substring-without-duplicates",
+    "max-water-container",
+    "non-cyclical-number"
   ],
   "rebuild_at": "2026-09-22T02:53:01.430029+00:00",
   "review_errors": [],
