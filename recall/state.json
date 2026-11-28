@@ -1794,10 +1794,12 @@
     },
     "90": {
       "actor": "Jonathan0823",
-      "updated_at": "2026-11-28T06:44:55Z"
+      "updated_at": "2026-11-28T06:49:32Z"
     }
   },
-  "pending_acknowledgements": [],
+  "pending_acknowledgements": [
+    90
+  ],
   "problems": {
     "4sum": {
       "active": true,
@@ -2539,12 +2541,12 @@
     },
     "non-cyclical-number": {
       "active": true,
-      "interval_days": 2,
-      "last_rating": "hint",
-      "last_reviewed_at": "2026-10-31T06:50:22Z",
-      "next_due": "2026-11-02",
-      "review_count": 4,
-      "updated_at": "2026-10-31T06:50:22Z"
+      "interval_days": 3,
+      "last_rating": "remembered",
+      "last_reviewed_at": "2026-11-28T06:49:32Z",
+      "next_due": "2026-12-01",
+      "review_count": 5,
+      "updated_at": "2026-11-28T06:49:32Z"
     },
     "number-of-one-bits": {
       "active": true,
